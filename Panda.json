@@ -1,0 +1,266 @@
+[
+ {
+   "SUPPLIER": "Panduit",
+   "QTY": 1,
+   "MODEL": "HLS-15R5",
+   "Description": "\"HOOK & LOOP ROLL, 15'L (4.6M), .75W (19 Green)\""
+ },
+ {
+   "SUPPLIER": "Panduit",
+   "QTY": 1,
+   "MODEL": "HLS-15R6",
+   "Description": "\"HOOK & LOOP ROLL, 15'L (4.6M), .75W (19 Blue\""
+ },
+ {
+   "SUPPLIER": "Panduit",
+   "QTY": 1,
+   "MODEL": "HLS-15R2",
+   "Description": "\"HOOK & LOOP ROLL, 15'L (4.6M), .75W (19 Red\""
+ },
+ {
+   "SUPPLIER": "Panduit",
+   "QTY": 10,
+   "MODEL": "UTPSP2.5MGRY",
+   "Description": "\"Green 2.5M CAT 6 cable with RJ45 connectors (standard, Panduit)\""
+ },
+ {
+   "SUPPLIER": "Panduit",
+   "QTY": 10,
+   "MODEL": "UTPSP2MGRY",
+   "Description": "\"Green 2M CAT 6 cable with RJ45 connectors (standard, Panduit)\""
+ },
+ {
+   "SUPPLIER": "Panduit",
+   "QTY": 10,
+   "MODEL": "UTPSP2.5MBUY",
+   "Description": "\"Copper Patch Cord, Cat 6, BLUE UTP Cable, 2.5 meter\""
+ },
+ {
+   "SUPPLIER": "Panduit",
+   "QTY": 30,
+   "MODEL": "UTPSP2MBUY",
+   "Description": "\"Copper Patch Cord, Cat 6, BLUE UTP Cable, 2M\""
+ },
+ {
+   "SUPPLIER": "Panduit",
+   "QTY": 10,
+   "MODEL": "UTPSP2.5MRDY",
+   "Description": "\"COPPER PATCH CORD, CAT 6, RED, 2.5 Meter\""
+ },
+ {
+   "SUPPLIER": "Panduit",
+   "QTY": 30,
+   "MODEL": "FX2ERLNLNSNM003",
+   "Description": "3M LC-LC Optical Cable"
+ },
+ {
+   "SUPPLIER": "Panduit",
+   "QTY": 12,
+   "MODEL": "FX2ERLNLNSNM002",
+   "Description": "2M LC-LC Optical Cable"
+ },
+ {
+   "SUPPLIER": "Schneider",
+   "QTY": 1,
+   "MODEL": "AR3157",
+   "Description": "NetShelter SX 48U 750mm Wide x 1051mm Deep enclosure with Sides Black"
+ },
+ {
+   "SUPPLIER": "Schneider",
+   "QTY": 2,
+   "MODEL": "AP8953",
+   "Description": "\"Rack PDU 2G, Switched, ZeroU, 32A, 230V, (21) C13 & (3) C19\""
+ },
+ {
+   "SUPPLIER": "Schneider",
+   "QTY": 4,
+   "MODEL": "SURT192XLBP",
+   "Description": "APC Smart-UPS SRT 192V 5kVA and 6kVA RM Battery Pack"
+ },
+ {
+   "SUPPLIER": "Schneider",
+   "QTY": 4,
+   "MODEL": "AP8706S-WW",
+   "Description": "\"power cord kit (6 ea), locking C13 to C14, 1.8m\""
+ },
+ {
+   "SUPPLIER": "Schneider",
+   "QTY": 3,
+   "MODEL": "AP8704S-WW",
+   "Description": "\"power cord kit (6 ea), locking C13 to C14, 1.2m\""
+ },
+ {
+   "SUPPLIER": "Schneider",
+   "QTY": 1,
+   "MODEL": "AP8702S-WW",
+   "Description": "\"power cord kit (6 ea), locking C13 to C14, 0.6m\""
+ },
+ {
+   "SUPPLIER": "Schneider",
+   "QTY": 1,
+   "MODEL": "AR8442",
+   "Description": "\"Vertical Cable Organizer, 8 Cable Rings, Zero U (order 3 per rack)\""
+ },
+ {
+   "SUPPLIER": "Schneider",
+   "QTY": 1,
+   "MODEL": "AR8132A",
+   "Description": "Combination Lock Handles (2 handles)"
+ },
+ {
+   "SUPPLIER": "Schneider",
+   "QTY": 1,
+   "MODEL": "ACF504",
+   "Description": "SX Roof Fan Tray 208-230 VAC 750mm"
+ },
+ {
+   "SUPPLIER": "Schneider",
+   "QTY": 2,
+   "MODEL": "SURT007",
+   "Description": "APC Smart-UPS RT 3/5/6KVA Input/Output Hardwire Kit"
+ },
+ {
+   "SUPPLIER": "Schneider",
+   "QTY": 2,
+   "MODEL": "AP7586",
+   "Description": "Rack PDU Extender"
+ },
+ {
+   "SUPPLIER": "Schneider",
+   "QTY": 6,
+   "MODEL": "SURTRK2",
+   "Description": "UPS Rail kit"
+ },
+ {
+   "SUPPLIER": "Schneider",
+   "QTY": 2,
+   "MODEL": "SURT6000XLICH",
+   "Description": "APC Smart-UPS SRT 6000VA RM 230V"
+ },
+ {
+   "SUPPLIER": "Lenovo",
+   "QTY": 2,
+   "MODEL": "7X06UULD00",
+   "Description": "\"DCS Server: ThinkSystem SR650, 2xIntel Xeon Gold 6128 6C 3.4GHz 115W, 12x16GB 2Rx8, 14x8TB 7200, SW RD, 2x750W, XCC Enterprise, ThinkSystem Tool less Slide Rail Kit with 2U CMA\""
+ },
+ {
+   "SUPPLIER": "Lenovo",
+   "QTY": 2,
+   "MODEL": "7X02UUL500",
+   "Description": "\"Fox Server ThinkSystem SR630, 2xIntel Xeon Silver 4114 10C 2.2GHz 85W, 12x16GB 2Rx8, 8x1.2TB 10000, RAID 930-8i 2GB Flash PCIe 12Gb Adapter, 2x 750W, XCC Enterprise, ThinkSystem Toolless Slide Rail Kit with 1U CMA\""
+ },
+ {
+   "SUPPLIER": "Arista",
+   "QTY": 2,
+   "MODEL": "DCS-7050SX-64-R",
+   "Description": "\"Arista 7050X, 48x10GbE (SFP+) & 4xQSFP+ switch, rear-to-front air, 2xAC, 2xC13-C14 cords\""
+ },
+ {
+   "SUPPLIER": "Avocent",
+   "QTY": 1,
+   "MODEL": "ACS6008MDAC-G2",
+   "Description": "ACS6008MDAC-G2 KVM Console Server (Avocent)"
+ },
+ {
+   "SUPPLIER": "Juniper",
+   "QTY": 12,
+   "MODEL": "EX-SFP-10GE-SR",
+   "Description": "SFFP 10 GE (SFP+) SR Opt"
+ },
+ {
+   "SUPPLIER": "Juniper",
+   "QTY": 2,
+   "MODEL": "JPSU-400W-AC",
+   "Description": "\"Juniper Power Supply Unit, 400W AC, Slim 1RU Form Factor\""
+ },
+ {
+   "SUPPLIER": "Juniper",
+   "QTY": 2,
+   "MODEL": "SVC-ND-SRX1500JB",
+   "Description": "JNPR Care ND Supt SRX1500-SYS-JB Service Period :36 Months"
+ },
+ {
+   "SUPPLIER": "Juniper",
+   "QTY": 2,
+   "MODEL": "SRX1500-SYS-JB-AC",
+   "Description": "\"SRX1500 Services Gateway includes hardware (16GE, 4x10GE, 16G RAM, 16G Flash, 100G SSD, AC PSU, cable and RMK) and Junos Software Base (Firewall, NAT, IPSec, Routing, MPLS and Switching).\""
+ },
+ {
+   "SUPPLIER": "Finisar",
+   "QTY": 6,
+   "MODEL": "FTLF1318P3BTL",
+   "Description": "\"XCVR,SFP,1310NM,SM,GIGE,1X FC,LC,BAIL,DIG DIAG,-40/85C,ROHS COMPLIANT\""
+ },
+ {
+   "SUPPLIER": "Finisar",
+   "QTY": 6,
+   "MODEL": "FTLX1471D3BCL",
+   "Description": "\"XCVR,SFP+,1310NM,SM,10GBASE-LR,LIMITING,ROHS COMPLIANT\""
+ },
+ {
+   "SUPPLIER": "Finisar",
+   "QTY": 25,
+   "MODEL": "FTLX8574D3BCL",
+   "Description": "\"XCVR,SFP+,850NM VCSEL,MM,10GBASE-SR,LIMITING,ROHS COMPLIANT\""
+ },
+ {
+   "SUPPLIER": "Finisar",
+   "QTY": 30,
+   "MODEL": "FCLF8522P2BTL",
+   "Description": "Finisar - Copper SFP"
+ },
+ {
+   "SUPPLIER": "RF Code",
+   "QTY": 1,
+   "MODEL": "M250-X001",
+   "Description": "433 MHz Reader Kit"
+ },
+ {
+   "SUPPLIER": "RF Code",
+   "QTY": 25,
+   "MODEL": "R104-iR00",
+   "Description": "Infrared-Enabled IT Asset Tag"
+ },
+ {
+   "SUPPLIER": "RF Code",
+   "QTY": 2,
+   "MODEL": "R120-0B10",
+   "Description": "Door Tag"
+ },
+ {
+   "SUPPLIER": "RF Code",
+   "QTY": 1,
+   "MODEL": "A740-BL47",
+   "Description": "\"Rack Locator Kit for 47U Racks (82.25\") and Power Supply\""
+ },
+ {
+   "SUPPLIER": "Softchoice",
+   "QTY": 12,
+   "MODEL": "T84034",
+   "Description": "\"Softchoice - C14(m) to NEMA 5-15(f), 1' power cable \""
+ },
+ {
+   "SUPPLIER": "AKCP",
+   "QTY": 2,
+   "MODEL": "GC-AK-SS-15",
+   "Description": "Security Sensor with 15 Foot Fixed Length Cable"
+ },
+ {
+   "SUPPLIER": "AKCP",
+   "QTY": 1,
+   "MODEL": "GC-AK-WS-15",
+   "Description": "Water Sensor with 15 Foot Fixed Length Cable"
+ },
+ {
+   "SUPPLIER": "AKCP",
+   "QTY": 2,
+   "MODEL": "GC-AK-THS-01",
+   "Description": "Temperature & Humidity Sensor with 1 Foot Fixed Length Cable"
+ },
+ {
+   "SUPPLIER": "AKCP",
+   "QTY": 1,
+   "MODEL": "GC-AK-SEC5ESV",
+   "Description": "\"securityProbe 5ESV, Linux Operating System, 8 Sensor Ports, 2 Expansion Ports, and 4 Camera inputs\""
+ }
+]

@@ -1,0 +1,163 @@
+[
+ {
+   "Supplier": "Arista",
+   "Qty": 3,
+   "Model": "DCS-7050SX-64-R",
+   "Description": "Arista 7050X, 48x10GbE (SFP+) & 4xQSFP+ switch, rear-to-front air, 2xAC, 2xC13-C14 cords",
+   "cost": 1000.000
+ },
+ {
+   "Supplier": "Arista",
+   "Qty": 3,
+   "Model": "LIC-FIX-2-E",
+   "Description": "Enhanced L3 License for Arista Fixed switches, 40-132 port 10G (BGP, OSPF, ISIS, PIM, NAT)",
+   "cost": 1100.00
+ },
+ {
+   "Supplier": "Juniper",
+   "Qty": 2,
+   "Model": "SRX1500.00-SYS-JB-AC",
+   "Description": "SRX1500.00 Services Gateway includes hardware (16GE, 4x10GE, 16G RAM, 16G Flash, 100.00G SSD, AC PSU, cable and RMK) and Junos Software Base (Firewall, NAT, IPSec, Routing, MPLS and Switching).",
+   "cost": 1200.00
+ },
+ {
+   "Supplier": "Finisar",
+   "Qty": 10,
+   "Model": "FCLF8522P2BTL",
+   "Description": "100.000BASE-T 100.00m Gen2 RJ-45 Copper SFP Optical Transceiver",
+   "cost": 1500.00
+ },
+ {
+   "Supplier": "Finisar",
+   "Qty": 8,
+   "Model": "FTLX8574D3BCL",
+   "Description": "10GBASE-SR 400.00m Industrial Temperature SFP+ Optical Transceiver",
+   "cost": 1600.00
+ },
+ {
+   "Supplier": "Finisar",
+   "Qty": 34,
+   "Model": "FTLX1471D3BCL",
+   "Description": "10GBASE-LR 10G 10km 1310nm Industrial Temperature Single Mode Datacom SFP+ Optical Transceiver",
+   "cost": 1700.00
+ },
+ {
+   "Supplier": "Finisar",
+   "Qty": 8,
+   "Model": "FTLF1318P3BTL",
+   "Description": "100.000BASE-LX and 1G Fibre Channel (1GFC) 10km Industrial Temperature Gen 3 SFP Optical Transceiver",
+   "cost": 1800.00
+ },
+ {
+   "Supplier": "Panduit",
+   "Qty": 4,
+   "Model": "QCPBCBCBXX75",
+   "Description": "QN CABLE ASSEMBLY, CAT 6, CMP, BLUE UTP",
+   "cost": 2400.00
+ },
+ {
+   "Supplier": "Panduit",
+   "Qty": 8,
+   "Model": "CFAPPBL1",
+   "Description": "Fiber Adapter Patch Panel 1 RU",
+   "cost": 2500.00
+ },
+ {
+   "Supplier": "Panduit",
+   "Qty": 8,
+   "Model": "F9TRP5N5NANF075",
+   "Description": "75 FT -9 M FLAT RIBBON PLENUM RATED MTP",
+   "cost": 2900.00
+ },
+ {
+   "Supplier": "Schneider Electric",
+   "Qty": 12,
+   "Model": "AR8612",
+   "Description": "Horizontal Cable Manager, 1U x 6\" Deep, Single-Sided with Cover",
+   "cost": 300.000
+ },
+ {
+   "Supplier": "Lenovo",
+   "Qty": 2,
+   "Model": "7X02SFP800.00",
+   "Description": "Thins System SR630 Model: Intel Xeon Gold 6134 8C 130W 3.2GHz Processor, 64GB TruDDR4 2666 MHz (2Rx4 1.2V) RDIMM, 2x 5200.00 480GB MS SATA 2.5\" HS SSD",
+   "cost": 3100.00
+ },
+ {
+   "Supplier": "Lenovo",
+   "Qty": 8,
+   "Model": "5PS7A01558",
+   "Description": "ThinkSystem SR650 - 3yr Warranty",
+   "cost": 3400.00
+ },
+ {
+   "Supplier": "Finisar",
+   "Qty": 40,
+   "Model": "FTLX8574D3BCL",
+   "Description": "10GBASE-SR 400.00m Industrial Temperature SFP+ Optical Transceiver",
+   "cost": 3500.00
+ },
+ {
+   "Supplier": "APC/Schneider",
+   "Qty": 6,
+   "Model": "SRT6KRMXLI",
+   "Description": "APC Smart-UPS SRT 600.000VA RM 230V (4u)",
+   "cost": 3800.00
+ },
+ {
+   "Supplier": "APC/Schneider",
+   "Qty": 6,
+   "Model": "AP7586",
+   "Description": "Rack PDU Extender",
+   "cost": 4400.00
+ },
+ {
+   "Supplier": "APC/Schneider",
+   "Qty": 1,
+   "Model": "Site Survey/Installation/Commission",
+   "Description": "Site Survey/Installation/Commission: Site Survey before Installation/Commission. 5x8 Power Up for UPS and Battery.",
+   "cost": 4500.00
+ },
+ {
+   "Supplier": "AKCP",
+   "Qty": 1,
+   "Model": "GC-AK-SEC5ESV",
+   "Description": "securityProbe 5ESV, Linux Operating System, 8 Sensor Ports, 2 Expansion Ports, and 4 Camera inputs",
+   "cost": 4600.00
+ },
+ {
+   "Supplier": "Schneider",
+   "Qty": 3,
+   "Model": "AR3157",
+   "Description": "NetShelter SX 48U 750mm Wide x 1051mm Deep enclosure with Sides Black",
+   "cost": 4900.00
+ },
+ {
+   "Supplier": "Schneider",
+   "Qty": 2,
+   "Model": "AP8706S-WW",
+   "Description": "power cord kit (6 ea), locking C13 to C14, 1.8m",
+   "cost": 5500.00
+ },
+ {
+   "Supplier": "Softchoice",
+   "Qty": 10,
+   "Model": "T84034",
+   "Description": "Softchoice - C14(m) to NEMA 5-15(f), 1' power cable",
+   "cost": 5600.00
+ },
+ {
+   "Supplier": "Brother",
+   "Qty": 3,
+   "Model": "TZeS231",
+   "Description": "12mm (0.47\") Black on White Tape with Extra Strength Adhesive 8m (26.2 ft)",
+   "cost": 6600.00
+ },
+ {
+   "Supplier": "Brother",
+   "Qty": 4,
+   "Model": "TZeS251",
+   "Description": "24mm (0.94\") Black on White Tape with Extra Strength Adhesive 8m (26.2 ft)",
+   "cost": 6700.00
+ }
+]

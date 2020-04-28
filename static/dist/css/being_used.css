@@ -1,0 +1,47 @@
+
+
+      #f1_container {
+        /* width: 200px; */
+        width: 150px;
+        height: 5px;
+        /* border: 1px solid #CCC; */
+        margin: 0px;
+        perspective: 1200px;
+      }
+
+      .cube {
+        width: 170px;
+        height: 5px;
+        position: relative;
+        transform-style: preserve-3d;
+        transform: translateZ(-100px);
+        transition: transform 1.0s linear;
+      }
+
+      /* ##框架 限定 1个 U  */
+      .cube__face {
+        position: absolute;
+        width: 170px;
+        height: 5px;
+        /* border: 1px solid black; */
+        text-align: center;
+
+      }
+
+      .cube__face--stage_1,
+      .cube__face--stage_2,
+      .cube__face--stage_3,
+      .cube__face--stage_4{
+        position: absolute;
+        backface-visibility: hidden;
+        text-align: center;
+      }
+      .cube.show-stage_1   { transform: translateZ(-85px) rotateY(   0deg); }
+      .cube.show-stage_2   { transform: translateZ(-85px) rotateY( -90deg); }
+      .cube.show-stage_3   { transform: translateZ(-85px) rotateY(-180deg); }
+      .cube.show-stage_4   { transform: translateZ(-85px) rotateY(  90deg); }
+
+      .cube__face--stage_1   { transform: rotateY( 0deg)   translateZ(85px) ; }
+      .cube__face--stage_2   { transform: rotateY( 90deg)  translateZ(85px) ; }
+      .cube__face--stage_3   { transform: rotateY( 180deg) translateZ(85px) ; }
+      .cube__face--stage_4   { transform: rotateY( 270deg) translateZ(85px) ; }

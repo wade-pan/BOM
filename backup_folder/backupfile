@@ -1,0 +1,300 @@
+<html lang="en">
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"/> -->
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<a href="data:Supplier/octet-stream;charset=utf-8;base64,Zm9vIGJhcg==">text file</a><br />
+<!-- Popper JS -->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script> -->
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+<!-- <style type="text/css">
+.select{
+
+      width: auto;
+      padding: 0 1%; //左右一定要设置
+      margin: 0;
+
+}
+
+.option{
+
+      text-align:center;
+
+}
+</style> -->
+<!-- ------------------------------------  HTML ------------------------------------------------------------- -->
+<div>
+  <table width="10%" id="mytab" class="table">
+    <thead>
+      <tr>
+        <th>Supplier</th>
+        <th>Model</th>
+        <th>Quantity</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <!-- <form id="myform" name="myform" method="post"> -->
+    <tr>
+      <td>
+        <div class="form-group">
+          <select style="width:100px" id="Supplier" class="Supplier" value="">
+            <option> -- select -- </option>
+          </select>
+        </div>
+      </td>
+      <td>
+        <div class="form-group">
+          <select style="width:120px" id="Model" class="Model" value="">
+            <option> -- select -- </option>
+          </select>
+        </div>
+      </td>
+      <td>
+        <div class="form-group">
+          <select style="width:70px" id="Quantity" class="Quantity" value="">
+            <option> -- select -- </option>
+          </select>
+        </div>
+      </td>
+      <td>
+        <div class="form-group">
+          <!-- <textarea name="name" rows="1" cols="10"> -->
+          <input style="width:100px" id="Description" class="Description" value="" readonly>
+          <!-- <option disabled selected value>-- select an option --</option> -->
+          </input>
+        </div>
+      </td>
+
+
+    </tr>
+
+    <input type="button" value="select QCCB.json(test2.json)" onclick="select_want_BOM();" />
+  </table>
+</div>
+<!-- </form> -->
+
+<!-- ------------------------------------  JS fetch_all_BOM  ------------------------------------------------------------- -->
+
+
+<script>
+  // ## i 从 json "Supplier" 数量得来
+  function select_want_BOM() {
+    for (var i = 0; i < 20; i++) {
+      var html = $('#mytab tr:last').html();
+      $('#mytab tr:last').after("<tr>" + html + "</tr>");
+    }
+
+
+    // ########################################
+    fetch_all_BOM();
+    // ########################################
+
+    // ########################################
+    update_selected_BOM()
+    // ########################################
+
+
+  }
+</script>
+
+<script>
+  function fetch_all_BOM() {
+    $.ajax({
+      type: 'GET',
+      async: false,
+      global: false,
+      cache: false,
+      url: 'test.json',
+      data: {
+        get_param: 'value'
+      },
+      dataType: 'json',
+      success: function(data) {
+        full_json = data;
+        Fill_select_line_1(full_json);
+        // Fill_select_line_2(data);
+        // update_selected_BOM(full_json)
+        return full_json;
+      }
+    });
+  }
+
+  function Fill_select_line_1(full_json) {
+    var data = full_json;
+    var selects = document.querySelectorAll("select[class=Supplier]");
+    for (var index = 0; index < selects.length; index++) {
+      for (var num = 0; num < Object.keys(data).length; num++) {
+        var option = document.createElement("option");
+
+        option.text = Object.keys(data)[num];
+        option.value = num + 1; // coz select-option is value 0, So here need "num + 1"
+        // #先加入 loop 过滤 filter 重复 manufacturer
+        selects[index].appendChild(option)
+      }
+    }
+  }
+
+  function Fill_select_line_2(selected_key, num) { // the key text & which key ? 0 1 2 应该是第几行， 不是第几个 key in full_json
+    var data = full_json;
+    // var lens = data[Object.keys(data)[key]].length   // key 对应的  value 数量
+    var selects = document.querySelectorAll("select[class=Model]");
+    for (var index = 0; index < data[selected_key].length; index++) { //多少个 model
+      // for (var num = 0; num < data.length; num++) {
+      var option = document.createElement("option");
+      option.text = data[selected_key][index]["Model"];
+      option.value = index + 1;
+      selects[num].appendChild(option)
+      // if (data[num]["Supplier"] == selects_line_1[num].options[ind + 1].innerHTML ) {
+      //   // 先确认第一列匹配 test2.json 数据
+      //   selects_line_1[num].selectedIndex = ind + 1;
+      // }
+    }
+  }
+
+  function update_select_line_2(selected_key, num) { // the key text & which key ? 0 1 2 应该是第几行， 不是第几个 key in full_json
+    var data = full_json;
+    var selects = document.querySelectorAll("select[class=Model]");
+    for (var index = 0; index < data[selected_key].length; index++) { //多少个 model
+      var option = document.createElement("option");
+      option.text = data[selected_key][index]["Model"];
+      option.value = index + 1;
+      selects[num].appendChild(option)
+    }
+  }
+  // ------------------------------------  JS update related BOM selection -------------------------------------------------------------
+
+  function update_selected_BOM() {
+    // #json 文件作为参数进入 url
+    $.ajax({
+      type: 'GET',
+      async: false,
+      global: false,
+      cache: false,
+      url: 'test2.json',
+      data: {
+        get_param: 'value'
+      },
+      dataType: 'json',
+      success: function(data) {
+        selected_json = data;
+        update_select(selected_json);
+        return selected_json;
+
+      }
+    });
+  }
+
+  function update_select(selected_json) {
+    var data = selected_json;
+    // ## 把数据更新到 line 1
+    // ## 每一个 cell 的内容 也可以是为空
+    var selects_line_1 = document.querySelectorAll("select[class=Supplier]");
+    var selects_line_2 = document.querySelectorAll("select[class=Model]");
+    var selects_line_3 = document.querySelectorAll("select[class=Quantity]");
+    var selects_line_4 = document.querySelectorAll("select[class=Description]");
+    // alert( Object.keys(data)[0][0] )
+    // alert(Object.keys(data).length)
+    // total_value_number = get_total_value(data)
+
+    // dance:
+    for (var value = 0; value < data.length; value++) {
+      // for (var key = 0; key < Object.keys(data).length; key++) { // 每个 wantedjson 里的 key,     2个key
+      // 每个 wantedjson 里 key 对应的 value
+      // for (var index = 0; index < selects.length; index++) {
+      for (var ind = 0; ind < 100; ind++) { // 这行里 column 的选项 过一遍 ，最多100个 Supplier 选项
+        // alert("hh")
+        if (data[value]["Supplier"] == selects_line_1[value].options[ind + 1].innerHTML) { // "arista" == "arista"
+          selects_line_1[value].selectedIndex = ind + 1; // this will fill 1st line 1st tab supplier
+          Fill_select_line_2(data[value]["Supplier"], value)
+          for (var index = 0; index < 100; index++)
+            if (data[value]["Model"] == selects_line_2[value].options[index + 1].innerHTML) {
+              selects_line_2[value].selectedIndex = index + 1;
+              break;
+            }
+          // if (Object.keys(data)[key] == selects_line_2[key].options[ind + 1].innerHTML ) {
+          // selects_line_2[key].selectedIndex = ind + 1;
+          // 先确认第一列匹配 test2.json 数据
+          //直接用 onclick 相同的 func代替, 先根据 json的 "line 1 " 匹配出 "line 2"再根据 test2.json 选择
+          // for (var ind = 0; ind < 100; ind++) {
+          //   if (data[num]["Device"][ind]["Model"] == selects_line_2[num].options[ind + 1].innerHTML ) {
+          //     selects_line_2[num].selectedIndex = ind + 1;
+          //     break;
+          //   }}
+          break;
+        }
+        // selects[index].options[num+1].innerHTML = 'DCS'
+      }
+    }
+  }
+
+  // generate_table_row()
+  // fetch_all_BOM()
+  // ## 之后 选择 fatp panda 时候 先触发
+
+  // function add_new_select(selected_json) {
+  //   var data = selected_json;
+  //   // ## 把数据更新到 line 1
+  //   // ## 每一个 cell 的内容 也可以是为空
+  //   var selects_line_1 = document.querySelectorAll("select[class=Supplier]");
+  //   var selects_line_2 = document.querySelectorAll("select[class=Quantity]");
+  //   // dance:
+  //   for (var num = 0; num < data.length; num++) {
+  //     // for (var index = 0; index < selects.length; index++) {
+  //     for (var ind = 0; ind < 100; ind++) {
+  //       if (data[num]["Supplier"] == selects_line_1[num].options[ind + 1].innerHTML ) {
+  //         // 先确认第一列匹配 test2.json 数据
+  //         selects_line_1[num].selectedIndex = ind + 1;
+  //         //直接用 onclick 相同的 func代替, 先根据 json的 "line 1 " 匹配出 "line 2"再根据 test2.json 选择
+  //         Fill_select_line_2(full_json,num,data)
+  //         // for (var ind = 0; ind < 100; ind++) {
+  //         //   if (data[num]["Device"][ind]["Model"] == selects_line_2[num].options[ind + 1].innerHTML ) {
+  //         //     selects_line_2[num].selectedIndex = ind + 1;
+  //         //     break;
+  //         //   }}
+  //         break;
+  //       }
+  //       // selects[index].options[num+1].innerHTML = 'DCS'
+  //     }}}
+
+
+  function convert_json_file(full_json) {
+    // #json 文件作为参数进入 url
+    $.ajax({
+      type: 'GET',
+      async: false,
+      global: false,
+      cache: false,
+      url: 'convert_json_file.py',
+      data: {
+        get_param: 'value'
+      },
+      dataType: 'json',
+      success: function(data) {
+        alert("convert_json_file ok")
+
+      }
+    });
+  }
+
+  function get_total_value(data) {
+    var total = 0;
+    for (var i = 0; i < Object.keys(data).length; i++) {
+      // total +=
+      total += data[Object.keys(data)[i]].length
+    }
+    return total
+  }
+</script>
+
+<script>
+
+
+</script>
+
+
+<!-- <script src="jquery.min.js"></script> -->
+<!-- <script src="bootstrap.min.css"></script> -->
+
+</html>

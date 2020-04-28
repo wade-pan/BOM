@@ -1,0 +1,24 @@
+[
+  {
+    "item" :[
+    {
+      "Application":  "Firewall",
+      "Device": [
+          {
+              "Model": "SRX 1500",
+              "detail": "SRX 1500 Fiber 48port"
+          },
+          {
+              "Model": "Juniper 550",
+              "detail": "Juniper 550 Copper 32 port"
+          }
+      ]
+
+  }
+  ]
+  },
+  { "Application" : "Switch" },
+  { "Application" : "DCS" },
+  { "Application" : "LoadBalance" },
+  { "Application" : "Groundhog" }
+ ]

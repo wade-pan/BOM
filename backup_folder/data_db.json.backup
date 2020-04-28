@@ -1,0 +1,382 @@
+{
+   "Arista": [
+      {
+         "QTY": 3,
+         "MODEL": "DCS-7050SX-64-R",
+         "DESCRIPTION": "Arista 7050X, 48x10GbE (SFP+) & 4xQSFP+ switch, rear-to-front air, 2xAC, 2xC13-C14 cords",
+         "COST": 5000
+      },
+      {
+         "QTY": 3,
+         "MODEL": "LIC-FIX-2-E",
+         "DESCRIPTION": "Enhanced L3 License for Arista Fixed switches, 40-132 port 10G (BGP, OSPF, ISIS, PIM, NAT)",
+         "COST": 1100
+      }
+   ],
+   "Juniper": [
+      {
+         "QTY": 2,
+         "MODEL": "SRX1500-SYS-JB-AC",
+         "DESCRIPTION": "SRX1500 Services Gateway includes hardware (16GE, 4x10GE, 16G RAM, 16G Flash, 100G SSD, AC PSU, cable and RMK) and Junos Software Base (Firewall, NAT, IPSec, Routing, MPLS and Switching).",
+         "COST": 1200
+      },
+      {
+         "QTY": 2,
+         "MODEL": "SVC-SD-SRX1500JB",
+         "DESCRIPTION": "JNPR Care SD Supt SRX1500-SYS-JB Service Period :36 Months",
+         "COST": 1300
+      },
+      {
+         "QTY": 2,
+         "MODEL": "JPSU-400W-AC",
+         "DESCRIPTION": "Juniper Power Supply Unit, 400W AC, Slim 1RU Form Factor",
+         "COST": 1400
+      }
+   ],
+   "Finisar": [
+      {
+         "QTY": 10,
+         "MODEL": "FCLF8522P2BTL",
+         "DESCRIPTION": "1000BASE-T 100m Gen2 RJ-45 Copper SFP Optical Transceiver",
+         "COST": 1500
+      },
+      {
+         "QTY": 8,
+         "MODEL": "FTLX8574D3BCL",
+         "DESCRIPTION": "10GBASE-SR 400m Industrial Temperature SFP+ Optical Transceiver",
+         "COST": 1600
+      },
+      {
+         "QTY": 34,
+         "MODEL": "FTLX1471D3BCL",
+         "DESCRIPTION": "10GBASE-LR 10G 10km 1310nm Industrial Temperature Single Mode Datacom SFP+ Optical Transceiver",
+         "COST": 1700
+      },
+      {
+         "QTY": 8,
+         "MODEL": "FTLF1318P3BTL",
+         "DESCRIPTION": "1000BASE-LX and 1G Fibre Channel (1GFC) 10km Industrial Temperature Gen 3 SFP Optical Transceiver",
+         "COST": 1800
+      },
+      {
+         "QTY": 40,
+         "MODEL": "FTLX8574D3BCL",
+         "DESCRIPTION": "10GBASE-SR 400m Industrial Temperature SFP+ Optical Transceiver",
+         "COST": 3500
+      },
+      {
+         "QTY": 10,
+         "MODEL": "FTLX1471D3BCL",
+         "DESCRIPTION": "10GBASE-LR 10G 10km 1310nm Industrial Temperature Single Mode Datacom SFP+ Optical Transceiver",
+         "COST": 3600
+      },
+      {
+         "QTY": 46,
+         "MODEL": "FCLF8522P2BTL",
+         "DESCRIPTION": "1000BASE-T 100m Gen2 RJ-45 Copper SFP Optical Transceiver",
+         "COST": 3700
+      }
+   ],
+   "Panduit": [
+      {
+         "QTY": 8,
+         "MODEL": "FX2ERLNLNSNM002",
+         "DESCRIPTION": "2M LC-LC Optical Cable",
+         "COST": 1900
+      },
+      {
+         "QTY": 50,
+         "MODEL": "F92ERLNLNSNM002",
+         "DESCRIPTION": "LC-LC 9 M DUPL 1.6MM PATCH CORD 2M",
+         "COST": 2000
+      },
+      {
+         "QTY": 24,
+         "MODEL": "UTPSP2MBUY",
+         "DESCRIPTION": "COPPER PATCH CORD, CAT 6, BLUE, 2 Meter",
+         "COST": 2100
+      },
+      {
+         "QTY": 3,
+         "MODEL": "QPP24BL",
+         "DESCRIPTION": "QN PATCH PANEL, FLAT, 48 PORT, 1RU",
+         "COST": 2300
+      },
+      {
+         "QTY": 4,
+         "MODEL": "QCPBCBCBXX75",
+         "DESCRIPTION": "QN CABLE ASSEMBLY, CAT 6, CMP, BLUE UTP",
+         "COST": 2400
+      },
+      {
+         "QTY": 8,
+         "MODEL": "CFAPPBL1",
+         "DESCRIPTION": "Fiber Adapter Patch Panel 1 RU",
+         "COST": 2500
+      },
+      {
+         "QTY": 8,
+         "MODEL": "FQCRCM",
+         "DESCRIPTION": "Quicknet Cassette Rear Cable Manager",
+         "COST": 2600
+      },
+      {
+         "QTY": 14,
+         "MODEL": "FC29N-24-10AS",
+         "DESCRIPTION": "OS1/OS2 24-fiber total, standard loss, LC duplex adapter (color and split sleeve dictated by fiber type), standard method A",
+         "COST": 2700
+      },
+      {
+         "QTY": 2,
+         "MODEL": "F9TRP5N5NANF015",
+         "DESCRIPTION": "15 FT 9 M FLAT RIBBON PLENUM RATED MTP",
+         "COST": 2800
+      },
+      {
+         "QTY": 8,
+         "MODEL": "F9TRP5N5NANF075",
+         "DESCRIPTION": "75 FT -9 M FLAT RIBBON PLENUM RATED MTP",
+         "COST": 2900
+      },
+      {
+         "QTY": 30,
+         "MODEL": "FX2ERLNLNSNM003",
+         "DESCRIPTION": "3M LC-LC Optical Cable",
+         "COST": 5700
+      },
+      {
+         "QTY": 10,
+         "MODEL": "F92ERLNLNSNM002",
+         "DESCRIPTION": "LC-LC 9 M DUPL 1.6MM PATCH CORD 2M",
+         "COST": 5800
+      },
+      {
+         "QTY": 20,
+         "MODEL": "UTPSP2MGRY",
+         "DESCRIPTION": "Green 2M  CAT 6 cable with RJ45 connectors (standard, Panduit)",
+         "COST": 5900
+      },
+      {
+         "QTY": 20,
+         "MODEL": "UTPSP2.5MGRY",
+         "DESCRIPTION": "Green 2.5M  CAT 6 cable with RJ45 connectors (standard, Panduit)",
+         "COST": 6000
+      },
+      {
+         "QTY": 1,
+         "MODEL": "HLS-15R2",
+         "DESCRIPTION": "HOOK & LOOP ROLL, 15'L (4.6M), .75W (19  Red",
+         "COST": 6200
+      },
+      {
+         "QTY": 1,
+         "MODEL": "HLS-15R6",
+         "DESCRIPTION": "HOOK & LOOP ROLL, 15'L (4.6M), .75W (19 Blue",
+         "COST": 6300
+      },
+      {
+         "QTY": 1,
+         "MODEL": "HLS-15R5",
+         "DESCRIPTION": "HOOK & LOOP ROLL, 15'L (4.6M), .75W (19 Green)",
+         "COST": 6400
+      }
+   ],
+   "Avocent": [
+      {
+         "QTY": 2,
+         "MODEL": "ACS6008MDAC-G2",
+         "DESCRIPTION": "ACS6008MDAC-G2 KVM Console Server (Avocent)",
+         "COST": 2200
+      }
+   ],
+   "Schneider Electric": [
+      {
+         "QTY": 12,
+         "MODEL": "AR8612",
+         "DESCRIPTION": "Horizontal Cable Manager, 1U x 6\" Deep, Single-Sided with Cover",
+         "COST": 3000
+      }
+   ],
+   "Lenovo": [
+      {
+         "QTY": 2,
+         "MODEL": "7X02SFP800",
+         "DESCRIPTION": "Thins System SR630 MODEL: Intel Xeon Gold 6134 8C 130W 3.2GHz Processor, 64GB TruDDR4 2666 MHz (2Rx4 1.2V) RDIMM, 2x 5200 480GB MS SATA 2.5\" HS SSD",
+         "COST": 3100
+      },
+      {
+         "QTY": 2,
+         "MODEL": "5PS7A01504",
+         "DESCRIPTION": "Support: 3 year 24x7",
+         "COST": 3200
+      },
+      {
+         "QTY": 8,
+         "MODEL": "7X06UULD00",
+         "DESCRIPTION": "ThinkSystem SR650: 2x Intel Xeon Gold 6128 6C 3.4GHz 115W, 12x16GB 2Rx8, 14x8TB 7200, SW RD, 2x750W, XCC Enterprise, ThinkSystem Tool less Slide Rail Kit with 2U CMA",
+         "COST": 3300
+      },
+      {
+         "QTY": 8,
+         "MODEL": "5PS7A01558",
+         "DESCRIPTION": "ThinkSystem SR650 - 3yr Warranty",
+         "COST": 3400
+      }
+   ],
+   "APC/Schneider": [
+      {
+         "QTY": 6,
+         "MODEL": "SRT6KRMXLI",
+         "DESCRIPTION": "APC Smart-UPS SRT 6000VA RM 230V (4u)",
+         "COST": 3800
+      },
+      {
+         "QTY": 6,
+         "MODEL": "WBEXT1YR-SU-05",
+         "DESCRIPTION": "1YR Concurrent Extended Warranty for (1) Smart-UPS 5-7kVA",
+         "COST": 3900
+      },
+      {
+         "QTY": 18,
+         "MODEL": "WUPGFWOS-SU-05",
+         "DESCRIPTION": "(1) YR NBD On-Site Service Upgrade to Factory Warranty for (1) SMART-UPS 5-7KVA",
+         "COST": 4000
+      },
+      {
+         "QTY": 12,
+         "MODEL": "SRT192RMBP",
+         "DESCRIPTION": "Battery Pack",
+         "COST": 4100
+      },
+      {
+         "QTY": 18,
+         "MODEL": "SRTRK2",
+         "DESCRIPTION": "UPS Rail kit",
+         "COST": 4200
+      },
+      {
+         "QTY": 6,
+         "MODEL": "AP8953",
+         "DESCRIPTION": "Rack PDU 2G, Switched, ZeroU, 32A, 230V, (21) C13 & (3) C19",
+         "COST": 4300
+      },
+      {
+         "QTY": 6,
+         "MODEL": "AP7586",
+         "DESCRIPTION": "Rack PDU Extender",
+         "COST": 4400
+      },
+      {
+         "QTY": 1,
+         "MODEL": "Site Survey/Installation/Commission",
+         "DESCRIPTION": "Site Survey/Installation/Commission: Site Survey before Installation/Commission. 5x8 Power Up for UPS and Battery.",
+         "COST": 4500
+      }
+   ],
+   "AKCP": [
+      {
+         "QTY": 1,
+         "MODEL": "GC-AK-SEC5ESV",
+         "DESCRIPTION": "securityProbe 5ESV, Linux Operating System, 8 Sensor Ports, 2 Expansion Ports, and 4 Camera inputs",
+         "COST": 4600
+      },
+      {
+         "QTY": 6,
+         "MODEL": "GC-AK-THS-00",
+         "DESCRIPTION": "Temperature & Humidity Sensor, allows extenstion with CAT5 cable, 5 feet of cable included",
+         "COST": 4700
+      },
+      {
+         "QTY": 1,
+         "MODEL": "GC-AK-ACDL01",
+         "DESCRIPTION": "EM Door Lock - ACKL01",
+         "COST": 4800
+      },
+      {
+         "QTY": 1,
+         "MODEL": "GC-AK-WS-15",
+         "DESCRIPTION": "Water Sensor with 15 Foot Fixed Length Cable",
+         "COST": 4800
+      }
+   ],
+   "Schneider": [
+      {
+         "QTY": 3,
+         "MODEL": "AR3157",
+         "DESCRIPTION": "NetShelter SX 48U 750mm Wide x 1051mm Deep enclosure with Sides Black",
+         "COST": 4900
+      },
+      {
+         "QTY": 3,
+         "MODEL": "ACF504",
+         "DESCRIPTION": "SX Roof Fan Tray 208-230 VAC 750mm",
+         "COST": 5000
+      },
+      {
+         "QTY": 3,
+         "MODEL": "NBACS125",
+         "DESCRIPTION": "NetBotz 125 kHz Rack Access Control",
+         "COST": 5100
+      },
+      {
+         "QTY": 3,
+         "MODEL": "AR8442",
+         "DESCRIPTION": "Vertical Cable Organizer, 8 Cable Rings, Zero U (order 3 per rack)",
+         "COST": 5200
+      },
+      {
+         "QTY": 2,
+         "MODEL": "AP8702S-WW",
+         "DESCRIPTION": "power cord kit (6 ea), locking C13 to C14, 0.6m",
+         "COST": 5300
+      },
+      {
+         "QTY": 6,
+         "MODEL": "AP8704S-WW",
+         "DESCRIPTION": "power cord kit (6 ea), locking C13 to C14, 1.2m",
+         "COST": 5400
+      },
+      {
+         "QTY": 2,
+         "MODEL": "AP8706S-WW",
+         "DESCRIPTION": "power cord kit (6 ea), locking C13 to C14, 1.8m",
+         "COST": 5500
+      }
+   ],
+   "Softchoice": [
+      {
+         "QTY": 10,
+         "MODEL": "T84034",
+         "DESCRIPTION": "Softchoice - C14(m) to NEMA 5-15(f), 1' power cable",
+         "COST": 5600
+      }
+   ],
+   "Cisco": [
+      {
+         "QTY": 3,
+         "MODEL": "CAB-CONSOLE-RJ45=",
+         "DESCRIPTION": "6FT CONSOLE CABLE W/RJ45 & DB9FCABL",
+         "COST": 6100
+      }
+   ],
+   "Brother": [
+      {
+         "QTY": 1,
+         "MODEL": "PTP-950NW",
+         "DESCRIPTION": "PT-E550W  HANDHELD LABELING TOOL USB I/F LI-ION AUTOCUT CARRY CASE",
+         "COST": 6500
+      },
+      {
+         "QTY": 3,
+         "MODEL": "TZeS231",
+         "DESCRIPTION": "12mm (0.47\") Black on White Tape with Extra Strength Adhesive 8m (26.2 ft)",
+         "COST": 6600
+      },
+      {
+         "QTY": 4,
+         "MODEL": "TZeS251",
+         "DESCRIPTION": "24mm (0.94\") Black on White Tape with Extra Strength Adhesive 8m (26.2 ft)",
+         "COST": 6700
+      }
+   ]
+}

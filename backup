@@ -1,0 +1,126 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js"></script>
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- <script type="text/javascript" src="people.json"></script> -->
+
+
+<!-- ------------------------------------  HTML ------------------------------------------------------------- -->
+
+
+
+
+
+<select name="datas" id="datas"></select>
+
+<form id="myform" name="myform" action="{{url_for('show_select')}}" method="post">
+    <!-- {% for entry in entries %} -->
+        <td>
+          <div class="form-group">
+
+            <!-- <select id="select_host"  name="select_host" class="selectpicker" value="" onChange="this.form.submit();"> -->
+            <!-- <select id="select_host"  name="select_host" class="selectpicker form-control" value="{{entry.hostname}}" onChange="this.form.submit();"> -->
+            <!-- <option value="-1" selected="selected">Please select</option>
+            <option value="1">男</option>
+            <option value="2">女</option>
+             -->
+             <!-- <select id="mySelectID" name="select" class="main-form">
+                 <option value="">None Selected</option>
+             </select> -->
+             <select name="datas" id="datas"></select>
+          <!-- </select> -->
+
+          </div>
+        </td>
+            <td>
+              <div class="form-group">
+                  <select id="DCS" class="mytextbox" name="DCS" value ="{{entry.netmask}}">
+                    <option value="1">male</option>
+                    <option value="2">female</option>
+                    </select>
+              </div>
+            </td>
+
+            <td>
+              <div class="form-group">
+                  <select id="LB" class="mytextbox" name="LB" value ="{{entry.netmask}}">
+                    <option value="1">male</option>
+                    <option value="2">female</option>
+                    </select>
+              </div>
+            </td>
+    </form>
+
+
+
+    <!-- ------------------------------------  JavaScript ------------------------------------------------------------- -->
+
+
+
+<script>
+  var json = (function() {
+    var json = null;
+    $.ajax({
+      'async': false,
+      'global': false,
+      'url': "Panda_Standard.json",
+      'dataType': "json",
+      'cache':false,
+      'success': function(data) {
+        json = data;
+      }
+    });
+    for (var key in json["Application"][1]) {
+    console.log(key);     //获取key值
+    console.log(json[key]); //获取对应的value值
+    }
+    alert(json["Application"][1]);
+    return json;
+
+  })();
+
+  var $select = $('#datas');
+  $.each(json["Application"], function(i, val) {
+    $select.append($('<option />', {
+      value: (i + 1),
+      text: val[i + 1]
+    }
+
+
+    ));
+  });
+
+	</script>
+================================================
+
+url: 'test.json',
+data: { get_param: 'value' },
+dataType: 'json',
+success: function(data){
+           var toAppend = '';
+          $.each(data,function(i,o){
+          toAppend += '<option>'+o.id+'</option>';
+         });
+         // # toAppend = <option>test1</option> <option>test2</option>
+         add_to_select(toAppend);
+         // alert("")
+        // $('#datas').append(toAppend);
+       }
+});
+
+function add_to_select(toAppend){
+var selects = document.querySelectorAll("select[id=Application]");
+for (var index = 0; index < selects.length ; index++){
+// if( selects[index].value != "" ){
+  alert(selects[index].value);
+  alert(toAppend);
+selects[index].appendChild(toAppend);
+
+}}
+
+</script>

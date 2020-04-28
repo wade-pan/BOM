@@ -1,0 +1,614 @@
+<html lang="en">
+
+<head>
+  <!-- ------------------------------------  FileReader ------------------------------------------------------------ -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.8.0/jszip.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.8.0/xlsx.js"></script>
+  <!-- ------------------------------------  FileReader ------------------------------------------------------------ -->
+
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"/> -->
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- <a href="data:SUPPLIER/octet-stream;charset=utf-8;base64,Zm9vIGJhcg==">text file</a><br /> -->
+  <!-- Popper JS -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script> -->
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+  <!-- <input type="file" value="upload" id="input"  onchange="handleFiles(this.files)"> -->
+  <style type="text/css">
+    .MODEL:hover,
+    .SUPPLIER:hover,
+    .QTY:hover {
+      /* .SUPPLIER,.MODEL,.QTY,.DESCRIPTION,.cost_text:hover{ */
+      background-color: #5bc0de;
+    }
+
+    thead:hover {
+      text-decoration: none !important;
+    }
+
+    thead tr:first-child {
+      color: white;
+      text-align: center;
+      background-color: #5bc0de;
+      padding: 10px;
+    }
+
+    .cost_text {
+      width: 70px;
+      text-align: right;
+    }
+
+    .btn-import {
+      border: 1px solid grey;
+      background-color: white;
+      color: black;
+      padding: 2px 12px;
+      font-size: 12px;
+      cursor: pointer;
+    }
+
+
+    .col-lg-12 {
+      background-color: black;
+      height: 30px;
+    }
+
+    h2 {
+      position: absolute;
+      left: 10px;
+      top: -18px;
+    }
+    h7 {
+      position: absolute;
+      left: 9c00px;
+      top: 10px;
+    }
+    form.pos_up {
+      position: relative;
+      left: 10px;
+      /* top: 10px; */
+    }
+    form.pos_down {
+      position: relative;
+      left: 10px;
+      /* top: 80px; */
+    }
+  </style>
+  <style>
+      body{ margin:0; height:100%}
+      html{ height:100%}
+      #left{ position:absolute; left:0; width:35%; height:100%; background-color:#CCCCCC}
+      #right{ position:absolute; margin-left:30%; height:100%; width:65%;background-color:white}
+  </style>
+  <!-- ------------------------------------  file upload ------------------------------------------------------------ -->
+
+
+  <!-- ------------------------------------  HTML Head ------------------------------------------------------------ -->
+</head>
+
+<body>
+  <div id="wrapper">
+    <div class="col-lg-12">
+      <font color="white" class="navbar-brand" >
+        <h2>BOM</h2>
+      </font>
+      <!-- <font color="white" class="navbar-brand"> -->
+        <!-- <h7>welcome</h7> -->
+      <!-- </font> -->
+    </div>
+    <!-- ------------------------------------  <== HTML    ------------------------------------------------------------ -->
+
+    <div class="panel-body" id="left">
+
+        <div class="form-group small">
+
+          <form class="pos_up">
+            <h4 >Choose your Input</h4>
+            Choose a BOM template:
+            <select id="template" onchange="choose_template();">
+              <option disabled selected value> -- Select -- </option>
+              <option>FATP</option>
+              <option>Panda</option>
+              <option>Small_FATP</option>
+              <option>others</option>
+            </select>
+
+          <div>
+            Import a BOM file:
+            <label for="files" class="btn-import"> -- Select -- </label>
+            <input id="files" style="visibility:hidden;" type="file">
+          </div>
+          <input type="button" value="confirm" onclick="select_want_BOM();"></input>
+          <input type="button" value="clear" onclick="window.location.reload()" />
+          </form>
+
+          <form class="pos_down">
+          <h4>Choose your Output</h4>
+
+            <select id="purpose" size="2" onchange="switch_purpose();">
+              <option value="1">For Vendor</option>
+              <option value="2">For Approval</option>
+            </select>
+          <div>
+          <input type="button" id="savebom" value="Save" onclick="" />
+          <input type="button" id="export" value="export" onclick="" />
+          </div>
+          </form>
+        </div>
+      </div>
+      <!-- ------------------------------------  HTML ==> ------------------------------------------------------------ -->
+
+
+
+        <div class="panel-body" id="right">
+          <table id="mytab" class="table">
+
+            <thead>
+              <tr>
+                <th>Supplier</th>
+                <th>Model</th>
+                <th>QTY</th>
+                <th>Description</th>
+                <th id="cost_th">Unit Cost</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <!-- <form id="myform" name="myform" method="post"> -->
+              <tr>
+                <td>
+                  <div class="form-group">
+                    <select style="width:100px" id="SUPPLIER" class="SUPPLIER" value="" onChange="Fill_select_line_2_man(this);">
+                      <option> -- select -- </option>
+                    </select>
+                  </div>
+                </td>
+                <td>
+                  <div class="form-group">
+                    <select style="width:120px" id="MODEL" class="MODEL" value="">
+                      <option> -- select -- </option>
+                    </select>
+                  </div>
+                </td>
+                <td>
+                  <div class="form-group">
+                    <select style="width:70px;" id="QTY" class="QTY" value="" onChange="update_cost(this);">
+                      <option> -- select -- </option>
+                    </select>
+                  </div>
+                </td>
+
+                <td>
+                  <div class="form-group">
+                    <!-- <textarea name="name" rows="1" cols="10"> -->
+                    <input style="width:200px;" id="DESCRIPTION" class="DESCRIPTION" readonly>
+                    </input>
+                  </div>
+                </td>
+
+                <td>
+                  <div class="form-group">
+                    <input id="cost_text" type="text" style="" id="cost_text" class="cost_text" value="" readonly>
+                    </input>
+                  </div>
+                </td>
+
+              </tr>
+
+            </tbody>
+          </table>
+        </div>
+
+      </div>
+    </div>
+    <!-- ------------------------------------  JS fetch_all_BOM  ------------------------------------------------------------- -->
+
+    <script>
+      var select = '';
+      for (i = 0; i <= 100; i++) {
+        select += '<option val=' + i + '>' + i + '</option>';
+      }
+      $('#QTY').html(select);
+
+      // ------------------------------------  export -------------------------------------------------------------
+
+      jQuery("#export").on('click', function (event) {
+             $('#mytab').table2csv({
+              file_name:  'export_output.csv',
+              header_body_space:  0
+             });
+
+          });
+
+
+
+      // JQuery Plugin
+      /**
+       * @description: Plugin to export HTML table to CSV file.
+       * @author: VenkataRamanaB
+       * @link: https://github.com/venkataramanab/table2csv
+       * Feel free to use or modify this plugin as far as my full name is kept
+       */
+
+      (function ($) {
+          const _trim_text = (text) => {
+              return text.trim();
+          };
+          const _quote_text = (text) => {
+              return '"' + text + '"';
+          };
+          const _export = (lines, file_name) => {
+              const uri = 'data:text/csv;charset=utf-8,' + encodeURIComponent(lines.join('\n'));
+              const el_a = document.createElement('a');
+              el_a.href = uri;
+              el_a.download = file_name;
+              document.body.appendChild(el_a);
+              el_a.click();
+              document.body.removeChild(el_a);
+          };
+
+
+
+          const init = (tb, options) => {
+              let lines = [];
+              $(tb).find('thead>tr').each(function () {
+                  let line = [];
+                  $(this).find('th').each(function () {
+                      line.push(_quote_text(_trim_text($(this).text())));
+                  });
+                  lines.push(line.splice(0).toString());
+              })
+
+              for (let i = 0; i < options.header_body_space; i++) lines.push('\n');
+
+              $(tb).find('tbody>tr').each(function () {
+                  let line = [];
+                  $(this).find('td').each(function () {
+
+                      if($(this).find('select').length){
+                              line.push(_quote_text($(this).find('option:selected').text()));
+
+                   }else{
+                         // line.push(_quote_text(_trim_text($(this).text())));
+
+                         }
+
+                     if ($(this).find('input').length) {
+                       line.push(_quote_text($(this).find('input').val()));
+                     } else {
+                       // line.push(_quote_text(_trim_text($(this).text())));
+                     }
+
+                  });
+                  lines.push(line.splice(0).toString());
+              })
+              _export(lines, options.file_name)
+          };
+
+
+
+          $.fn.extend({
+              table2csv: function (options) {
+                  const default_options = {
+                      file_name: 'table_records.csv',
+                      header_body_space: 1
+                  };
+                  options = $.extend(default_options, options);
+                  init(this, options);
+              }
+          })
+      })(jQuery);
+
+
+
+      // ------------------------------------  import -------------------------------------------------------------
+      $("#files").change(function() {
+        filename = this.files[0].name
+        console.log(filename);
+      });
+
+
+      window.MyLib = {}; //global var
+
+          var ExcelToJSON = function() {
+            this.parseExcel = function(file) {
+              var reader = new FileReader();
+              reader.onload = function(e) {
+                var data = e.target.result;
+                var workbook = XLSX.read(data, {
+                  type: 'binary'
+                });
+                workbook.SheetNames.forEach(function(sheetName) {
+                  // Here is your object
+                  var XL_row_object = XLSX.utils.sheet_to_row_object_array(workbook.Sheets[sheetName]);
+                  var result = JSON.stringify(XL_row_object);
+                  objs = JSON.parse(result)
+                  var output = {};
+                    for (i in objs) {
+                       capitalize(objs[i]);
+                    }
+                  // jQuery( '#xlx_json' ).val( json_object ); //project json to textarea
+                  // var output = capitalize(JSON.parse(obj);
+                  MyLib.upload_json = objs
+                })
+              };
+              reader.onerror = function(ex) {
+                console.log(ex);
+              };
+              reader.readAsBinaryString(file);
+            };
+        };
+
+
+        function handleFileSelect(evt) {
+          var files = evt.target.files; // FileList object
+          var xl2json = new ExcelToJSON();
+          xl2json.parseExcel(files[0]);
+        }
+
+        function capitalize(object) {
+        	var isArray = Array.isArray(object);
+        	for (let key in object) {
+        		let value = object[key];
+        		let newKey = key;
+        		if (!isArray) { // if it is an object
+        			delete object[key]; // firstly remove the key
+        			newKey = key.toUpperCase(); // secondly generate new key (capitalized)
+        		}
+        		let newValue = value;
+
+
+        		if (typeof value != "object") { // if it is not an object (array or object in fact), stops here
+        			if (typeof value == "string") {
+        				newValue = value.toUpperCase(); // if it is a string, capitalize it
+        			}
+        		} else { // if it is an object, recursively capitalize it
+        			newValue = capitalize(value);
+        		}
+            if (newValue == "") {
+              delete object[newKey]
+            }
+            else {
+        		object[newKey] = newValue;
+            }
+        	}
+        	return object
+        }
+
+        $("#files").change(function(evt) {
+          handleFileSelect(evt)
+        });
+
+       // document.getElementById('files').addEventListener('change', handleFileSelect, false);
+       // ------------------------------------  switch purpose -------------------------------------------------------------
+       function switch_purpose() {
+         var purpose = document.getElementById("purpose").value
+         var cost1 = document.getElementById("cost_th")
+         var cost2 = document.querySelectorAll("input[id=cost_text]")
+         //x=1 for vendor
+         if (purpose == 1) {
+           cost1.style.display = "none";
+           for (var index = 0; index < 30; index++) {
+             cost2[index].style.display = "none"
+           }
+         }
+
+         if (purpose == 2) {
+           cost1.style.display = "block";
+           for (var index = 0; index < 30; index++)
+             // cost2[index].addProperty("background-color");{
+             cost2[index].style.display = "block"
+         }
+       }
+       //x=2 for approval
+
+
+       // ## i 从 json "SUPPLIER" 数量得来
+       function select_want_BOM() {
+         // fetch_all_BOM();
+         // update_selected_BOM()
+         update_form()
+       }
+
+       function fetch_all_BOM() {
+         $.ajax({
+           type: 'GET',
+           async: false,
+           global: false,
+           cache: false,
+           url: 'data_db.json',
+           data: {
+             get_param: 'value'
+           },
+           dataType: 'json',
+           success: function(data) {
+             full_json = data;
+             // Fill_select_line_2(data);
+             // update_selected_BOM(full_json)
+             return full_json;
+           }
+         });
+       }
+       //
+       // function update_selected_BOM() {
+       //   $.ajax({
+       //     type: 'GET',
+       //     async: false,
+       //     global: false,
+       //     cache: false,
+       //     // url: 'wanted_BOM.json',
+       //     url: 'MyLib.upload',
+       //     data: {
+       //       get_param: 'value'
+       //     },
+       //     dataType: 'json',
+       //     success: function(data) {
+       //       selected_json = data;
+       //       update_select(selected_json);
+       //
+       //       return selected_json;
+       //     }
+       //   });
+       // }
+       // ------------------------------------  small function -------------------------------------------------------------
+
+
+       function Fill_select_line_1(full_json) {
+         var data = full_json;
+         var selects = document.querySelectorAll("select[class=SUPPLIER]");
+         for (var index = 0; index < selects.length; index++) {
+           for (var num = 0; num < Object.keys(data).length; num++) {
+             var option = document.createElement("option");
+             option.text = Object.keys(data)[num];
+             option.value = num + 1; // coz select-option is value 0, So here need "num + 1"
+             selects[index].appendChild(option)
+           }
+         }
+       }
+
+       function Fill_select_line_2(selected_key, num) { // the key text & which key ? 0 1 2 应该是第几行， 不是第几个 key in full_json
+         var data = full_json;
+         var selects_line_2 = document.querySelectorAll("select[class=MODEL]");
+         for (var index = 0; index < data[selected_key].length; index++) { //多少个 MODEL
+           var option = document.createElement("option");
+           option.text = data[selected_key][index]["MODEL"];
+           option.value = index + 1;
+           selects_line_2[num].appendChild(option)
+         }
+       }
+
+
+       function Fill_select_line_2_man(line_1){
+         var data = full_json;
+         var parentRow = $(line_1).closest("tr").index();
+         selects_line_2 = document.querySelectorAll("select[class=MODEL]");
+         selects_line_3 = document.querySelectorAll("select[class=QTY]");
+         selected_key =  line_1.options[line_1.value].innerHTML
+         // alert(line_1.nextSibling.value)
+         selects_line_2[parentRow].options.length = 0
+         selects_line_3[parentRow].selectedIndex = 0
+         for (var index = 0; index < data[selected_key].length; index++) { //多少个 MODEL
+           var option = document.createElement("option");
+           option.text = data[selected_key][index]["MODEL"];
+           option.value = index + 1;
+           selects_line_2[parentRow].appendChild(option)
+         }
+       }
+
+       function update_cost(line_3){
+         var fdata = full_json;
+         var parentRow = $(line_3).closest("tr").index();
+         selects_line_1 = document.querySelectorAll("select[class=SUPPLIER]");
+         selects_line_2 = document.querySelectorAll("select[class=MODEL]");
+         selected_key =  selects_line_1[parentRow].options[selects_line_1[parentRow].value].innerHTML
+         model_key = selects_line_2[parentRow].selectedIndex // model_key 从0 开始
+         selects_line_5 = document.querySelectorAll("input[class=cost_text]");
+         // alert("Qty:")
+         // alert(line_3.value)
+         // alert("model_number")
+         // alert(model_key)
+         // alert("fdata[selected_key][model_key]")
+         // alert(fdata[selected_key][model_key]["COST"].substring(1).replace(/,/i, ''))
+         // selects_line_5[parentRow].value = "0"
+         selects_line_5[parentRow].value = "$" + (line_3.value * (fdata[selected_key][model_key-1]["COST"].substring(1).replace(/,/i, ''))).toFixed(2) // model_key 从0 开始
+       }
+
+       function update_form() {
+         fetch_all_BOM();
+         var data = MyLib.upload_json;
+         // alert(data.length)
+         create_row(data.length)
+         var fdata = full_json;
+         // ## 每一个 cell 的内容 也可以是为空
+         var selects_line_1 = document.querySelectorAll("select[class=SUPPLIER]");
+         var selects_line_2 = document.querySelectorAll("select[class=MODEL]");
+         var selects_line_3 = document.querySelectorAll("select[class=QTY]");
+         var selects_line_4 = document.querySelectorAll("input[class=DESCRIPTION]");
+         var selects_line_5 = document.querySelectorAll("input[class=cost_text]");
+         Fill_select_line_1(fdata);
+         // dance:
+         for (var value = 0; value < data.length; value++) {
+           for (var ind = 0; ind < 100; ind++) { // 这行里 column 的选项 过一遍 ，最多100个 SUPPLIER 选项
+             // try{
+             //code that causes an error
+             if (typeof(selects_line_1[value].options[ind + 1]) != 'undefined') {
+               if (ciEquals(data[value]["SUPPLIER"], selects_line_1[value].options[ind + 1].innerHTML)) {
+                 // if (data[value]["SUPPLIER"] == selects_line_1[value].options[ind + 1].innerHTML) {  // "arista" == "arista"
+                 selects_line_1[value].selectedIndex = ind + 1; // this will fill 1st line 1st tab SUPPLIER
+                 Fill_select_line_2(selects_line_1[value].options[ind + 1].innerHTML, value)
+                 key = selects_line_1[value].options[ind + 1].innerHTML
+                 for (var index = 0; index < 100; index++)
+                   if (typeof(selects_line_2[value].options[index + 1]) != 'undefined') {
+                     if (ciEquals(data[value]["MODEL"], selects_line_2[value].options[index + 1].innerHTML)) {
+                       selects_line_2[value].selectedIndex = index + 1;
+                       selects_line_3[value].selectedIndex = data[value]["QTY"]; // 右边是data ，说明数据从 import 来
+                       selects_line_4[value].value = fdata[key][index]["DESCRIPTION"];
+                       // selects_line_5[value].value = fdata[key][index]["COST"];
+                       // alert(selects_line_3[value].selectedIndex)
+                       if (selects_line_3[value].selectedIndex != 0){
+                       selects_line_5[value].value = "$" + (selects_line_3[value].selectedIndex * fdata[key][index]["COST"].substring(1).replace(/,/i, '')).toFixed(2);
+                       } else {
+                       selects_line_5[value].value = "$0"
+                       }
+                       break;
+                     }
+                   }
+                 break;
+               }
+             }
+           }
+         }
+       }
+
+
+
+       function ciEquals(a, b) {
+         return typeof a === 'string' && typeof b === 'string' ?
+           a.localeCompare(b, undefined, {
+             sensitivity: 'accent'
+           }) === 0 :
+           a === b;
+       }
+
+       function create_row(num){
+       for (var i = 0; i < num; i++) {
+         var html = $('#mytab tr:last').html();
+         $('#mytab tr:last').after("<tr>" + html + "</tr>");
+       }
+       }
+
+
+       // ------------------------------------  Add 100 QTY -------------------------------------------------------------
+
+       // function get_total_value(data) {
+       //   var total = 0;
+       //   for (var i = 0; i < Object.keys(data).length; i++) {
+       //     // total +=
+       //     total += data[Object.keys(data)[i]].length
+       //   }
+       //   return total
+       // }
+
+       // function removeOptions(selectElement) {
+       //   var i, L = selectElement.options.length - 1;
+       //   for (i = L; i >= 0; i--) {
+       //     selectElement.remove(i);
+       //   }
+       // }
+
+
+    </script>
+
+
+
+    <!-- <script src="jquery.min.js"></script>
+<!-- <script src="bootstrap.min.css"></script> -->
+    <script type="text/javascript" src="../JS/form_function.js?updated=1234567890"></script>
+    <script type="text/javascript" src="../JS/file_process.js?updated=1234567890"></script>
+  </div>
+</body>
+
+</html>

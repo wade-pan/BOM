@@ -1,0 +1,22 @@
+{
+  "BOM_TYPE": "Panda_Standard",
+  "Application":
+        {
+          "1":
+          {
+          "DCS": [
+            {
+              "Model":"SR650 High Perf",
+              "Detail": "SR650 / 8xHDD / 20G MEM / 2xFiber"
+            }]
+          },
+          "2":
+          {
+          "LB": [
+            {
+            "model":"SR630",
+            "Detail": "SR630 / 2xHDD / 10G MEM / 2xFiber"
+          }]
+          }
+      }
+  }

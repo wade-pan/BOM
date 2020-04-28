@@ -1,0 +1,3209 @@
+{
+   "AKCP": [
+      {
+         "MODEL": "GC-AK-ACDL01",
+         "DESCRIPTION": "EM Door Lock - ACKL01",
+         "COST": "$95"
+      },
+      {
+         "MODEL": "GC-AK-ACV-00",
+         "DESCRIPTION": "AC Voltage Sensor, allows extension with CAT5 cable, 5 feet of cable included ",
+         "COST": "$112"
+      },
+      {
+         "MODEL": "GC-AK-AFS-00",
+         "DESCRIPTION": "Airflow Sensor, allows extension with CAT5 cable, 5 feet of cable included",
+         "COST": "$112"
+      },
+      {
+         "MODEL": "GC-AK-ESENSOR8",
+         "DESCRIPTION": "8 Sensor Expansion Unit for SecurityProbe5E",
+         "COST": "$255"
+      },
+      {
+         "MODEL": "GC-AK-LWS-10",
+         "DESCRIPTION": "Locate Water Sensor with 10Ft extension locate Water sensing cable",
+         "COST": "$315"
+      },
+      {
+         "MODEL": "GC-AK-LWS-100",
+         "DESCRIPTION": "Locate Water Sensor - 100 ft extension locate Water sensing cable",
+         "COST": "$901"
+      },
+      {
+         "MODEL": "GC-AK-MD-00",
+         "DESCRIPTION": "Motion Detector Sensor, allows extension with CAT5 cable, 5 feet of cable included",
+         "COST": "$106.25"
+      },
+      {
+         "MODEL": "GC-AK-RWS20",
+         "DESCRIPTION": "Rope Water Sensor 20 Ft of Sensing Rope, 5 foot CAT5 cable included",
+         "COST": "$309.4"
+      },
+      {
+         "MODEL": "GC-AK-SEC5ESV",
+         "DESCRIPTION": "SecurityProbe 5E, Linux Operating System, 8 Sensor Ports, 2 Expansion Ports, and 4 Camera inputs",
+         "COST": "$1215"
+      },
+      {
+         "MODEL": "GC-AK-SK-00",
+         "DESCRIPTION": "Smoke Detector Sensor, allows extension with CAT5 cable, 5 feet of cable included",
+         "COST": "$119"
+      },
+      {
+         "MODEL": "GC-AK-SS-100",
+         "DESCRIPTION": "Security Sensor with 100 Foot Fixed Length Cable",
+         "COST": "$165.75"
+      },
+      {
+         "MODEL": "GC-AK-SS-15",
+         "DESCRIPTION": "Security Sensor with 15 Foot Fixed Length Cable",
+         "COST": "$67.5"
+      },
+      {
+         "MODEL": "GC-AK-STR-00",
+         "DESCRIPTION": "Siren Strobe Light allows extension with CAT5 cable, 5 feet of cable included",
+         "COST": "$110.5"
+      },
+      {
+         "MODEL": "GC-AK-THS-00",
+         "DESCRIPTION": "Temperature & Humidity Sensor, allows extenstion with CAT5 cable, 5 feet of cable included (PLEASE REMOVE CABLE BEFORE SHIPPING - NOT NEED CUSTOMER REQUEST)",
+         "COST": "$86"
+      },
+      {
+         "MODEL": "GC-AK-THS-01",
+         "DESCRIPTION": "Single Port Temperature and Humidity Sensor variable length cable",
+         "COST": "$86"
+      },
+      {
+         "MODEL": "GC-AK-VC-00",
+         "DESCRIPTION": "4-20mA Converter Sensor, allows extension with CAT5 cable, 5 feet of cable included",
+         "COST": "$112"
+      },
+      {
+         "MODEL": "GC-AK-WS-15",
+         "DESCRIPTION": "Water Sensor with 15 Foot Fixed Length Cable",
+         "COST": "$119.5"
+      }
+   ],
+   "Amazon": [
+      {
+         "MODEL": "VF-20R5/BK",
+         "DESCRIPTION": "Reusable Hook & Loop Strong Grip Fastener Roll with Soft Touch Microfiber Velour 3/4'' x 16' (3/4'' Wide, 16 Feet Long) - Black",
+         "COST": "$19"
+      }
+   ],
+   "APC": [
+      {
+         "MODEL": "AP8702S-WW",
+         "DESCRIPTION": "Power cable (6 pr kit) (250 VAC) - IC 320 N 60320 C13 - IC 320 N 60320 C14 locking - .6m",
+         "COST": "$37.11"
+      },
+      {
+         "MODEL": "AP8704S-WW",
+         "DESCRIPTION": "Power Cord Kit (6 ea), C13 to C14, 1.2m",
+         "COST": "$60.25"
+      }
+   ],
+   "Arista": [
+      {
+         "MODEL": "10GBASE-SRL",
+         "DESCRIPTION": "10G SFPs",
+         "COST": "$82.95"
+      },
+      {
+         "MODEL": "Tariff US - 10GBASE-SRL",
+         "DESCRIPTION": "1% tariff on all Arista HW, Effective 04/01/19",
+         "COST": "$0.83"
+      },
+      {
+         "MODEL": "DCS-7010T-48-F",
+         "DESCRIPTION": "Arista 7010T, 48x RJ45 (100/1000), 4 x SFP+ (1/10GbE) switch, front to rear air, 2x AC, 2xC13-C14 cords",
+         "COST": "$951.41"
+      },
+      {
+         "MODEL": "Tariff US - DCS-7010T-48-F",
+         "DESCRIPTION": "1% tariff on all Arista HW, Effective 04/01/19",
+         "COST": "$9.51"
+      },
+      {
+         "MODEL": "DCS-7050QX-32S-R-DC",
+         "DESCRIPTION": "Arista 7050X, 32xQSFP+ & 4xSFP+ switch, rear-to-front airflow and dual DC power supplies",
+         "COST": "$3575.93"
+      },
+      {
+         "MODEL": "Tariff US - DCS-7050QX-32S-R-DC",
+         "DESCRIPTION": "1% tariff on all Arista HW, Effective 04/01/19",
+         "COST": "$35.76"
+      },
+      {
+         "MODEL": "DCS-7050SX-64-F",
+         "DESCRIPTION": "Arista 7050X, 48x10GbE (SFP+) & 4xQSFP+ switch, front-to-rear air, 2xAC, 2xC13-C14 cords",
+         "COST": "$3124.38"
+      },
+      {
+         "MODEL": "Tariff US - DCS-7050SX-64-F",
+         "DESCRIPTION": "1% tariff on all Arista HW, Effective 04/01/19",
+         "COST": "$31.24"
+      },
+      {
+         "MODEL": "DCS-7050SX-64-R",
+         "DESCRIPTION": "Arista 7050X, 48x10GbE (SFP+) & 4xQSFP+ switch, rear-to-front air, 2xAC, 2xC13-C14 cords",
+         "COST": "$3124.38"
+      },
+      {
+         "MODEL": "Tariff US - DCS-7050SX-64-R",
+         "DESCRIPTION": "1% tariff on all Arista HW, Effective 04/01/19",
+         "COST": "$31.24"
+      },
+      {
+         "MODEL": "LIC-FIX-2-E",
+         "DESCRIPTION": "Enhanced L3 License for Arista Fixed switches, 40-132 port 10G (BGP, OSPF, ISIS, PIM, NAT)",
+         "COST": "$0"
+      },
+      {
+         "MODEL": "SVC-7010T-1M-NB",
+         "DESCRIPTION": "1-Month A-Care Software & NBD Hardware Replacement/Same Day Ship for 7010T-48 for 12 months",
+         "COST": "$0"
+      },
+      {
+         "MODEL": "SVC-7150S-24-1M-NB",
+         "DESCRIPTION": "1 Month A-Care Software & NBD Hardware Replacement/Same Day Ship for 7150S-24",
+         "COST": "$0"
+      },
+      {
+         "MODEL": "SVC-7050SX-64-1M-4H",
+         "DESCRIPTION": "1 Month A-Care Software & 4HR Hardware Replacement/Same Day Ship for 7050SX-64",
+         "COST": "$0"
+      },
+      {
+         "MODEL": "DCS-7500-SUP2# ",
+         "DESCRIPTION": "Supervisor-2 module for 7500 Series (ships in chassis)",
+         "COST": "$5873.83"
+      },
+      {
+         "MODEL": "Tariff US - DCS-7500-SUP2# ",
+         "DESCRIPTION": "1% tariff on all Arista HW, Effective 04/01/19",
+         "COST": "$58.74"
+      },
+      {
+         "MODEL": "DCS-7500R2M-36CQ-LC# ",
+         "DESCRIPTION": "7500R2 Series 36 port 100GbE QSFP100 with MACSec, wirespeed line card (ships in chassis)",
+         "COST": "$23498.83"
+      },
+      {
+         "MODEL": "Tariff US - DCS-7500R2M-36CQ-LC# ",
+         "DESCRIPTION": "1% tariff on all Arista HW, Effective 04/01/19",
+         "COST": "$234.99"
+      },
+      {
+         "MODEL": "DCS-7504R-BND",
+         "DESCRIPTION": "Arista 7504R Chassis bundle. Includes 7504N chassis, 4x3kW PS, 6xFM-R, 1xSup2",
+         "COST": "$32898.83"
+      },
+      {
+         "MODEL": "Tariff US - DCS-7504R-BND",
+         "DESCRIPTION": "1% tariff on all Arista HW, Effective 04/01/19",
+         "COST": "$328.99"
+      },
+      {
+         "MODEL": "DCS-7500R2AK-48YCQ-LC",
+         "DESCRIPTION": "7500R2 Series 48 port 10/25GbE SFP+ and 2 port 100GbE QSFP AlgoMatch, 2M routes, wirespeed line card (spare)",
+         "COST": "$10573.83"
+      },
+      {
+         "MODEL": "Tariff US - DCS-7500R2AK-48YCQ-LC",
+         "DESCRIPTION": "1% tariff on all Arista HW, Effective 04/01/19",
+         "COST": "$105.74"
+      },
+      {
+         "MODEL": "SVC-7504R-1M-NB ",
+         "DESCRIPTION": "1-Month A-Care Software & 8x5xNBD Hardware Replacement/Same Day Ship for 7504R",
+         "COST": "$0"
+      },
+      {
+         "MODEL": "LIC-MOD-1-MACSEC ",
+         "DESCRIPTION": "MACSEC Encryption License for Arista Modular switches - Encryption with MACSEC capable Linecard",
+         "COST": "$7498.75"
+      },
+      {
+         "MODEL": "LIC-MOD-1-E ",
+         "DESCRIPTION": "Enhanced Software License for Arista Modular Switches - 4 slots (OSPF, BGP, PIM)",
+         "COST": "$0"
+      },
+      {
+         "MODEL": "LIC-FIX-2-E ",
+         "DESCRIPTION": "Enhanced L3 License for Arista Fixed switches, 40-132 port 10G (BGP, OSPF, ISIS, PIM, NAT)",
+         "COST": "$0"
+      },
+      {
+         "MODEL": "DCS-7280SRAM-48C6-F",
+         "DESCRIPTION": "Arista 7280RA, 48x10GbE (SFP+) & 6x100GbE QSFP switch router, AlgoMatch and MACsec, expn mem, SSD, front to rear air, 2x AC",
+         "COST": "$9,498.75"
+      },
+      {
+         "MODEL": "LIC-FIX-2-MACSEC",
+         "DESCRIPTION": "MACSEC Encryption License for Arista Fixed switches, 1-6 MACSEC capable ports",
+         "COST": "$2,498.75"
+      },
+      {
+         "MODEL": "DCS-7280SRAM-48C6-F",
+         "DESCRIPTION": "Arista 7280RA, 48x10GbE (SFP+) & 6x100GbE QSFP switch router, AlgoMatch and MACsec, expn mem, SSD, front to rear air, 2x AC",
+         "COST": "$9,498.75"
+      },
+      {
+         "MODEL": "SVC-7280SRAM-48C6- 1M-NB",
+         "DESCRIPTION": "1 Month A-Care Software & NBD Hardware Replacement/Same Day Ship for 7280SRAM-48C6",
+         "COST": "$45.90"
+      },
+      {
+         "MODEL": "LIC-FIX-2-MACSEC",
+         "DESCRIPTION": "MACSEC Encryption License for Arista Fixed switches, 1-6 MACSEC capable ports",
+         "COST": "$2,498.75"
+      },
+      {
+         "MODEL": "CCS-720XP-48Y6-2F-NA",
+         "DESCRIPTION": "48x1G POE, 6x25G SFP switch, front to USD rear air, AC (2), NA Power Cords",
+         "COST": "$3,881.50"
+      },
+      {
+         "MODEL": "SVC-7050SX-1M-NB",
+         "DESCRIPTION": "1 Month A-Care Software & NBD Hardware Replacement/Same Day Ship for 7050SX-64",
+         "COST": "$8.70"
+      }
+   ],
+   "Avocent": [
+      {
+         "MODEL": "ACS6008MDAC-G2",
+         "DESCRIPTION": "ACS6008MDAC-G2 KVM Console Server (Avocent) ",
+         "COST": "$1082.62"
+      },
+      {
+         "MODEL": "ACS6016MDAC-G2",
+         "DESCRIPTION": "ACS6016MDAC-G2 KVM Console Server (Avocent) 16 port",
+         "COST": "$1403.11"
+      },
+      {
+         "MODEL": "ACS6048MDAC-G2",
+         "DESCRIPTION": "Cyclades 48 port ACS 6000 48PT DUAL AC W/ MODEM",
+         "COST": "$2348.89"
+      },
+      {
+         "MODEL": "MPU4032DAC",
+         "DESCRIPTION": "MPU4032DAC-xxx - KVM Console w/ modem (Avocent) ",
+         "COST": "$6618.72"
+      },
+      {
+         "MODEL": "MPUIQ-SRL",
+         "DESCRIPTION": "MPUIQ-SRL - Serial IQ - Serial port extender ",
+         "COST": "$137.8"
+      },
+      {
+         "MODEL": "MPUIQ-VMCHS",
+         "DESCRIPTION": "HIGH-RES VM CAC USB2HS IQ MODULE ",
+         "COST": "$126.65"
+      }
+   ],
+   "Axis": [
+      {
+         "MODEL": "Q6052",
+         "DESCRIPTION": "Q6052 NTWK CAM 36X PTZ D/N 60HZ 24V",
+         "COST": "$EOL, see comments"
+      },
+      {
+         "MODEL": "Q6054",
+         "DESCRIPTION": "Q6054 NTWK CAM 36X PTZ D/N 60HZ 24V",
+         "COST": "$1911.84"
+      }
+   ],
+   "Brocade": [
+      {
+         "MODEL": "X-6510-24- 16G",
+         "DESCRIPTION": "Brocade 6510 24pt 16Gb with rackmount kit",
+         "COST": "$EOL, see comments"
+      },
+      {
+         "MODEL": "CS-O2-4HR",
+         "DESCRIPTION": "Support for Brocade 6510 24pt 16Gb - 3 YEAR",
+         "COST": "$EOL, see comments"
+      }
+   ],
+   "Brother": [
+      {
+         "MODEL": "PT-D600",
+         "DESCRIPTION": "PT-D600 LABEL MAKER PC CONNECTABLE CLR DISPLAY ",
+         "COST": "$324"
+      },
+      {
+         "MODEL": "PTP-950NW",
+         "DESCRIPTION": "PT-E550W  HANDHELD LABELING TOOL USB I/F LI-ION AUTOCUT CARRY CASE",
+         "COST": "$635"
+      },
+      {
+         "MODEL": "TZe231",
+         "DESCRIPTION": "12mm (0.47'') Black on White Tape with Extra Strength Adhesive 8m (26.2 ft) ",
+         "COST": "$EOL, see comments"
+      },
+      {
+         "MODEL": "TZe251",
+         "DESCRIPTION": "24mm (0.94'') Black on White Tape with Extra Strength Adhesive 8m (26.2 ft) ",
+         "COST": "$EOL, see comments"
+      },
+      {
+         "MODEL": "TZeS231",
+         "DESCRIPTION": "12mm (0.47'') Black on White Tape with Extra Strength Adhesive 8m (26.2 ft) ",
+         "COST": "$21.4"
+      },
+      {
+         "MODEL": "TZeS251",
+         "DESCRIPTION": "24mm (0.94'') Black on White Tape with Extra Strength Adhesive 8m (26.2 ft) ",
+         "COST": "$29.89"
+      },
+      {
+         "MODEL": "PT-P950NW",
+         "DESCRIPTION": "PTP-950NW Wireless Powered Network Laminated Label Printer",
+         "COST": "$635.00"
+      }
+   ],
+   "Cisco": [
+      {
+         "MODEL": "4PT-KIT-T1=",
+         "DESCRIPTION": "4 POINT TYPE 1 RACK MOUNT KIT",
+         "COST": "$114"
+      },
+      {
+         "MODEL": "C3850-4PT-KIT",
+         "DESCRIPTION": "Cisco rear bracket for 3560",
+         "COST": "$91.58"
+      },
+      {
+         "MODEL": "C4948E-BKT-KIT=",
+         "DESCRIPTION": "Cisco rear bracket for 4500",
+         "COST": "$24.19"
+      },
+      {
+         "MODEL": "C4KX-FAN-F=",
+         "DESCRIPTION": "Catalyst 4500-X Back to Front Cooling Fan",
+         "COST": "$84.24"
+      },
+      {
+         "MODEL": "C4KX-NM-8SFP+",
+         "DESCRIPTION": "Catalyst 4500-X 8 Port 10GB Network Module",
+         "COST": "$2869.02"
+      },
+      {
+         "MODEL": "C4KX-PWR-750AC-F",
+         "DESCRIPTION": "Catalyst 4500-X 750W AC Back-to-Front Cooling Power Supply",
+         "COST": "$567"
+      },
+      {
+         "MODEL": "C4KX-PWR-750AC-F/2",
+         "DESCRIPTION": "Catalyst 4500X 750W AC back to front cooling 2nd PWR supply",
+         "COST": "$567"
+      },
+      {
+         "MODEL": "CAB-C15-CBN",
+         "DESCRIPTION": "Cabinet Jumper Power Cord, 250 VAC 13A, C14-C15 Connectors",
+         "COST": "$0"
+      },
+      {
+         "MODEL": "Cisco SFP-10G-LRM",
+         "DESCRIPTION": "Cisco SFP-10G-LRM -10GBASE-LRM 1310nm MMF and SMF",
+         "COST": "$188.98"
+      },
+      {
+         "MODEL": "Cisco SFP-10G-SR",
+         "DESCRIPTION": "Cisco SFP-10G-SR - 10GBASE-SR 850nm MMF",
+         "COST": "$47.76"
+      },
+      {
+         "MODEL": "CON-3SNTP-WS6548FD",
+         "DESCRIPTION": "3YR SNTC 24X7X4 Cisco Catalyst 3650 48 Port Full PoE 2x1",
+         "COST": "$1529.05"
+      },
+      {
+         "MODEL": "CON-SNTP-C45XF32S",
+         "DESCRIPTION": "Cisco SMARTnet Premium extended service agreement 3 Years 24x7 4H",
+         "COST": "$4147.2"
+      },
+      {
+         "MODEL": "FAN-T1=",
+         "DESCRIPTION": "Cisco Type 1 Fan Module",
+         "COST": "$123.5"
+      },
+      {
+         "MODEL": "GLC-LH-SMD=",
+         "DESCRIPTION": "1000BASE-LX/LH SFP transceiver module, MMF/SMF, 1310nm, DOM",
+         "COST": "$49.44"
+      },
+      {
+         "MODEL": "GLC-SX-MMD=",
+         "DESCRIPTION": "1000BASE-SX SFP transceiver module  MMF  850nm  DOM",
+         "COST": "$44.67"
+      },
+      {
+         "MODEL": "GLC-TE=",
+         "DESCRIPTION": "1000BASE-T SFP transceiver module for Category 5 copper wire",
+         "COST": "$42.46"
+      },
+      {
+         "MODEL": "GLC-TE Tariff 10%",
+         "DESCRIPTION": "10% tariff applies to Cisco GLC-TE=",
+         "COST": "$4.25"
+      },
+      {
+         "MODEL": "PWR-C2-1025WAC",
+         "DESCRIPTION": "1025W AC Config 2 Power Supply",
+         "COST": "$684"
+      },
+      {
+         "MODEL": "PWR-C2-1025WAC/2",
+         "DESCRIPTION": "1025W AC Config 2 Secondary Power Supply",
+         "COST": "$684"
+      },
+      {
+         "MODEL": "S3650UK9-36E",
+         "DESCRIPTION": "CAT3650 Universal k9 image",
+         "COST": "$0"
+      },
+      {
+         "MODEL": "SFP-10G-LR",
+         "DESCRIPTION": "10GBASE-LR 10G 10km 1310nm",
+         "COST": "$181.34"
+      },
+      {
+         "MODEL": "SFP-10G-LRM",
+         "DESCRIPTION": "Cisco SFP-10G-LRM -10GBASE-LRM 1310nm MMF and SMF",
+         "COST": "$188.98"
+      },
+      {
+         "MODEL": "SFP-10G-SR",
+         "DESCRIPTION": "Cisco SFP-10G-SR - 10GBASE-SR 850nm MMF",
+         "COST": "$47.76"
+      },
+      {
+         "MODEL": "STACK-T2-BLANK",
+         "DESCRIPTION": "Type 2 Stacking Blank",
+         "COST": "$0"
+      },
+      {
+         "MODEL": "WS-C3650-48FD-L",
+         "DESCRIPTION": "Catalyst 3650X 48 Port Full PO LAN Base",
+         "COST": "$3757.34"
+      },
+      {
+         "MODEL": "CON-3SNTP-WC3654",
+         "DESCRIPTION": "SmartNet 3 Year 2x7 Support",
+         "COST": "$2946.24"
+      },
+      {
+         "MODEL": "WS-C3650-48FQ-E",
+         "DESCRIPTION": "Cisco Catalyst 3650 48 Port Full PoE 4x10G Uplink IPServices",
+         "COST": "$7238.5"
+      },
+      {
+         "MODEL": "WS-C4500X-F-32SFP+",
+         "DESCRIPTION": "Catalyst 4500-X 32 Port 10GB IP Base, Back-to-Front Cooling",
+         "COST": "$10041.57"
+      },
+      {
+         "MODEL": "4PT-KIT-T1= VOID Duplicate",
+         "DESCRIPTION": "Cisco rear bracket for 3560",
+         "COST": "$111.93"
+      },
+      {
+         "MODEL": "C3850-4PT-KIT=",
+         "DESCRIPTION": "Cisco rear bracket for 3560",
+         "COST": "$91.58"
+      },
+      {
+         "MODEL": "SFP-10G-LR=",
+         "DESCRIPTION": "10GBASE-LR SFP MODULE",
+         "COST": "$174.98"
+      },
+      {
+         "MODEL": "SFP-10G-LR=",
+         "DESCRIPTION": "10GBASE-LR SFP MODULE",
+         "COST": "$174.98"
+      }
+   ],
+   "Citrix": [
+      {
+         "MODEL": "3003719-E7",
+         "DESCRIPTION": "Citrix NetScaler MPX/SDX 11500 to 20500, 115xx series and 17550/19550/21550 models - 960W AC Power Supply ",
+         "COST": "$925"
+      },
+      {
+         "MODEL": "3011828-E7",
+         "DESCRIPTION": "Citrix NetScaler SDX 11542 (8x10GE BASE-X SFP+ & 4x1000BASE-X SFP); SFP+/SFP Sold Separately",
+         "COST": "$EOL, see comments"
+      },
+      {
+         "MODEL": "3014342-E7",
+         "DESCRIPTION": "Citrix NetScaler SDX 14020 (16x10G SFP+) SFP+ Sold separately",
+         "COST": "$33300"
+      },
+      {
+         "MODEL": "3015171-E7",
+         "DESCRIPTION": "Citrix NetScaler VPX-10G",
+         "COST": "$19240"
+      },
+      {
+         "MODEL": "3015557-E2",
+         "DESCRIPTION": "Power Supply, 450W AC Module, 5900 / 8900 Series",
+         "COST": "$444"
+      },
+      {
+         "MODEL": "3015557-E7",
+         "DESCRIPTION": "Power Supply, 450W AC Module, 5900 / 8900 Series",
+         "COST": "$444"
+      },
+      {
+         "MODEL": "3016980-E7 ",
+         "DESCRIPTION": "Citrix NetScaler MPX 8905 Enterprise Edition 4x10GE SFP+; 6x10/100/1000 CU; 10GE SFP+ Sold separately",
+         "COST": "$12950"
+      },
+      {
+         "MODEL": "3016989-E7 ",
+         "DESCRIPTION": "Citrix NetScaler MPX 8920, Enterprise Edition 4x10GE SFP+; 6x10/100/1000 CU; 10GE SFP+ Sold separately",
+         "COST": "$16650"
+      },
+      {
+         "MODEL": "3017531-EZ",
+         "DESCRIPTION": "Citrix NetScaler SDX 8920 4x10GE SFP+; 6x10/100/1000 CU; 10GE SFP+ and 1GE CU Sold separately",
+         "COST": "$24050"
+      },
+      {
+         "MODEL": "4041309-E7",
+         "DESCRIPTION": "1 Year Gold Maintenance Citrix NetScaler SDX 14020",
+         "COST": "$0"
+      },
+      {
+         "MODEL": "4044468-E7",
+         "DESCRIPTION": "1 Year Gold Maintenance Citrix NetScaler VPX-10G",
+         "COST": "$0"
+      },
+      {
+         "MODEL": "4049622-E7 ",
+         "DESCRIPTION": "1 Year Gold Maintenance Citrix NetScaler MPX 8905 Enterprise Edition 4x10GE SFP+; 6x10/100/1000 CU; 10GE SFP+ Sold separately",
+         "COST": "$0"
+      },
+      {
+         "MODEL": "4049874-E7",
+         "DESCRIPTION": "1 Year Gold Maintenance Citrix NetScaler MPX 8920 Enterprise",
+         "COST": "$0"
+      },
+      {
+         "MODEL": "4054676-E7",
+         "DESCRIPTION": "1 Year Gold Maintenance Citrix NetScaler SDX 8920 4x10GE SFP+; 6x10/100/1000 CU; 10GE SFP+ and 1GE CU Sold separately",
+         "COST": "$0"
+      },
+      {
+         "MODEL": "EW3P0000143",
+         "DESCRIPTION": "Citrix NetScalar SFP Gigabit Ethernet Copper (100m) - 4 pack ",
+         "COST": "$27.8"
+      },
+      {
+         "MODEL": "EW3P0000557",
+         "DESCRIPTION": "Citrix NetScaler SFP+ 10 Gigabit Ethernet Short Range (300m) - Single ",
+         "COST": "$50.04"
+      },
+      {
+         "MODEL": "EW3P0000558",
+         "DESCRIPTION": "Citrix NetScalar SFP+ 10 Gigabit Ehternet Long Range (10km) - Single ",
+         "COST": "$111.2"
+      },
+      {
+         "MODEL": "EW3P0000562",
+         "DESCRIPTION": "Citrix NetScaler MPX 7500/9500/10500/12500/15500/MPX/SDX 8xxx and CloudBridge 3000 models AC Power Supply",
+         "COST": "$444"
+      },
+      {
+         "MODEL": "EW3P0000632",
+         "DESCRIPTION": "Citrix NetScalar Compact 4-post rail kit - 23 inches up to 33 inches for all NetScaler MPX Platforms except MPX 15000/17000",
+         "COST": "$111"
+      },
+      {
+         "MODEL": "EW3P0000 557",
+         "DESCRIPTION": "SFPs 10G",
+         "COST": "$50.04"
+      },
+      {
+         "MODEL": "3014034-E7",
+         "DESCRIPTION": "Citrix NetScaler MPX AC Power Supply 1000w 14000, 14000-40G, 14000-40S, 25000T and 25000-40G Series FRU",
+         "COST": "$925"
+      },
+      {
+         "MODEL": "4041308-E7 (4041309-E7)",
+         "DESCRIPTION": "1 Year Gold Maintenance Citrix NetScaler SDX 14020",
+         "COST": "$0"
+      },
+      {
+         "MODEL": "EW3P0000553 (EW3P0000632)",
+         "DESCRIPTION": "Citrix NetScaler Standard 4 post rail kit (28''-38'') for 14/25T/5/8/115xxx series and 17550-21550 model except MPX 15000/17000/22000",
+         "COST": "$111"
+      },
+      {
+         "MODEL": "3013081-E7 ",
+         "DESCRIPTION": "Citrix NetScaler VPX 1000 Mbps Enterprise Edition",
+         "COST": "$8325"
+      },
+      {
+         "MODEL": "4034497-E7 ",
+         "DESCRIPTION": "CSS Select Citrix NetScaler VPX 1000 Mbps Enterprise Edition 1 Year",
+         "COST": "$3712.5"
+      },
+      {
+         "MODEL": "3017531-E7",
+         "DESCRIPTION": "Citrix NetScaler SDX 8920 4x10GE SFP+; 6x10/100/1000 CU; 10GE SFP+ and 1GE CU Sold separately",
+         "COST": "$24050"
+      },
+      {
+         "MODEL": "4041308-E7",
+         "DESCRIPTION": "1 Year Gold Maintenance Citrix NetScaler SDX 14020",
+         "COST": "$0"
+      },
+      {
+         "MODEL": "3013611-E7",
+         "DESCRIPTION": "NetScalar 14030  Edition(8x10GE BASE-X SFP+ 4x1000BASE-X SFP); SFP+/SFP Sold Separately",
+         "COST": "$25900"
+      },
+      {
+         "MODEL": "3013611-E7",
+         "DESCRIPTION": "Citrix ADC MPX 14030 Advanced Edition (16x10G SFP+) SFP+ Sold separately",
+         "COST": "$25900"
+      },
+      {
+         "MODEL": "4038943-E7",
+         "DESCRIPTION": "1 Year Gold Maintenance Citrix ADC MPX 14030 Advanced Edition",
+         "COST": "$0"
+      },
+      {
+         "MODEL": "3023158-E7",
+         "DESCRIPTION": "Citrix NetScaler SDX 15020-50G",
+         "COST": "$35,150.00"
+      },
+      {
+         "MODEL": "Citrix ADC MPX AC Power Supply 1000w FRU",
+         "DESCRIPTION": "Citrix ADC MPX AC Power Supply 1000w FRU",
+         "COST": "$925.00"
+      },
+      {
+         "MODEL": "3023764-E7",
+         "DESCRIPTION": "",
+         "COST": "$25,160.00"
+      }
+   ],
+   "Colorchip": [
+      {
+         "MODEL": "C100Q020CWDM403B",
+         "DESCRIPTION": "QSFP28 CWDM4",
+         "COST": "$220.5"
+      }
+   ],
+   "Dell/EMC": [
+      {
+         "MODEL": "System",
+         "DESCRIPTION": "Data Domain Virtual Edition",
+         "COST": "$0"
+      },
+      {
+         "MODEL": "458-000-970",
+         "DESCRIPTION": "DD VE Capacity License",
+         "COST": "$0"
+      },
+      {
+         "MODEL": "456-107-989",
+         "DESCRIPTION": "DD VE Perpetual Cap NF 1TB=CA",
+         "COST": "$0"
+      },
+      {
+         "MODEL": "M-PSM-SW-DD-DD1",
+         "DESCRIPTION": "PROSUPPORT w/Mission Critical Software",
+         "COST": "$0"
+      },
+      {
+         "MODEL": "PS-PD-DDTRACKING",
+         "DESCRIPTION": "Data Domain Prodeploy Tracking",
+         "COST": "$0"
+      },
+      {
+         "MODEL": "PS-BAS-DDVE",
+         "DESCRIPTION": "DD VE Configuration",
+         "COST": "$0"
+      }
+   ],
+   "Eve NG Ltd": [
+      {
+         "MODEL": "EVE Learning Center Edition ",
+         "DESCRIPTION": "Emulated Virtual Environment for Network Engineering - 6*Admin License + 20*Editor License",
+         "COST": "$8821"
+      }
+   ],
+   "Finisar": [
+      {
+         "MODEL": "FCLF8522P2BTL",
+         "DESCRIPTION": "1000BASE-T 100m Gen2 RJ-45 Copper SFP Optical Transceiver",
+         "COST": "$23.89"
+      },
+      {
+         "MODEL": "FTLF1318P3BTL",
+         "DESCRIPTION": "1000BASE-LX and 1G Fibre Channel (1GFC) 10km Industrial Temperature Gen 3 SFP Optical Transceiver",
+         "COST": "$34.65"
+      },
+      {
+         "MODEL": "FTLF8519P3BNL",
+         "DESCRIPTION": "1000BASE-SX and 2G Fibre Channel (2GFC) 500m Industrial Temperature SFP Optical Transceiver",
+         "COST": "$18.9"
+      },
+      {
+         "MODEL": "FTLX1471D3BCL",
+         "DESCRIPTION": "10GBASE-LR 10G 10km 1310nm Industrial Temperature Single Mode Datacom SFP+ Optical Transceiver",
+         "COST": "$40.95"
+      },
+      {
+         "MODEL": "FTLX8574D3BCL",
+         "DESCRIPTION": "10GBASE-SR 400m Industrial Temperature SFP+ Optical Transceiver",
+         "COST": "$26.2"
+      },
+      {
+         "MODEL": "FTLC1152RGPL",
+         "DESCRIPTION": "XCVR, QSFP28, 2KM, 100G CWDM4 FEC, 4x 13XXNM DFB,, SM, PULL TAB, LC ",
+         "COST": "$367.5"
+      },
+      {
+         "MODEL": "FCLF8522P2BTL",
+         "DESCRIPTION": "1000BASE-T 100m Gen2 RJ-45 Copper SFP Optical Transceiver",
+         "COST": "$23.89"
+      },
+      {
+         "MODEL": "FTLX8573D3BCL",
+         "DESCRIPTION": "XCVR,SFP+,850NM VCSEL,MM,10GBASE-SR,LIMITING,ROHS COMPLIANT",
+         "COST": "$26.2"
+      },
+      {
+         "MODEL": "FTLX1475D3BCV",
+         "DESCRIPTION": "1G/10G Dual-Rate SFP+ SMF optical xcvr",
+         "COST": "$83.04"
+      },
+      {
+         "MODEL": "FTLX1475D3BCV - VOID DUPLICATE",
+         "DESCRIPTION": "1G/10G Dual-Rate SFP+ SMF optical xcvr",
+         "COST": "$83.04"
+      },
+      {
+         "MODEL": "FTLX1471D3BCV",
+         "DESCRIPTION": "1G/10G Dual-Rate SFP+ SMF optical xcvr",
+         "COST": "$57.75"
+      }
+   ],
+   "HID Global": [
+      {
+         "MODEL": "83000CKE",
+         "DESCRIPTION": "HID GLOBAL CORPORATION - EDGE PLUS - SOLO ES400 IP BASED STAND ALONE SINGLE DO Badge Reader",
+         "COST": "$395.54"
+      },
+      {
+         "MODEL": "920NTNNEK00000",
+         "DESCRIPTION": "R40 ICLASS SE READER, NO PROX, HF STD, WIEG, PIG, BLACK",
+         "COST": "$250"
+      }
+   ],
+   "HPE": [
+      {
+         "MODEL": "QK753C",
+         "DESCRIPTION": "HPE SN6000B 16Gb 48/24 FC Switch",
+         "COST": "$11,583.33"
+      },
+      {
+         "MODEL": "H1K92A3",
+         "DESCRIPTION": "HPE 3Y Proactive Care 24x7 Service",
+         "COST": "$6,852.59"
+      },
+      {
+         "MODEL": "H1K92A3     ZHG",
+         "DESCRIPTION": "HPE B-series 16Gb SFP+SW XCVR",
+         "COST": "$155.62"
+      },
+      {
+         "MODEL": "QR481C",
+         "DESCRIPTION": "HPE SN6000B 16Gb 48/48 Pwr Pk+ FC Swch",
+         "COST": "$28,920.82"
+      },
+      {
+         "MODEL": "H1K92A3",
+         "DESCRIPTION": "HPE 3Y Proactive Care 24x7 Service",
+         "COST": "$13,685.93"
+      },
+      {
+         "MODEL": "QK724A",
+         "DESCRIPTION": "HPE B-series 16Gb SFP+SW XCVR",
+         "COST": "$141.63"
+      }
+   ],
+   "Hyve": [
+      {
+         "MODEL": "HYIK",
+         "DESCRIPTION": "GPU Server (HYHJ + HYIK) for ML",
+         "COST": "$35308.24"
+      },
+      {
+         "MODEL": "MAP-Druids",
+         "DESCRIPTION": "Druid type servers",
+         "COST": "$11863.74"
+      },
+      {
+         "MODEL": "MAP-KAFKA",
+         "DESCRIPTION": "HDFS type Servers",
+         "COST": "$10573.49"
+      },
+      {
+         "MODEL": "HYIA",
+         "DESCRIPTION": "HYIA",
+         "COST": "$3,578.62"
+      },
+      {
+         "MODEL": "HYGQ",
+         "DESCRIPTION": "HYGQ",
+         "COST": "$9,373.86"
+      },
+      {
+         "MODEL": "HYHK",
+         "DESCRIPTION": "HYHK",
+         "COST": "$2,709.14"
+      }
+   ],
+   "IBM": [
+      {
+         "MODEL": "3403-S01 (Qty 16 8TB)",
+         "DESCRIPTION": "IBM Cloud Object Storage Slicestor 2248 with Qty. 16 8TB High-workload drives. Includes 3 year 9x5 support",
+         "COST": "$23406.72"
+      },
+      {
+         "MODEL": "5641-CO3 (Qty 16 8TB)",
+         "DESCRIPTION": "IBM Cloud Object Storage 3Y - Per Terabyte with 3 Year SW Maintenance",
+         "COST": "$35.43"
+      },
+      {
+         "MODEL": "3403-S10 ( Qty 12 10TB)",
+         "DESCRIPTION": "IBM Cloud Object Storage Slicestor S2212A with Qty. 12 10TB High-workload drives. Includes 3 year 9x5 support",
+         "COST": "$15409.29"
+      },
+      {
+         "MODEL": "5641-CO3 (Qty 12 10TB)",
+         "DESCRIPTION": "IBM Cloud Object Storage 3Y - Per Terabyte with 3 Year SW Maintenance",
+         "COST": "$42.93"
+      },
+      {
+         "MODEL": "3403-S03 (Qty 28 7.2TB)",
+         "DESCRIPTION": "IBM Cloud Object Storage Slicestor 2584 with Qty. 28 8TB 7.2K 3.5 In HDD Enterprise. Includes 3 year 9x5 support",
+         "COST": "$20962.44"
+      },
+      {
+         "MODEL": "3403-S10  (Qty 28 7.2TB)",
+         "DESCRIPTION": "IBM Cloud Object Storage Slicestor S2212A with Qty. 9 10TB High-workload drives. Includes 3 year 9x5 support",
+         "COST": "$16827.79"
+      }
+   ],
+   "Intel": [
+      {
+         "MODEL": "x710",
+         "DESCRIPTION": "10GigE 4-port card",
+         "COST": "$415"
+      }
+   ],
+   "Isilon": [
+      {
+         "MODEL": "H500 2TB (120TB)",
+         "DESCRIPTION": "Isilon H500 System + Support + Install 2TB",
+         "COST": "$106501.56"
+      },
+      {
+         "MODEL": "H500 4TB (240TB)",
+         "DESCRIPTION": "Isilon H500 System + Support + Install 4TB",
+         "COST": "$134693.02"
+      }
+   ],
+   "Juniper": [
+      {
+         "MODEL": "EX-SFP-1GE-LX",
+         "DESCRIPTION": "Small Form Factor Pluggable 1000Base-LX Gigabit Ethernet Optic Module",
+         "COST": "$100"
+      },
+      {
+         "MODEL": "FFANTRAY-MX240-HC-BB",
+         "DESCRIPTION": "MX240 High Capacity fantray, configurable option in base bundle",
+         "COST": "$0"
+      },
+      {
+         "MODEL": "JPSU-400W-AC",
+         "DESCRIPTION": "Juniper Power Supply Unit, 400W AC, Slim 1RU Form Factor (need for SRX4200)",
+         "COST": "$600"
+      },
+      {
+         "MODEL": "JUNOS-32",
+         "DESCRIPTION": "JUNOS 32-Bit Standard Software Suite",
+         "COST": "$EOL, see comments"
+      },
+      {
+         "MODEL": "JUNOS-64",
+         "DESCRIPTION": "JUNOS 64-Bit Standard Software Suite",
+         "COST": "$2000"
+      },
+      {
+         "MODEL": "MIC-3D-20GE-SFP",
+         "DESCRIPTION": "20x10/100/1000 MIC for MX Series",
+         "COST": "$1800"
+      },
+      {
+         "MODEL": "MIC-3D-20GE-SFP-E",
+         "DESCRIPTION": "20-Port SFP GE MIC with 1588 & MACSEC",
+         "COST": "$1800"
+      },
+      {
+         "MODEL": "MIC3-3D-10XGE-SFPP",
+         "DESCRIPTION": "MIC with 10x10GE SFP+ interface, Optics sold separately.",
+         "COST": "$9000"
+      },
+      {
+         "MODEL": "MPC3E-3D-NG",
+         "DESCRIPTION": "Next-Gen MPC3E, Port Queue, MX",
+         "COST": "$14000"
+      },
+      {
+         "MODEL": "MS-MIC-16G",
+         "DESCRIPTION": "Multiservice Services MIC, 16G of Memory. Requires JunOs 13.2 or higher",
+         "COST": "$3600"
+      },
+      {
+         "MODEL": "MX240BASE3-ACL",
+         "DESCRIPTION": "MX240 Base Chassis with Enhanced Midplane, 1 nos. SCB-E, Lowline AC Power, Discounted RE",
+         "COST": "$11000"
+      },
+      {
+         "MODEL": "MX80-AC",
+         "DESCRIPTION": "MX80 chassis with PTP and Synchronous Ethernet support—includes one power supply, 2 empty MIC slots, 4x10GbE 10-gigabit small form-factor pluggable transceiver (XFP) built-in ports, fan tray with filter.",
+         "COST": "$12000"
+      },
+      {
+         "MODEL": "PWR-MX480-2520-AC-BB",
+         "DESCRIPTION": "2520W AC Power Supply, configurable option in base bundle",
+         "COST": "$0"
+      },
+      {
+         "MODEL": "PWR-MX480-2520-AC-R",
+         "DESCRIPTION": "2520W AC Power Supply, Redundant",
+         "COST": "$2000"
+      },
+      {
+         "MODEL": "PWR-MX80-AC-S",
+         "DESCRIPTION": "MX80 AC Power Supply, Spare, MX80",
+         "COST": "$500"
+      },
+      {
+         "MODEL": "RE-S-X6-64G-UB",
+         "DESCRIPTION": "Routing Engine - 6 Core 2.0GHz with 64G Memory, Upgrade for Base Bundle, for MX960/MX480/MX240",
+         "COST": "$2000"
+      },
+      {
+         "MODEL": "S-FW-NPU",
+         "DESCRIPTION": "Software icense allows the end user to run stateful firewall on one NPU per MS-MIC, MS-DPC or MS-MPC in the MX-series routers.",
+         "COST": "$1000"
+      },
+      {
+         "MODEL": "SCBE2-MX-BB",
+         "DESCRIPTION": "Enhanced MX Switch Control Board, Base Bundle",
+         "COST": "$1000"
+      },
+      {
+         "MODEL": "SFP-1GE-LX",
+         "DESCRIPTION": "SFP 1000LX GBE OPTIC SINGLE MODE",
+         "COST": "$100"
+      },
+      {
+         "MODEL": "SFPP-10GE-LR",
+         "DESCRIPTION": "SFP+ 10GE PLUGGABLE TRANSCEIVER SMF 1310NM FOR 10KM TRANSMISSION",
+         "COST": "$440"
+      },
+      {
+         "MODEL": "SFPP-10GE-SR",
+         "DESCRIPTION": "SFP+ 10GE PLUGGABLE TRANSCEIVER MMF 850NM FOR 300M TRANSMISSION",
+         "COST": "$115.5"
+      },
+      {
+         "MODEL": "SRX-SFP-10GE-SR",
+         "DESCRIPTION": "10G SFPs",
+         "COST": "$150"
+      },
+      {
+         "MODEL": "SRX-SFP-1GE-SX",
+         "DESCRIPTION": "1G SFPs",
+         "COST": "$50"
+      },
+      {
+         "MODEL": "SRX-XFP-10GE-LR",
+         "DESCRIPTION": "-",
+         "COST": "$EOL, see comments"
+      },
+      {
+         "MODEL": "SRX-XFP-10GE-SR",
+         "DESCRIPTION": "-",
+         "COST": "$EOL, see comments"
+      },
+      {
+         "MODEL": "SRX1500-SYS-JB-AC",
+         "DESCRIPTION": "SRX1500 Services Gateway includes hardware (16GE, 4x10GE, 16G RAM, 16G Flash, 100G SSD, AC PSU, cable and RMK) and Junos Software Base (Firewall, NAT, IPSec, Routing, MPLS and Switching).",
+         "COST": "$8000"
+      },
+      {
+         "MODEL": "SRX4200-AC",
+         "DESCRIPTION": "SRX4200 hardware with two AC PSU",
+         "COST": "$16000"
+      },
+      {
+         "MODEL": "SRX4200-AC",
+         "DESCRIPTION": "SRX4200 hardware with two AC PSU",
+         "COST": "$16000"
+      },
+      {
+         "MODEL": "SRX4200-JSB",
+         "DESCRIPTION": "JunOS Base software for SRX4200",
+         "COST": "$26680"
+      },
+      {
+         "MODEL": "SVC-COR-S-NAT-FW",
+         "DESCRIPTION": "JNPR Care Core Supt S-FW-NPU Service Period :36 Months",
+         "COST": "$782.57"
+      },
+      {
+         "MODEL": "SVC-COR-SRX4200JSB ",
+         "DESCRIPTION": "JNPR Care Core Supt SRX4200-JSB Service Period :36 Months",
+         "COST": "$15890.58"
+      },
+      {
+         "MODEL": "SVC-ND-MX80",
+         "DESCRIPTION": "Juniper Care NextDay Support for MX80 (includes MIC cards)",
+         "COST": "$7736.24"
+      },
+      {
+         "MODEL": "SVC-SD-MPC3NG",
+         "DESCRIPTION": "JNPR Care SD Supt MPC3E-3D-NG Service Period :36 Months APAC",
+         "COST": "$11501.5"
+      },
+      {
+         "MODEL": "SVC-SD-MX240",
+         "DESCRIPTION": "JNPR Care SD Supt MX240 Chassis Service Period :36 Months ",
+         "COST": "$15718.42"
+      },
+      {
+         "MODEL": "SVC-SD-SRX1500JB",
+         "DESCRIPTION": "JNPR Care SD Supt SRX1500-SYS-JB Service Period :36 Months",
+         "COST": "$6287.37"
+      },
+      {
+         "MODEL": "SVC-SD-SRX4200HW",
+         "DESCRIPTION": "JNPR Care SD Supt SRX4200 HW ONLY Service Period :36 Months",
+         "COST": "$11892.78"
+      },
+      {
+         "MODEL": "EX-SFP-1GE-SX",
+         "DESCRIPTION": "1000BASE-SX GIGABIT ETHERNET OPTICS SMALL FORM FACTOR PLUGGABLE ",
+         "COST": "$55"
+      },
+      {
+         "MODEL": "SPX5K-SPC-4-15-320",
+         "DESCRIPTION": "SRX5000 Line Next-Gen Service Processing Card (featuring 20 M sessions)",
+         "COST": "$42400"
+      },
+      {
+         "MODEL": "SRX-MIC-10XG-SFPP",
+         "DESCRIPTION": "MIC with 10x10GE SFP+ Interfaces",
+         "COST": "$19080"
+      },
+      {
+         "MODEL": "SRX5600-PWR-AC",
+         "DESCRIPTION": "High-Capacity AC Power Supply",
+         "COST": "$EOL, see comments"
+      },
+      {
+         "MODEL": "SRX5600BASE-HC-AC",
+         "DESCRIPTION": "AC SRX5600 chassis, includes RE, SCB, 2 AC,high capacity power supplies",
+         "COST": "$EOL, see comments"
+      },
+      {
+         "MODEL": "SRX5K-MPC",
+         "DESCRIPTION": "Modular Port Concentrator",
+         "COST": "$37948"
+      },
+      {
+         "MODEL": "SRX5K-RE-1800X4",
+         "DESCRIPTION": "SRX5000 line Routing Engine,",
+         "COST": "$14840"
+      },
+      {
+         "MODEL": "SRX5K-SCBE",
+         "DESCRIPTION": "SCB SRX5000 line Switch Control Board",
+         "COST": "$8480"
+      },
+      {
+         "MODEL": "SRX4200",
+         "DESCRIPTION": "SRX4200 Services Gateway ",
+         "COST": "$16960"
+      },
+      {
+         "MODEL": "JUNOS",
+         "DESCRIPTION": "JUNOS 32-Bit Standard Software Suite",
+         "COST": "$2000"
+      },
+      {
+         "MODEL": "SRX4100-AC",
+         "DESCRIPTION": "SRX4100 hardware with two AC PSU",
+         "COST": "$11,200.00"
+      },
+      {
+         "MODEL": "SRX4100-JSB",
+         "DESCRIPTION": "JunOS Base software for SRX4100",
+         "COST": "$13,800.00"
+      },
+      {
+         "MODEL": "SVC-COR-SRX4100JSB",
+         "DESCRIPTION": "JNPR Care Core Supt SRX4100-JSB Service Period :36 Months",
+         "COST": "$7,946.41"
+      },
+      {
+         "MODEL": "SVC-SD-SRX4100HW",
+         "DESCRIPTION": "JNPR Care SD Supt SRX4100 HW ONLY Service Period :36 Months",
+         "COST": "$8,574.70"
+      },
+      {
+         "MODEL": "EX-XFP-10GE-SR",
+         "DESCRIPTION": "XFP 10GBase-SR 10 GE Opt Mod",
+         "COST": "$200.00"
+      },
+      {
+         "MODEL": "EX-XFP-10GE-LR",
+         "DESCRIPTION": "XFP 10GBase-LR 10 GE Opt Mod,EX3200",
+         "COST": "$480.00"
+      }
+   ],
+   "LanTro": [
+      {
+         "MODEL": "HK Installation",
+         "DESCRIPTION": "HK Installation",
+         "COST": "$3000"
+      },
+      {
+         "MODEL": "Outside China installation charges",
+         "DESCRIPTION": "Outside China installation charges",
+         "COST": "$5000"
+      },
+      {
+         "MODEL": "LanTro1",
+         "DESCRIPTION": "LanTro installations HK2",
+         "COST": "$3,000.00"
+      },
+      {
+         "MODEL": "LanTro2",
+         "DESCRIPTION": "LanTro Panda Installation outside China",
+         "COST": "$7,000.00"
+      }
+   ],
+   "Lenovo": [
+      {
+         "MODEL": "01GX367",
+         "DESCRIPTION": "PROTECTION Ess Svc-3Y 24x7x4 YDYD",
+         "COST": "$EOL, see comments"
+      },
+      {
+         "MODEL": "5563AC1",
+         "DESCRIPTION": "x3550 M5",
+         "COST": "$EOL, see comments"
+      },
+      {
+         "MODEL": "5PS7A01504",
+         "DESCRIPTION": "PROTECTION Ess Svc-3Y 24x7x4 YDYD",
+         "COST": "$1308.15"
+      },
+      {
+         "MODEL": "6462AC1",
+         "DESCRIPTION": "x3650 M5",
+         "COST": "$EOL, see comments"
+      },
+      {
+         "MODEL": "HX3310",
+         "DESCRIPTION": "3310, 36C, 512, 1.2TB, 2TBHDD",
+         "COST": "$EOL, see comments"
+      },
+      {
+         "MODEL": "7Y89CTO3WW",
+         "DESCRIPTION": "3321, 36C, 768GB, 6x2.4TB HDD, 2TB SSD ",
+         "COST": "$25556.95"
+      },
+      {
+         "MODEL": "5PS7A04002",
+         "DESCRIPTION": "HX3321 3 yr Support for HX3321 server",
+         "COST": "$798.15"
+      },
+      {
+         "MODEL": "7X06TJHL00",
+         "DESCRIPTION": "ThinkSystem SR650, Intel Xeon Gold 5118 12C 2.3GHz, 256GB, 750W, 1Gb 4-port RJ45 LOM",
+         "COST": "$13033.44"
+      },
+      {
+         "MODEL": "7X02S3L700",
+         "DESCRIPTION": "ThinkSystem SR630, Intel Xeon Gold 6132 14C 2.6GHz, 256GB, 750W, Emulex VFA5.2, 2x10 GbE SFP+ PCIe Adapter",
+         "COST": "$14385.6"
+      },
+      {
+         "MODEL": "7X06UULD00",
+         "DESCRIPTION": "ThinkSystem SR650, 2xIntel Xeon Gold 6128 6C 3.4GHz 115W, 12x16GB 2Rx8,\n14x8TB 7200, SW RD, 2x750W, XCC\nEnterprise, ThinkSystem Tool less Slide Rail Kit with 2U CMA",
+         "COST": "$15203.16"
+      },
+      {
+         "MODEL": "7X02UUL500",
+         "DESCRIPTION": "ThinkSystem SR630, 2xIntel Xeon Silver 4114 10C 2.2GHz 85W, 12x16GB 2Rx8,\n8x1.2TB 10000, RAID 930-8i 2GB Flash PCIe\n12Gb Adapter, 2x 750W, XCC Enterprise, ThinkSystem Toolless Slide Rail Kit with 1U CMA",
+         "COST": "$8486"
+      },
+      {
+         "MODEL": "7X02S2PF00",
+         "DESCRIPTION": "ThinkSystem SR630: 2x Intel Xeon Bronze 3104 6C 85W 1.7GHz Processor,  32GB TruDDR4 2666 MHz (1Rx8 1.2V) RDIMM, 8x ThinkSystem 2.5'' 900GB 10K SAS 12Gb Hot Swap 512n HDD",
+         "COST": "$5238.72"
+      },
+      {
+         "MODEL": "7Y89S0FM00",
+         "DESCRIPTION": "ThinkAgile HX3321 Certified Node 3YR, 2 X Intel Xeon Gold 6150 18C 165W 2.7GHz Processor",
+         "COST": "$25556.95"
+      },
+      {
+         "MODEL": "7X02S3KH00",
+         "DESCRIPTION": "Thins System SR630 Model: Intel Xeon Gold 6134 8C 130W 3.2GHz Processor, 64GB TruDDR4 2666 MHz (2Rx4 1.2V) RDIMM, 2x 5200 480GB MS SATA 2.5'' HS SSD",
+         "COST": "$5733"
+      },
+      {
+         "MODEL": "7X02S4PX00",
+         "DESCRIPTION": "ThinkSystem SR630, 2 X Intel Xeon Gold 6150 18C 165W 2.7GHz Processor, 24x16GB 2Rx8, 4x480GB SDD, RAID 930-8i, 2GB Flash PCIe 12Gb Adapter, 2x750 W,XCC Enterprise",
+         "COST": "$15714"
+      },
+      {
+         "MODEL": "GX30M39704",
+         "DESCRIPTION": "Lenovo Wired USB Mouse",
+         "COST": "$8.00"
+      },
+      {
+         "MODEL": "4X30M86879",
+         "DESCRIPTION": "Lenovo USB Wired Keyboard",
+         "COST": "$20.00"
+      },
+      {
+         "MODEL": "60DFAAR1US",
+         "DESCRIPTION": "ThinkVision E2054 19.5'' Monitor",
+         "COST": "$95.20"
+      },
+      {
+         "MODEL": "49Y7980",
+         "DESCRIPTION": "Intel X520 Dual Port 10GbE SFP+ Embedded Adapter",
+         "COST": "$385.77"
+      },
+      {
+         "MODEL": "46C3447",
+         "DESCRIPTION": "Lenovo 46C3447 SFP+ SR Transceiver",
+         "COST": "$73.53"
+      },
+      {
+         "MODEL": "5PS7A01558",
+         "DESCRIPTION": "Premier with Essential - 3Yr 24x7 4Hr Response + YourDrive YourData",
+         "COST": "$1,767.15"
+      },
+      {
+         "MODEL": "00D9676",
+         "DESCRIPTION": "MECH Mellanox QSFP to SFP+ adapter",
+         "COST": "$45.00"
+      }
+   ],
+   "Machine Metrics": [
+      {
+         "MODEL": "Machine Metrics",
+         "DESCRIPTION": "Machine Metrics",
+         "COST": "$EOL, see comments"
+      }
+   ],
+   "Mk1 Manufacturing": [
+      {
+         "MODEL": "MMR-2G-1URS",
+         "DESCRIPTION": "1RU Macmini Mount (2 slots)",
+         "COST": "$259.15"
+      }
+   ],
+   "NetApp": [
+      {
+         "MODEL": "6510-SVS-4OS-1",
+         "DESCRIPTION": "4HR ONSITE SUP PT BR-6510 3YR",
+         "COST": "$EOL, see comments"
+      },
+      {
+         "MODEL": "BR-6510-24-16G-R",
+         "DESCRIPTION": "6510 24P 16GB SWL SFPS BR AC PT SIDE EXH - 24 Port",
+         "COST": "$EOL, see comments"
+      },
+      {
+         "MODEL": "CS-O2-4HR",
+         "DESCRIPTION": "Support forFAS8080HA w 4x DSK SHLF,24x1.8TB,10K,6Gb SAS,2x 2TB FlashCache,4x Brocade, 8x ATTO, cabinets,  Local SyncMirror, additional drives, cables for dark fiber and SFPs, NRD, 36 Months",
+         "COST": "$EOL, see comments"
+      },
+      {
+         "MODEL": "E-X4079C",
+         "DESCRIPTION": "3.2TB SSD",
+         "COST": "$EOL, see comments"
+      },
+      {
+         "MODEL": "EF560A",
+         "DESCRIPTION": "EF560 3.2TB SSD, cables, rackmount kit, OS enablement",
+         "COST": "$EOL, see comments"
+      },
+      {
+         "MODEL": "FAS8080HA",
+         "DESCRIPTION": "FAS8080HA w 12x DSK SHLF,24x1.8TB,10K,6Gb SAS,2x 2TB FlashCache,4x Brocade, 8x ATTO, cabinets,  Local SyncMirror, additional drives, cables for dark fiber and SFPs",
+         "COST": "$EOL, see comments"
+      },
+      {
+         "MODEL": "X-02659-00",
+         "DESCRIPTION": "Rail Kit,4-Post,Rnd/Sq- Hole,Adj,24-32",
+         "COST": "$104.06"
+      },
+      {
+         "MODEL": "X-6510-24-16G-R",
+         "DESCRIPTION": "-",
+         "COST": "$EOL, see comments"
+      },
+      {
+         "MODEL": "A300 with 3.8SSD",
+         "DESCRIPTION": "A300 with 3.8SSD",
+         "COST": "$290349.33"
+      },
+      {
+         "MODEL": "CS-O2-4HR",
+         "DESCRIPTION": "Support for EF560 w/24x 1.6TB SSD, cables, OS enablement, NRD 36M",
+         "COST": "$EOL, see comments"
+      },
+      {
+         "MODEL": "EF560 1.6TB",
+         "DESCRIPTION": "EF560 w/24x 1.6TB SSD, rail kit, OS enablement",
+         "COST": "$EOL, see comments"
+      },
+      {
+         "MODEL": "FAS8200 MC Qty 12 1.8TB ",
+         "DESCRIPTION": "FAS8200 Metrocluster with 12x 1.8TB SAS shelves, Metrocluster switches, Metrocluster bridges, cables, cabinet, OS enablement",
+         "COST": "$278022.41"
+      },
+      {
+         "MODEL": "EF570A Qty 24 X  3.2TB SSD",
+         "DESCRIPTION": "EF570 3.2TB SSD, cables, OS enablement, rail kit ",
+         "COST": "$82182.64"
+      },
+      {
+         "MODEL": "EF570A Qty 8 X 3.2TB SSD",
+         "DESCRIPTION": "EF570 8x3.2TB SSD, cables, OS enablement, rail kit",
+         "COST": "$37748.14"
+      },
+      {
+         "MODEL": "E-X4101B",
+         "DESCRIPTION": "SSD 3.2TB",
+         "COST": "$7033.5"
+      },
+      {
+         "MODEL": "FAS8200 MC Qty 12 1.8TB",
+         "DESCRIPTION": "FAS8200 Metrocluster with 12x 1.8TB SAS shelves, Metrocluster switches, Metrocluster bridges, cables, cabinet, OS enablement",
+         "COST": "$278022.41"
+      },
+      {
+         "MODEL": "EF570A Qty 24 X 1.6TB",
+         "DESCRIPTION": "EF570 24x1.6TB SSD, cables, rail kit",
+         "COST": "$49748.85"
+      },
+      {
+         "MODEL": "OS SANTRICITY1 - EF570A Qty 24 X 1.6TB",
+         "DESCRIPTION": "OS Enablement,Per 0.1TB",
+         "COST": "$19.81"
+      },
+      {
+         "MODEL": "CS-O2-4HR - EF570A Qty 24 X 1.6TB",
+         "DESCRIPTION": "SupportEdge Premium, 4hr, NRD 36M for EF570A 1.6TB",
+         "COST": "$6069.64"
+      },
+      {
+         "MODEL": "E-X4134A",
+         "DESCRIPTION": "SSD 3.8TB",
+         "COST": "$3,237.24"
+      },
+      {
+         "MODEL": "OS-ONTAP1- CAP2-BASE - FAS8200 MC Qty 12 1.8TB ",
+         "DESCRIPTION": "ONTAP,Per- 5184 0.1TB,BASEBNDL",
+         "COST": "$¥                            197,969.66"
+      },
+      {
+         "MODEL": "EF570A 8 x 3.8",
+         "DESCRIPTION": "EF570 8x3.8TB SSD, cables, rail kit",
+         "COST": "$¥                              30,068.01"
+      },
+      {
+         "MODEL": "OS- SANTRICITY1 EF570A 8x3.8",
+         "DESCRIPTION": "OS Enable,Per- 0.1TB,SANTRCTY",
+         "COST": "$19.81"
+      },
+      {
+         "MODEL": "CS-O2 EF570A 8x3.8",
+         "DESCRIPTION": "SupportEdge Premium 4hr 36 Months, NRD",
+         "COST": "$3,548.49"
+      },
+      {
+         "MODEL": "EF570A 24 X 3.8TB",
+         "DESCRIPTION": "EF570 24x3.8TB SSD, cables, OS enablement, rail kit",
+         "COST": "$¥                              57,284.01"
+      },
+      {
+         "MODEL": "OS- SANTRICITY1 EF570A 24 X 3.8TB",
+         "DESCRIPTION": "OS Enable,Per- 0.1TB,SANTRCTY",
+         "COST": "$19.81"
+      },
+      {
+         "MODEL": "CS-O2 EF570A 24 X 3.8TB",
+         "DESCRIPTION": "SupportEdge Premium 4hr 36 Months, NRD",
+         "COST": "$¥                                7,974.92"
+      },
+      {
+         "MODEL": "DE224c 24x3.8TB",
+         "DESCRIPTION": "DE224x 24x3.8TB expansion for EF570, cables, rail kit",
+         "COST": "$43,089.03"
+      },
+      {
+         "MODEL": "OS- SANTRICITY1 - DE224c 24x3.8TB",
+         "DESCRIPTION": "OS Enable,Per- 0.1TB,SANTRCTY",
+         "COST": "$19.81"
+      },
+      {
+         "MODEL": "CS-O2 - DE224c 24x3.8TB",
+         "DESCRIPTION": "SupportEdge Premium 4hr 36 Months, NRD",
+         "COST": "$8,787.55"
+      },
+      {
+         "MODEL": "DS224c 12x15.3TB",
+         "DESCRIPTION": "DS224c 12x15.3TB expansion for A300, cables, rail kit",
+         "COST": "$107,204.95"
+      },
+      {
+         "MODEL": "OS-ONTAP - DS224c 12x15.3TB",
+         "DESCRIPTION": "ONTAP,Per-0.1TB,Flash,Add-On,BASEBNDL",
+         "COST": "$47.99"
+      },
+      {
+         "MODEL": "CS-O2 - DS224c 12x15.3TB",
+         "DESCRIPTION": "SupportEdge Premium 4hr 36 Months, NRD",
+         "COST": "$48,195.28"
+      },
+      {
+         "MODEL": "FAS8200 MC 4x1.8TB DS224c",
+         "DESCRIPTION": "FAS8200 Metrocluster with 4x 1.8TB SAS shelves, Metrocluster switches, Metrocluster bridges, cables, cabinet, spare drives",
+         "COST": "$195,717.28"
+      },
+      {
+         "MODEL": "OS-ONTAP FAS8200 MC 4x1.8TB DS224c",
+         "DESCRIPTION": "OS-Enablement Per .1TB",
+         "COST": "$1,204.50"
+      },
+      {
+         "MODEL": "CS-O2 FAS8200 MC 4x1.8TB DS224c",
+         "DESCRIPTION": "SupportEdge Premium 4hr, 36 Months, NRD",
+         "COST": "$10,957.61"
+      },
+      {
+         "MODEL": "NetApp Maintenance JMET FY20",
+         "DESCRIPTION": "Annual H/W Maintenance $3,628,473.30",
+         "COST": "$3,628,473.30"
+      },
+      {
+         "MODEL": "AFF A300 MC 14x15.3TB",
+         "DESCRIPTION": "AFF A300 MC with 4x DS224c 14x15.3TB, cables, Metrocluster switches",
+         "COST": "$677,315.71"
+      },
+      {
+         "MODEL": "AFF A300 4x3.8TB",
+         "DESCRIPTION": "AFF A300 4x DS224c 3.8TB, cabinet, cables",
+         "COST": "$315,194.02"
+      },
+      {
+         "MODEL": "SW-FLASH- BUNDLE-2P",
+         "DESCRIPTION": "ONTAP,Per-0.1TB,FlashBundle,Ult-Perf",
+         "COST": "$62.60"
+      },
+      {
+         "MODEL": "CS-O2",
+         "DESCRIPTION": "SupportEdge Premium 4hr 36 Months, NRD",
+         "COST": "$34,157.66"
+      }
+   ],
+   "Netapp": [
+      {
+         "MODEL": "FAS8020HA",
+         "DESCRIPTION": "FAS8020HA with 1x DS4246 6TB, NFS,  OS enablement, cables, rackmount kit",
+         "COST": "$EOL, see comments"
+      }
+   ],
+
+   "Ngnix": [
+      {
+         "MODEL": "Ngnix - Plus Instance ",
+         "DESCRIPTION": "Basic Support ",
+         "COST": "$500"
+      }
+   ],
+   "Northland Controls": [
+      {
+         "MODEL": "Global Security - move (1) room of equipment",
+         "DESCRIPTION": "Global Security - move (1) room of equipment",
+         "COST": "$20000"
+      }
+   ],
+   "Nutanix": [
+      {
+         "MODEL": "SW-PRD-3YR",
+         "DESCRIPTION": "3YR Production 24/7 System support (Software only)",
+         "COST": "$2736.8"
+      },
+      {
+         "MODEL": "SW-PRO",
+         "DESCRIPTION": "Nutanix Software Foundation - Hypervisor Agnostic Installer Controller VM Prism Basic Management Pro License Entitlement",
+         "COST": "$5751.9"
+      }
+   ],
+   "Palo Alto Networks": [
+      {
+         "MODEL": "PAN-PA-5060 ",
+         "DESCRIPTION": "IDS Network Device",
+         "COST": "$EOL, see comments"
+      },
+      {
+         "MODEL": "PAN-PA-5060-TP-3YR-HA2",
+         "DESCRIPTION": "Threat prevention subscription 3-year prepaid, PS-506 HA Mode",
+         "COST": "$EOL, see comments"
+      },
+      {
+         "MODEL": "PAN-SVC-BKLN-5060-3YR",
+         "DESCRIPTION": "Partner enabled premium support 3-year prepaid, PA-5060",
+         "COST": "$EOL, see comments"
+      },
+      {
+         "MODEL": "10G SFPs (SR) ",
+         "DESCRIPTION": "10G SFPs (SR) ",
+         "COST": "$795"
+      },
+      {
+         "MODEL": "1G SFPs (SR)",
+         "DESCRIPTION": "1G SFPs (SR)",
+         "COST": "$265"
+      },
+      {
+         "MODEL": "PAN-PA-3060",
+         "DESCRIPTION": "Palo Alto Networks PA-3060",
+         "COST": "$EOL, see comments"
+      },
+      {
+         "MODEL": "PAN-PA-3060-TP-3YR-HA2",
+         "DESCRIPTION": "Threat prevention subscription 3 year prepaid for device in an HA pair, PA-3060",
+         "COST": "$EOL, see comments"
+      },
+      {
+         "MODEL": "PAN-PA-3220",
+         "DESCRIPTION": "Palo Alto Networks PA-3220 with redundant AC power supplies",
+         "COST": "$9540"
+      },
+      {
+         "MODEL": "PAN-PA-3220-TP-3YR-HA2",
+         "DESCRIPTION": "Threat prevention subscription 3 year prepaid for device in an HA pair, PA-3220",
+         "COST": "$3551"
+      },
+      {
+         "MODEL": "PAN-PA-3220-TP-HA2",
+         "DESCRIPTION": "Threat prevention subscription for device in an HA pair year 1, PA-3220",
+         "COST": "$1464.5"
+      },
+      {
+         "MODEL": "PAN-PA-5200-RACK4",
+         "DESCRIPTION": "Palo Alto Networks PA-5200 4 post rack mount kit.",
+         "COST": "$79.5"
+      },
+      {
+         "MODEL": "PAN-PA-5250-AC",
+         "DESCRIPTION": "Palo Alto Networks PA-5250 with redundant AC power supplies",
+         "COST": "$53000"
+      },
+      {
+         "MODEL": "PAN-QSFP28-AOC-10M",
+         "DESCRIPTION": "QSFP28 form factor, 100Gb active optical cable with 2 transceivers and 10m of cable permanently bonded as an assembly",
+         "COST": "$954"
+      },
+      {
+         "MODEL": "PAN-SFP-LX",
+         "DESCRIPTION": "1 GB SFP LX Transceiver",
+         "COST": "$530"
+      },
+      {
+         "MODEL": "PAN-SFP-PLUS-LR",
+         "DESCRIPTION": "10 GB SFP LR Transceiver",
+         "COST": "$1060"
+      },
+      {
+         "MODEL": "PAN-SFP-PLUS-SR",
+         "DESCRIPTION": "SFP+ form factor, SR 10Gb optical transceiver, short reach 300m, OM3 MMF, duplex LC, IEEE 802.3ae 10GBASE-SR compliant",
+         "COST": "$795"
+      },
+      {
+         "MODEL": "PAN-SFP-SX",
+         "DESCRIPTION": "1 GB SFP SX Transceiver",
+         "COST": "$265"
+      },
+      {
+         "MODEL": "PAN-SVC-PREM-3060-3YR",
+         "DESCRIPTION": "Premium support 3-year prepaid, PA-3060",
+         "COST": "$9674"
+      },
+      {
+         "MODEL": "PAN-SVC-PREM-3220",
+         "DESCRIPTION": "Premium support year 1, PA-3220",
+         "COST": "$2012.5"
+      },
+      {
+         "MODEL": "PAN-SVC-PREM-3220-3YR",
+         "DESCRIPTION": "Premium support 3-year prepaid, PA-3220",
+         "COST": "$4830"
+      },
+      {
+         "MODEL": "PAN-SVC-PREM-5250-3YR",
+         "DESCRIPTION": "Premium support 3-year prepaid, PA-5250",
+         "COST": "$26880"
+      },
+      {
+         "MODEL": "SFP-10G-LR",
+         "DESCRIPTION": "Palo Alto SFP 10G LR",
+         "COST": "$1060"
+      },
+      {
+         "MODEL": "SFP-1G-LX",
+         "DESCRIPTION": "Palo Alto SFP 1G LX",
+         "COST": "$530"
+      },
+      {
+         "MODEL": "PAN-PA-5220-AC",
+         "DESCRIPTION": "Palo Alto Networks PA-5220 with redundant AC power supplies",
+         "COST": "$26500"
+      },
+      {
+         "MODEL": "PAN-SVC-PREM-5220-3YR",
+         "DESCRIPTION": "Premium support 3-year prepaid, PA-5220",
+         "COST": "$13440"
+      },
+      {
+         "MODEL": "PAN-PA-5060-TP-HA2",
+         "DESCRIPTION": "Threat prevention subscription for device in an HA pair year 1, PA-5060",
+         "COST": "$10556"
+      },
+      {
+         "MODEL": "PAN-SVC-PREM-5060",
+         "DESCRIPTION": "Premium support year 1, PA-5060",
+         "COST": "$EOL, see comments"
+      },
+      {
+         "MODEL": "PAN-PA-5220-TP-3YR-HA2",
+         "DESCRIPTION": "Threat prevention subscription 3-year prepaid, PS-506 HA Mode",
+         "COST": "$12,580.00"
+      },
+      {
+         "MODEL": "PAN-PA-3260",
+         "DESCRIPTION": "Palo Alto Networks PA-3260",
+         "COST": "$19,080.00"
+      },
+      {
+         "MODEL": "PAN-PA-3260-TP-3YR-HA2",
+         "DESCRIPTION": "Threat prevention subscription 3-year prepaid for device in an HA pair, PA-3260",
+         "COST": "$9,677.50"
+      },
+      {
+         "MODEL": "PAN-SVC-PREM-3260-3YR",
+         "DESCRIPTION": "Premium support 3-year prepaid, PA-3260",
+         "COST": "$8,040.00"
+      }
+   ],
+   "Panduit": [
+      {
+         "MODEL": "CC5E88IW",
+         "DESCRIPTION": "Mini-Com Coupler Module, Category 5e, UTP, Off White",
+         "COST": "$6.72"
+      },
+      {
+         "MODEL": "CFAPPBL1",
+         "DESCRIPTION": "Fiber Adapter Patch Panel 1 RU",
+         "COST": "$16.17"
+      },
+      {
+         "MODEL": "CLT100F-C4",
+         "DESCRIPTION": "100’ Cable Jacket ",
+         "COST": "$132.48"
+      },
+      {
+         "MODEL": "F92ERLNLNSNM002",
+         "DESCRIPTION": "LC-LC 9 M DUPL 1.6MM PATCH CORD 1M",
+         "COST": "$24.02"
+      },
+      {
+         "MODEL": "F92ERLNLNSNM003",
+         "DESCRIPTION": "LC, Single Mode, 3m, fiber optic 9/125 micron",
+         "COST": "$28.18"
+      },
+      {
+         "MODEL": "F92ERLNLNSNM005",
+         "DESCRIPTION": "LC, Single Mode, 5m, fiber optic 9/125 micron ",
+         "COST": "$32.46"
+      },
+      {
+         "MODEL": "F92ERLNLNSNM03",
+         "DESCRIPTION": "LC, Single Mode, 3m, fiber optic 9/125 micron",
+         "COST": "$30.24"
+      },
+      {
+         "MODEL": "F92ERLNLNSNM05",
+         "DESCRIPTION": "LC, Single Mode, 5m, fiber optic 9/125 micron ",
+         "COST": "$32.16"
+      },
+      {
+         "MODEL": "F92ERLNLNSNM2",
+         "DESCRIPTION": "LC-LC 9 M DUPL 1.6MM PATCH CORD 2M",
+         "COST": "$24.02"
+      },
+      {
+         "MODEL": "F92ERLNLNSNM2.5",
+         "DESCRIPTION": "LC-LC 9 M DUPL 1.6MM PATCH CORD 2.5M",
+         "COST": "$27.86"
+      },
+      {
+         "MODEL": "F9TRP5N5NANF015",
+         "DESCRIPTION": "15 FT 9 M FLAT RIBBON PLENUM RATED MTP",
+         "COST": "$190.54"
+      },
+      {
+         "MODEL": "F9TRP5N5NANF030",
+         "DESCRIPTION": "35 FT 9 M FLAT RIBBON PLENUM RATED MTP",
+         "COST": "$197.91"
+      },
+      {
+         "MODEL": "F9TRP5N5NANF035",
+         "DESCRIPTION": "35 FT 9 M FLAT RIBBON PLENUM RATED MTP",
+         "COST": "$241.29"
+      },
+      {
+         "MODEL": "F9TRP5N5NANF045",
+         "DESCRIPTION": "45 FT 9 M FLAT RIBBON PLENUM RATED MTP",
+         "COST": "$205.27"
+      },
+      {
+         "MODEL": "F9TRP5N5NANF055",
+         "DESCRIPTION": "55 FT 9 M FLAT RIBBON PLENUM RATED MTP",
+         "COST": "$210.17"
+      },
+      {
+         "MODEL": "F9TRP5N5NANF075",
+         "DESCRIPTION": "75 FT -9 M FLAT RIBBON PLENUM RATED MTP",
+         "COST": "$219.98"
+      },
+      {
+         "MODEL": "F9TRP5N5NANF100",
+         "DESCRIPTION": "100 FT -9 M FLAT RIBBON PLENUM RATED MTP",
+         "COST": "$232.26"
+      },
+      {
+         "MODEL": "FC29N-24-10AS",
+         "DESCRIPTION": "OS1/OS2 24-fiber total, standard loss, LC duplex adapter (color and split sleeve dictated by fiber type), standard method A",
+         "COST": "$423.4"
+      },
+      {
+         "MODEL": "FC2XN-24-10AF",
+         "DESCRIPTION": "FIBER CASSETTE 10 GBE 50 M 24-FIBER 12 D",
+         "COST": "$352.84"
+      },
+      {
+         "MODEL": "FQCRCM",
+         "DESCRIPTION": "Quicknet Cassette Rear Cable Manager",
+         "COST": "$52.98"
+      },
+      {
+         "MODEL": "FX2ERLNLNSNM002",
+         "DESCRIPTION": "LC-LC 10GIG OM3 50 M, 1.6MM DUPL, 2M",
+         "COST": "$22"
+      },
+      {
+         "MODEL": "FX2ERLNLNSNM003",
+         "DESCRIPTION": "2-fiber OM3 10 GbE LC duplex to LC duplex patch cord OFNR (riser) rated, 1.6mm jacketed cable Std. 3M",
+         "COST": "$22.84"
+      },
+      {
+         "MODEL": "FX2ERLNLNSNM005",
+         "DESCRIPTION": "2-fiber OM3 10 GbE LC duplex to LC duplex patch cord OFNR (riser) rated, 1.6mm jacketed cable Std. 5M ",
+         "COST": "$24.32"
+      },
+      {
+         "MODEL": "FX2ERLNLNSNM008",
+         "DESCRIPTION": "2-fiber OM3 10 GbE LC duplex to LC duplex patch cord OFNR (riser) rated, 1.6mm jacketed cable Std. 8M ",
+         "COST": "$27.07"
+      },
+      {
+         "MODEL": "FX2ERLNLNSNM010 ",
+         "DESCRIPTION": "2-fiber OM3 10 GbE LC duplex to LC duplex patch cord OFNR (riser) rated, 1.6mm jacketed cable Std. 10M ",
+         "COST": "$28.77"
+      },
+      {
+         "MODEL": "FX2ERLNLNSNM050 ",
+         "DESCRIPTION": "2-fiber OM3 10 GbE LC duplex to LC duplex patch cord OFNR (riser) rated, 1.6mm jacketed cable Std. 50M ",
+         "COST": "$62.59"
+      },
+      {
+         "MODEL": "FX2ERLNLNSNM1",
+         "DESCRIPTION": "LC-LC 10GIG OM3 50 M, 1.6MM DUPL, 1M",
+         "COST": "$23.97"
+      },
+      {
+         "MODEL": "FX2ERLNLNSNM1.5",
+         "DESCRIPTION": "LC-LC 10GIG OM3 50 M, 1.6MM DUPL, 1.5M",
+         "COST": "$20.5"
+      },
+      {
+         "MODEL": "FX2ERLNLNSNM2",
+         "DESCRIPTION": "LC-LC 10GIG OM3 50 M, 1.6MM DUPL, 2M",
+         "COST": "$22"
+      },
+      {
+         "MODEL": "FX2ERLNLNSNM2.5",
+         "DESCRIPTION": "LC-LC 10GIG OM3 50 M, 1.6MM DUPL, 2.5M",
+         "COST": "$22.42"
+      },
+      {
+         "MODEL": "FXTRP5N5NANF0100",
+         "DESCRIPTION": "100 FT - 12FIBER 10 GIG FLAT RIBBON PLENU",
+         "COST": "$289.22"
+      },
+      {
+         "MODEL": "FXTRP5N5NANF045",
+         "DESCRIPTION": "45 FT - 12FIBER 10 GIG FLAT RIBBON PLENU",
+         "COST": "$221.74"
+      },
+      {
+         "MODEL": "FXTRP5N5NANF075",
+         "DESCRIPTION": "75 FT - 12FIBER 10 GIG FLAT RIBBON PLENU",
+         "COST": "$258.56"
+      },
+      {
+         "MODEL": "HLM-15R0",
+         "DESCRIPTION": "Tak-Ty® hook & loop miniature roll cable tie, 15' (4.6m) length, .33'' (8.4mm) width, nylon loop, polyethylene hook, black.",
+         "COST": "$14.31"
+      },
+      {
+         "MODEL": "HLS-15R0",
+         "DESCRIPTION": "10ft. Velcro Roll, 0.75 inch width, Standard,BlackColor",
+         "COST": "$20.5"
+      },
+      {
+         "MODEL": "HLS-15R2",
+         "DESCRIPTION": "HOOK & LOOP ROLL, 15'L (4.6M), .75W (19 Red)",
+         "COST": "$20.5"
+      },
+      {
+         "MODEL": "HLS-15R5",
+         "DESCRIPTION": "HOOK & LOOP ROLL, 15'L (4.6M), .75W (19 Green)",
+         "COST": "$20.5"
+      },
+      {
+         "MODEL": "HLS-15R6",
+         "DESCRIPTION": "HOOK & LOOP ROLL, 15'L (4.6M), .75W (19 Blue)",
+         "COST": "$20.5"
+      },
+      {
+         "MODEL": "HLS-75R4",
+         "DESCRIPTION": "Hook & Loop Cable Ties",
+         "COST": "$96.69"
+      },
+      {
+         "MODEL": "QCPBCBCBXX125",
+         "DESCRIPTION": "QN CABLE ASSEMBLY, CAT 6, CMP, BLUE UTP",
+         "COST": "$736.91"
+      },
+      {
+         "MODEL": "QCPBCBCBXX15",
+         "DESCRIPTION": "QN CABLE ASSEMBLY, CAT 6, CMP, BLUE UTP",
+         "COST": "$305.66"
+      },
+      {
+         "MODEL": "QCPBCBCBXX30",
+         "DESCRIPTION": "QN CABLE ASSEMBLY, CAT 6, CMP, BLUE UTP 30FT",
+         "COST": "$340.94"
+      },
+      {
+         "MODEL": "QCPBCBCBXX35",
+         "DESCRIPTION": "QN CABLE ASSEMBLY, CAT 6, CMP, BLUE UTP",
+         "COST": "$352.7"
+      },
+      {
+         "MODEL": "QCPBCBCBXX55",
+         "DESCRIPTION": "QN CABLE ASSEMBLY, CAT 6, CMP, BLUE UTP",
+         "COST": "$399.76"
+      },
+      {
+         "MODEL": "QCPBCBCBXX75",
+         "DESCRIPTION": "QN CABLE ASSEMBLY, CAT 6, CMP, BLUE UTP",
+         "COST": "$492.49"
+      },
+      {
+         "MODEL": "QPP24BL",
+         "DESCRIPTION": "QN PATCH PANEL, FLAT, 24 PORT, 1RU",
+         "COST": "$32.65"
+      },
+      {
+         "MODEL": "QPP48HDBL",
+         "DESCRIPTION": "QN PATCH PANEL, FLAT, 48 PORT, 1RU",
+         "COST": "$77.91"
+      },
+      {
+         "MODEL": "UTPCH1MBUY",
+         "DESCRIPTION": "1 Meter RJ45 Cat5e Copper Cable",
+         "COST": "$2.68"
+      },
+      {
+         "MODEL": "UTPCH2MBUY ",
+         "DESCRIPTION": "2 METER COPPER PATCH CORD, CATEGORY 5E, BLUE UTP CABLE",
+         "COST": "$3.12"
+      },
+      {
+         "MODEL": "UTPCH2MORY",
+         "DESCRIPTION": "2 METERCOPPER PATCH CORD, CATEGORY 5E, ORANGE UTP CABLE",
+         "COST": "$3.12"
+      },
+      {
+         "MODEL": "UTPCH3MBUY ",
+         "DESCRIPTION": "3 METER COPPER PATCH CORD, CATEGORY 5E, BLUE UTP CABLE",
+         "COST": "$3.54"
+      },
+      {
+         "MODEL": "UTPSP1.5MBUY",
+         "DESCRIPTION": "COPPER PATCH CORD, CAT 6, BLUE, 1.5 Meter",
+         "COST": "$4.56"
+      },
+      {
+         "MODEL": "UTPSP1.5MGRY",
+         "DESCRIPTION": "Green 1.5M  CAT 6 cable with RJ45 connectors (standard, Panduit)",
+         "COST": "$4.56"
+      },
+      {
+         "MODEL": "UTPSP1.5MRDY",
+         "DESCRIPTION": "COPPER PATCH CORD, CAT 6, RED, 1.5 Meter",
+         "COST": "$4.56"
+      },
+      {
+         "MODEL": "UTPSP10BLY",
+         "DESCRIPTION": "PAN UTPSP10YLY COPPER PATCH CORD, CATEGORY 6, Blue (10m)",
+         "COST": "$5.37"
+      },
+      {
+         "MODEL": "UTPSP10MY",
+         "DESCRIPTION": "PAN UTPSP10YLY COPPER PATCH CORD, CATEGORY 6, White UT (10m)",
+         "COST": "$5.37"
+      },
+      {
+         "MODEL": "UTPSP10RDY",
+         "DESCRIPTION": "PAN UTPSP10YLY COPPER PATCH CORD, CATEGORY 6, Red (10m)",
+         "COST": "$5.37"
+      },
+      {
+         "MODEL": "UTPSP10YLY ",
+         "DESCRIPTION": "PAN UTPSP10YLY COPPER PATCH CORD, CATEGORY 6, YELLOW UT (10m)",
+         "COST": "$5.37"
+      },
+      {
+         "MODEL": "UTPSP2.5MBUY",
+         "DESCRIPTION": "COPPER PATCH CORD, CAT 6, BLUE, 2.5 Meter",
+         "COST": "$5.09"
+      },
+      {
+         "MODEL": "UTPSP2.5MGRY",
+         "DESCRIPTION": "COPPER PATCH CORD, CAT 6, GREEN, 2.5 Meter",
+         "COST": "$5.09"
+      },
+      {
+         "MODEL": "UTPSP20MBUY",
+         "DESCRIPTION": "COPPER PATCH CORD, CAT 6, BLUE, 20 Meter",
+         "COST": "$25.09"
+      },
+      {
+         "MODEL": "UTPSP2MBUY",
+         "DESCRIPTION": "COPPER PATCH CORD, CAT 6, BLUE, 2 Meter",
+         "COST": "$4.82"
+      },
+      {
+         "MODEL": "UTPSP2MGRY",
+         "DESCRIPTION": "COPPER PATCH CORD, CAT 6, GREEN, 2 Meter",
+         "COST": "$4.82"
+      },
+      {
+         "MODEL": "UTPSP2MRDY",
+         "DESCRIPTION": " PAN-UTPSP-RED - 2 M",
+         "COST": "$4.82"
+      },
+      {
+         "MODEL": "UTPSP3BLY",
+         "DESCRIPTION": "PAN UTPSP6YLY COPPER PATCH CORD, CAT 6, Blue UTP Cable (3m)",
+         "COST": "$4.25"
+      },
+      {
+         "MODEL": "UTPSP3MBUY",
+         "DESCRIPTION": "Blue 3M  CAT 6 cable with RJ45 connectors (standard, Panduit)",
+         "COST": "$4.25"
+      },
+      {
+         "MODEL": "UTPSP3MGRY",
+         "DESCRIPTION": "Green 3M  CAT 6 cable with RJ45 connectors (standard, Panduit)",
+         "COST": "$5.36"
+      },
+      {
+         "MODEL": "UTPSP3MY",
+         "DESCRIPTION": "PAN UTPSP6YLY COPPER PATCH CORD, CAT 6, White UTP Cable (3m)",
+         "COST": "$5.97"
+      },
+      {
+         "MODEL": "UTPSP3RDY",
+         "DESCRIPTION": "PAN UTPSP6YLY COPPER PATCH CORD, CAT 6, Red UTP Cable (3m)",
+         "COST": "$4.25"
+      },
+      {
+         "MODEL": "UTPSP3YLY ",
+         "DESCRIPTION": "PAN UTPSP6YLY COPPER PATCH CORD, CAT 6, YELLOW UTP CAB (3m)",
+         "COST": "$4.25"
+      },
+      {
+         "MODEL": "UTPSP5MGRY",
+         "DESCRIPTION": "Green 5M  CAT 6 cable with RJ45 connectors (standard, Panduit)",
+         "COST": "$7.02"
+      },
+      {
+         "MODEL": "UTPSP6BLY",
+         "DESCRIPTION": "PAN UTPSP6YLY COPPER PATCH CORD, CAT 6, Blue UTP Cable (6m)",
+         "COST": "$4.79"
+      },
+      {
+         "MODEL": "UTPSP6MGRY",
+         "DESCRIPTION": "Green 6M  CAT 6 cable with RJ45 connectors (standard, Panduit)",
+         "COST": "$7.9"
+      },
+      {
+         "MODEL": "UTPSP6MY",
+         "DESCRIPTION": "PAN UTPSP6YLY COPPER PATCH CORD, CAT 6, White UTP CAB (6m)",
+         "COST": "$7.9"
+      },
+      {
+         "MODEL": "UTPSP6RDY",
+         "DESCRIPTION": "PAN UTPSP6YLY COPPER PATCH CORD, CAT 6, Red UTP Cable (6m)",
+         "COST": "$4.79"
+      },
+      {
+         "MODEL": "UTPSP6YLY ",
+         "DESCRIPTION": "PAN UTPSP6YLY COPPER PATCH CORD, CAT 6, YELLOW UTP CAB (6m)",
+         "COST": "$5.37"
+      },
+      {
+         "MODEL": "UTPSP8MBUY",
+         "DESCRIPTION": "COPPER PATCH CORD, CAT 6, BLUE, 8 Meter ",
+         "COST": "$9.83"
+      },
+      {
+         "MODEL": "Blue",
+         "DESCRIPTION": "2 Meter RJ45 Cat5e Copper Cable",
+         "COST": "$3.67"
+      },
+      {
+         "MODEL": "FX2ERLNLNSNM001",
+         "DESCRIPTION": "1 Meter LC - LC 50/125",
+         "COST": "$23.97"
+      },
+      {
+         "MODEL": "FX2ERLNLNSNM002",
+         "DESCRIPTION": "2 Meter LC - LC 50/125",
+         "COST": "$24.57"
+      },
+      {
+         "MODEL": "QCPBCBCBXX25",
+         "DESCRIPTION": "QN CABLE ASSEMBLY, CAT 6, CMP, BLUE UTP 25FT",
+         "COST": "$449.7"
+      },
+      {
+         "MODEL": "QCPBCBCBXX60",
+         "DESCRIPTION": "QN CABLE ASSEMBLY, CAT 6, CMP, BLUE UTP 60FT",
+         "COST": "$494.01"
+      },
+      {
+         "MODEL": "UTPCH1.5MBUY",
+         "DESCRIPTION": "1.5 METER COPPER PATCH CORD, CATEGORY 5E, BLUE UTP CABLE ",
+         "COST": "$3.12"
+      },
+      {
+         "MODEL": "UTPCH10MBUY",
+         "DESCRIPTION": "10 Meter RJ45 Cat5e Copper Cable",
+         "COST": "$10.14"
+      },
+      {
+         "MODEL": "F92ERLNLNSNM010",
+         "DESCRIPTION": "LC-LC 9 M DUPL 1.6MM PATCH CORD 10M",
+         "COST": "$23.08"
+      },
+      {
+         "MODEL": "FX2ERLNLNSNM002.5",
+         "DESCRIPTION": "LC-LC, Multi mode, 3m, fiber optic 50/125 micron",
+         "COST": "$22.35"
+      },
+      {
+         "MODEL": "UTPSP2.5MRDY",
+         "DESCRIPTION": "",
+         "COST": "$5.09"
+      },
+      {
+         "MODEL": "HLS-75R4",
+         "DESCRIPTION": "Tak-Ty Hook And Loop Cable Tie, Continuous Roll, 50lbs Min Tensile Strength, Variable Max Bundle Diameter, 0.750 Width, 75.0ft",
+         "COST": "$93.24"
+      },
+      {
+         "MODEL": "UTPSP2.5MRDY",
+         "DESCRIPTION": "Copper Patch Cord, Cat 6, Red  UTP Cable, 2.5 Meter",
+         "COST": "$5.80"
+      }
+   ],
+   "Puppet": [
+      {
+         "MODEL": "Ent Deploy 160 HR",
+         "DESCRIPTION": "Ent Deploy 160 HR",
+         "COST": "$39,995.00"
+      },
+      {
+         "MODEL": "Estimated Travel & Expenses JMET",
+         "DESCRIPTION": "Estimated Travel & Expenses",
+         "COST": "$12,000.00"
+      },
+      {
+         "MODEL": "Puppet Enterprise Deployment JMET",
+         "DESCRIPTION": "Puppet Enterprise Deployment",
+         "COST": "$39,995.00"
+      },
+      {
+         "MODEL": "Puppet server SW",
+         "DESCRIPTION": "Puppet server SW",
+         "COST": "$165.00"
+      }
+   ],
+   "Rapid7": [
+      {
+         "MODEL": "MSTECHSUB",
+         "DESCRIPTION": "Metasploit Pro Technical Support & Upgrades and Exploit Updates Technical Support & Upgrades",
+         "COST": "$EOL"
+      },
+      {
+         "MODEL": "MSPPROSUB - QTY 5",
+         "DESCRIPTION": "Metasploit Pro Single User Subscription - Incl Main & Support for yr for 5 USERS",
+         "COST": "$47,674.80"
+      },
+      {
+         "MODEL": "Portswigger",
+         "DESCRIPTION": "Burp Suite Enterprise Edition with 5 agents for 1 year",
+         "COST": "$6,500.00"
+      }
+   ],
+   "RedHat Ansible Tower": [
+      {
+         "MODEL": "Standard ",
+         "DESCRIPTION": "Up to 100 nodes ",
+         "COST": "$6,666.67"
+      }
+   ],
+   "RF Code": [
+      {
+         "MODEL": "A740-BL47",
+         "DESCRIPTION": "Rack Locator Kit for 47U Racks (82.25'') and Power Supply",
+         "COST": "$183.92"
+      },
+      {
+         "MODEL": "M250-0001",
+         "DESCRIPTION": "433 MHz Reader Kit",
+         "COST": "$1,262.80"
+      },
+      {
+         "MODEL": "Tariff US - M250-0001",
+         "DESCRIPTION": "10% Tariff on M250-0001",
+         "COST": "$126.28"
+      },
+      {
+         "MODEL": "M174-iT05-000",
+         "DESCRIPTION": "IR-Enabled IT Asset Sensor Only",
+         "COST": "$18.00"
+      },
+      {
+         "MODEL": "OTAB-i010",
+         "DESCRIPTION": "Flag Tab (4 inch)",
+         "COST": "$0.84"
+      },
+      {
+         "MODEL": "R120-0B100",
+         "DESCRIPTION": "Door Sensor",
+         "COST": "$30.80"
+      }
+   ],
+   "Salto": [
+      {
+         "MODEL": "CU4200TUS",
+         "DESCRIPTION": "Control Unit 4200 US plug",
+         "COST": "$400.00"
+      },
+      {
+         "MODEL": "CU42E0TUS",
+         "DESCRIPTION": "Control Unit 42E0 US plug",
+         "COST": "$1,204.35"
+      },
+      {
+         "MODEL": "ECH0ENUS ",
+         "DESCRIPTION": "Encoder HID iClass E US ",
+         "COST": "$1,100.00"
+      },
+      {
+         "MODEL": "PCH004-50",
+         "DESCRIPTION": "Prox.Card HID32KS BL 16K/16+16K/1 SECTORS",
+         "COST": "$650.00"
+      },
+      {
+         "MODEL": "PPD800",
+         "DESCRIPTION": "Portable Programming Unit Proximity, USB",
+         "COST": "$550.00"
+      },
+      {
+         "MODEL": "SAMKITH",
+         "DESCRIPTION": "HID iCLASS SAM Kit",
+         "COST": "$750.00"
+      },
+      {
+         "MODEL": "SPACE-OPT-0016-1",
+         "DESCRIPTION": "Mobile Users",
+         "COST": "$2.20"
+      },
+      {
+         "MODEL": "SPACE-OPT-0020",
+         "DESCRIPTION": "SAM Custom Keys Interface",
+         "COST": "$-"
+      },
+      {
+         "MODEL": "SPAONLINE",
+         "DESCRIPTION": "ProAccess SPACE OnLine",
+         "COST": "$800.00"
+      },
+      {
+         "MODEL": "XS4 Geo Cylinder (Rack Lock) ",
+         "DESCRIPTION": "XS4 Geo Cylinder (Rack Lock) ",
+         "COST": "$600.00"
+      },
+      {
+         "MODEL": "Badger and AXIS surveillance Software Integration ",
+         "DESCRIPTION": "Badger and AXIS surveillance Software Integration with unauthorized access detection and central management platform. ",
+         "COST": "$12,000.00"
+      },
+      {
+         "MODEL": "WRDJ0E4B",
+         "DESCRIPTION": "WR4000 iCLASS BLE Black Euro Square",
+         "COST": "$350.00"
+      },
+      {
+         "MODEL": "WRDB0E4B",
+         "DESCRIPTION": "WR4000 wall reader Mifare BLE black",
+         "COST": "$¥                                   350.00"
+      },
+      {
+         "MODEL": "DPE-301GS",
+         "DESCRIPTION": "PoE Splitter",
+         "COST": "$¥                                     27.63"
+      },
+      {
+         "MODEL": "PCD04KB-50",
+         "DESCRIPTION": "50 Prox.Cards Desfire 4K (50 Cards per Pack)",
+         "COST": "$¥                                   136.50"
+      }
+   ],
+   "Schneider": [
+      {
+         "MODEL": "ACF504",
+         "DESCRIPTION": "SX Roof Fan Tray 208-230 VAC 750mm",
+         "COST": "$371.94"
+      },
+      {
+         "MODEL": "AP7586",
+         "DESCRIPTION": "Rack PDU Extender",
+         "COST": "$444.26"
+      },
+      {
+         "MODEL": "AP7723",
+         "DESCRIPTION": "RACK ATS, 20A/208V, 16A/230V, C20 IN, (8) C13 (1) C19 OUT ",
+         "COST": "$667.43"
+      },
+      {
+         "MODEL": "AP8702S-WW",
+         "DESCRIPTION": "power cord kit (6 ea), locking C13 to C14, 0.6m",
+         "COST": "$37.11"
+      },
+      {
+         "MODEL": "AP8704S-WW",
+         "DESCRIPTION": "power cord kit (6 ea), locking C13 to C14, 1.2m",
+         "COST": "$60.25"
+      },
+      {
+         "MODEL": "AP8706S-WW",
+         "DESCRIPTION": "power cord kit (6 ea), locking C13 to C14, 1.8m",
+         "COST": "$84.72"
+      },
+      {
+         "MODEL": "AP8714S",
+         "DESCRIPTION": "C19 to C20 locking Power Cable (for ATS input power)",
+         "COST": "$103.31"
+      },
+      {
+         "MODEL": "AP8716S",
+         "DESCRIPTION": "power cord kit (6 ea), locking, C19 to C20, 1.8m",
+         "COST": "$128.12"
+      },
+      {
+         "MODEL": "AP8941",
+         "DESCRIPTION": "Rack PDU 2G, Switched, ZeroU, 32A, 230V, (21) C13 & (3) C19",
+         "COST": "$805.87"
+      },
+      {
+         "MODEL": "AP8953",
+         "DESCRIPTION": "Rack PDU 2G, Switched, ZeroU, 32A, 230V, (21) C13 & (3) C19",
+         "COST": "$842.61"
+      },
+      {
+         "MODEL": "AP8981",
+         "DESCRIPTION": "Rack PDU 2G, Switched, ZeroU, 30A, 400V, (21) C13 & (3) C19 (3 phase) (2 per rack)",
+         "COST": "$1,215.00"
+      },
+      {
+         "MODEL": "AP8981X633",
+         "DESCRIPTION": "Rack PDU 2G, Switched, ZeroU, 11kW, input 400V 3PH 16A/20A，output 230V, (21) C13 & (3) C19. 12 FT cable",
+         "COST": "$1,403.16"
+      },
+      {
+         "MODEL": "AP9631",
+         "DESCRIPTION": "UPS Network Management Card, PowerChute Network Shutdown & Environmental Monitoring",
+         "COST": "$382.27"
+      },
+      {
+         "MODEL": "AR3157",
+         "DESCRIPTION": "NetShelter SX 48U 750mm Wide x 1051mm Deep enclosure with Sides Black",
+         "COST": "$1,545.61"
+      },
+      {
+         "MODEL": "AR3307",
+         "DESCRIPTION": "NetShelter SX 48U 600mm Wide x 1200mm Deep Enclosure with Sides Black",
+         "COST": "$1,620.00"
+      },
+      {
+         "MODEL": "AR3347",
+         "DESCRIPTION": "NetShelter SX 48U 750mm Wide x 1200mm Deep Networking Enclosure with Sides Black",
+         "COST": "$2,082.85"
+      },
+      {
+         "MODEL": "AR8122BLK",
+         "DESCRIPTION": "Fixed Shelf",
+         "COST": "$105.38"
+      },
+      {
+         "MODEL": "AR8132A",
+         "DESCRIPTION": "Combination Lock Handles (2 handles)",
+         "COST": "$206.64"
+      },
+      {
+         "MODEL": "AR8136BLK200",
+         "DESCRIPTION": "200 PK 1U Blanking Panel Kit 19IN BLK MOD",
+         "COST": "$576.51"
+      },
+      {
+         "MODEL": "AR8442",
+         "DESCRIPTION": "Vertical Cable Organizer, 8 Cable Rings, Zero U (order 2 per rack)",
+         "COST": "$141.90"
+      },
+      {
+         "MODEL": "AR8444",
+         "DESCRIPTION": "Spools for Vertical Fiber Organizer (4 pack) (order 1 per rack)",
+         "COST": "$62.74"
+      },
+      {
+         "MODEL": "AR8602A",
+         "DESCRIPTION": "Horizontal Cable Manager, 1U x 4'' Deep, Single-Sided with Cover",
+         "COST": "$50.34"
+      },
+      {
+         "MODEL": "AR8606",
+         "DESCRIPTION": "Horizontal Cable Manager, 2U x 6'' Deep, Single-Sided with Cover",
+         "COST": "$67.70"
+      },
+      {
+         "MODEL": "AR8612",
+         "DESCRIPTION": "Horizontal Cable Manager, 1U x 6'' deep, single sided with cover (order 1 per rack)",
+         "COST": "$61.08"
+      },
+      {
+         "MODEL": "Bundle of ups replacement + installation + decommision old for China",
+         "DESCRIPTION": "Bundle of ups replacement + installation + decommision old for China",
+         "COST": "$27,000.00"
+      },
+      {
+         "MODEL": "Com & PM of UPS inst",
+         "DESCRIPTION": "Commissioning & PM of UPS installation. Installation/Commissioning Panda",
+         "COST": "$3,000.00"
+      },
+      {
+         "MODEL": "Commissioning & PM of UPS installation",
+         "DESCRIPTION": "Installation/Commissioning Panda",
+         "COST": "$3,000.00"
+      },
+      {
+         "MODEL": "PROJECT  / WQSC&WPRJ",
+         "DESCRIPTION": "Project Management - Logistics coordination, single point of contact, project planning and installation supervision and travel for remote site",
+         "COST": "$11,633.66"
+      },
+      {
+         "MODEL": "SRT192RMBP",
+         "DESCRIPTION": "Battery Pack",
+         "COST": "$957.60"
+      },
+      {
+         "MODEL": "SRT5000XLTW",
+         "DESCRIPTION": "APC Smart-UPS RT 5000VA RM 230V, suitable for Taiwan (3u)",
+         "COST": "$1,312.62"
+      },
+      {
+         "MODEL": "SRT6KRMXLI",
+         "DESCRIPTION": "APC Smart-UPS SRT 6000VA RM 230V (4u)",
+         "COST": "$3,432.96"
+      },
+      {
+         "MODEL": "SRT6KRMXLT",
+         "DESCRIPTION": "APC Smart-UPS RT 6000VA RM 230V (4u)",
+         "COST": "$4,127.20"
+      },
+      {
+         "MODEL": "SRTRK2",
+         "DESCRIPTION": "UPS Rail Kit",
+         "COST": "$164.08"
+      },
+      {
+         "MODEL": "SRTTRK2",
+         "DESCRIPTION": "UPS Rail Kit",
+         "COST": "$134.40"
+      },
+      {
+         "MODEL": "SURT007",
+         "DESCRIPTION": "APC Smart-UPS RT 3/5/6kVA input/output hardwire kit",
+         "COST": "$142.58"
+      },
+      {
+         "MODEL": "SURT192XLBP",
+         "DESCRIPTION": "APC Smart-UPS SRT 192V 5kVA and 6kVA RM Battery Pack",
+         "COST": "$805.87"
+      },
+      {
+         "MODEL": "SURT192XLBPJ",
+         "DESCRIPTION": "Battery Pack",
+         "COST": "$1,365.28"
+      },
+      {
+         "MODEL": "SURT6000XLICH",
+         "DESCRIPTION": "APC Smart-UPS SRT 6000VA RM 230V for China (3u)",
+         "COST": "$2,074.58"
+      },
+      {
+         "MODEL": "SURTD6000RMXLJP3U",
+         "DESCRIPTION": "APC Smart-UPS RT 6000VA RM 200V to 200/100V for Japan (3u)",
+         "COST": "$7,370.72"
+      },
+      {
+         "MODEL": "SURTRK2",
+         "DESCRIPTION": "UPS Rail kit ",
+         "COST": "$123.98"
+      },
+      {
+         "MODEL": "SY64K160H-PD",
+         "DESCRIPTION": "APC Symmetra PX 64kW Scalable to 160kW, 400V w/ Integrated Modular Distribution",
+         "COST": "$58,476.81"
+      },
+      {
+         "MODEL": "SYBT9-B4",
+         "DESCRIPTION": "APC High-Performance Battery Module for 400V Symmetra PX 48/96/160KW & 208V Symmetra PX 100KW",
+         "COST": "$1,496.02"
+      },
+      {
+         "MODEL": "SYBTU2-PLP",
+         "DESCRIPTION": "Battery Module",
+         "COST": "$460.08"
+      },
+      {
+         "MODEL": "SYCFXR9-S",
+         "DESCRIPTION": "APC Symmetra PX Battery Frame for 400V PX 96/160kW & 208V PX 100kW for 9 Battery Modules & Startup",
+         "COST": "$9,298.44"
+      },
+      {
+         "MODEL": "SYPM10K16H",
+         "DESCRIPTION": "APC Symmetra PX Power Module, 10/16kW, 400V",
+         "COST": "$4,488.05"
+      },
+      {
+         "MODEL": "Vietnam",
+         "DESCRIPTION": "Bundle of ups replacement + installation + decommision old for Vietnam",
+         "COST": "$30,000.00"
+      },
+      {
+         "MODEL": "WAGSLABOUR",
+         "DESCRIPTION": "Discommissioning service and Startup Service",
+         "COST": "$3,381.60"
+      },
+      {
+         "MODEL": "WASSEM5X8-3R-PX-10",
+         "DESCRIPTION": "5X8 Scheduled Assembly of 1-3 Additional Racks",
+         "COST": "$382.27"
+      },
+      {
+         "MODEL": "WASSEM5X8-5R-PX-20",
+         "DESCRIPTION": "5X8 Scheduled Assembly Service for 1-5 Racks",
+         "COST": "$867.86"
+      },
+      {
+         "MODEL": "WASSEMEXBAT-PX-63",
+         "DESCRIPTION": "Scheduled Assembly Service for (1) External Battery Frame for Symmetra PX 160kW",
+         "COST": "$984.41"
+      },
+      {
+         "MODEL": "WASSEMUPS5X8-PX-72",
+         "DESCRIPTION": "Scheduled Assembly Service for Symmetra PX 64 kW UPS with PDU and Essential XR Frames Only",
+         "COST": "$1,421.63"
+      },
+      {
+         "MODEL": "WBEXT1YR-SU-05 ",
+         "DESCRIPTION": "China: 1YR Concurrent Extended Warranty for (1) Smart-UPS 5-7kVA",
+         "COST": "$99.19"
+      },
+      {
+         "MODEL": "WQSC-Batt Replacement Labor",
+         "DESCRIPTION": "Battery replacement Labor",
+         "COST": "$3,000.00"
+      },
+      {
+         "MODEL": "WQSC-Commissioning & PM of UPS installation JMET site - TBD by site",
+         "DESCRIPTION": "Commissioning & PM of UPS installation JMET site - TBD by site",
+         "COST": "$15,000.00"
+      },
+      {
+         "MODEL": "WQSC-Installation and project management, including travel cost for remote site",
+         "DESCRIPTION": "Installation and project management, including travel cost for remote site",
+         "COST": "$15,000.00"
+      },
+      {
+         "MODEL": "WQSC-Uninstallation Move Service",
+         "DESCRIPTION": "Uninstallation, Move service",
+         "COST": "$7,021.20"
+      },
+      {
+         "MODEL": "WUPGASSEM7-UG-01",
+         "DESCRIPTION": "Scheduling Upgrade to 7X24 for Existing Assembly Service for up to 40 kVA UPS or Battery Frame",
+         "COST": "$274.82"
+      },
+      {
+         "MODEL": "WUPGASSEM7-UG-03",
+         "DESCRIPTION": "Scheduling Upgrade to 7X24 for Existing Assembly Service for 151 to 500 kVA",
+         "COST": "$545.51"
+      },
+      {
+         "MODEL": "WUPGSTRTUP7-UG-01",
+         "DESCRIPTION": "Scheduling Upgrade to 7X24 for Existing Startup Service for up to 40 kVA UPS or Battery Frame",
+         "COST": "$239.69"
+      },
+      {
+         "MODEL": "WUPGSTRTUP7-UG-03",
+         "DESCRIPTION": "Scheduling Upgrade to 7X24 for Existing Startup Service for 151 to 500 kVA",
+         "COST": "$415.33"
+      },
+      {
+         "MODEL": "AP9879",
+         "DESCRIPTION": "Power Adapter:  C20 - C13",
+         "COST": "$32.24"
+      },
+      {
+         "MODEL": "AP4423",
+         "DESCRIPTION": "Rack ATS, 230V, 16A, C20 in, (8) C13 (1) C19 out",
+         "COST": "$785.20"
+      },
+      {
+         "MODEL": "WQSC - Commissioning & PM of UPS installation ",
+         "DESCRIPTION": "Commissioning & PM of UPS installation JMET site - TBD by site",
+         "COST": "$10,350.00"
+      },
+      {
+         "MODEL": "WQSC - Project Management - Logistics coordination, single point of contact, project planning and installation supervision and travel for remote site",
+         "DESCRIPTION": "Project Management - Logistics coordination, single point of contact, project planning and installation supervision and travel for remote site",
+         "COST": "$11,500.00"
+      },
+      {
+         "MODEL": "NBACS125",
+         "DESCRIPTION": "NetBotz 125kHZ Rack Access Control",
+         "COST": "$1,066.22"
+      },
+      {
+         "MODEL": "WUPGSTRTUP7-UG-02",
+         "DESCRIPTION": "Schneider Electric Scheduling Upgrade to 7X24 for Existing Startup Service for 41 to 150 kVA",
+         "COST": "$322.35"
+      },
+      {
+         "MODEL": "WUPGASSEM7-UG-02",
+         "DESCRIPTION": "Scheduling Upgrade to 7X24 for Existing Assembly Service for 41 to 150 kVA",
+         "COST": "$454.60"
+      },
+      {
+         "MODEL": "WOE2YR-PX-72",
+         "DESCRIPTION": "2 Year Onsite Warranty Extension for Symmetra PX 64kW with PDU/XR",
+         "COST": "$7,155.61"
+      },
+      {
+         "MODEL": "WUPG4HR-UG-02",
+         "DESCRIPTION": "1 Year 4HR 7X24 Response Upgrade to Factor Warranty or Existing Service Contract for 41 to 150 kVA",
+         "COST": "$2,589.38"
+      },
+      {
+         "MODEL": "AR3357",
+         "DESCRIPTION": "NetShelter SX 48U 750mm Wide x 1200mm Deep Networking Enclosure with Sides Black",
+         "COST": "$2,082.85"
+      },
+      {
+         "MODEL": "AP8881",
+         "DESCRIPTION": "?",
+         "COST": "$859.60"
+      },
+      {
+         "MODEL": "WQSC-Shipment service",
+         "DESCRIPTION": "Shipment service, Disassembly service, Assemlby and installation service (UPS, battery, modules, battery cubics, PD cubics, Racks, PDU",
+         "COST": "$15,790.68"
+      },
+      {
+         "MODEL": "AGSLABOUR-Startup Service",
+         "DESCRIPTION": "Startup Service",
+         "COST": "$1,521.72"
+      },
+      {
+         "MODEL": "AGSLABOUR-DECOMMISSION",
+         "DESCRIPTION": "Decommission service",
+         "COST": "$1,521.72"
+      },
+      {
+         "MODEL": "WQSC - Project Management ",
+         "DESCRIPTION": "Project Management - Logistics coordination, single point of contact, project planning and installation supervision",
+         "COST": "$8,143.05"
+      },
+      {
+         "MODEL": "WAGSLABOUR",
+         "DESCRIPTION": "WAGSLABOUR",
+         "COST": "$3,381.60"
+      },
+      {
+         "MODEL": "WQSC Battery Replacement",
+         "DESCRIPTION": "WQSC Battery Replacement",
+         "COST": "$3,000.00"
+      },
+      {
+         "MODEL": "Installation/Commission Panda",
+         "DESCRIPTION": "Installation/Commission Panda",
+         "COST": "$3,000.00"
+      }
+   ],
+   "Softchoice": [
+      {
+         "MODEL": "T84034",
+         "DESCRIPTION": "Softchoice - C14(m) to NEMA 5-15(f), 1' power cable",
+         "COST": "$3.68"
+      }
+   ],
+   "Solace": [
+      {
+         "MODEL": "PKG-3560-HPTRGM3-6x10GE",
+         "DESCRIPTION": "3560 high performance topic routing guaranteed messaging configuration with:",
+         "COST": "$EOL, see comments"
+      },
+      {
+         "MODEL": "LIC-SolAdmin-Appl",
+         "DESCRIPTION": "Solace Systems SolAdmin -­‐ single appliance license.",
+         "COST": "$EOL, see comments"
+      },
+      {
+         "MODEL": "MTCE-H/W-STD-002",
+         "DESCRIPTION": "Solace Standard Support Plan for Enterprise Hardware  One year in duration, renewable annually.",
+         "COST": "$22,500.00"
+      },
+      {
+         "MODEL": "PKG-3530-TRGM-4x1GE",
+         "DESCRIPTION": "3530 topic routing guaranteed messaging configuration with:  - 1 3530 chassis, - 1 4x1GE Network Acceleration Blade (NAB), - 1 Topic Routing Blade (TRB) ,  - 1 Assured Delivery Blade 2 (ADB-2),  - 1 4G HBA, - 1 Enterprise License, - 2 RAID protected SSDs ,  - 2 1000W 100V-240V AC power modules (1+1 redundant), 1 rack mount kit,   - SolOS system software - ",
+         "COST": "$80,000.00"
+      },
+      {
+         "MODEL": "LIC-SolAdmin-Appl",
+         "DESCRIPTION": "LIC-SolAdmin-Appl",
+         "COST": "$-"
+      },
+      {
+         "MODEL": "MTCE-H/W-PLATINUM",
+         "DESCRIPTION": "Solace Platinum Support Plan for Enterprise Hardware (hardware maintenance with advanced replacement option, all major and\nminor software upgrades and maintenance releases, all major and minor API upgrades and maintenance releases, email support,\n24x7x365 telephone support for Severity 1 bugs and during normal business hours for Severity 2-4 bugs). This plan is one year in\nduration, renewable annually.",
+         "COST": "$14,400.00"
+      },
+      {
+         "MODEL": "PKG-3560-HPTRGM4-8x10GE",
+         "DESCRIPTION": "3560 high performance topic routing guaranteed messaging configuration with: - 1 3560 chassis\n- 1 8x10GE Network Acceleration Blade (NAB)\n- 1 Topic Routing Blade (TRB)\n- 1 Assured Delivery Blade 4 (ADB-4) - 1 8G HBA\n- 1 Enterprise License\n- 2 RAID protected SSDs\n- 2 1000W 100V-240V AC power modules (1+1 redundant) - 1 rack mount kit\n- SolOS system software",
+         "COST": "$140,000.00"
+      },
+      {
+         "MODEL": "LIC-SolAdmin-Appl",
+         "DESCRIPTION": "Solace Systems SolAdmin -­‐ single appliance license.",
+         "COST": "$-"
+      },
+      {
+         "MODEL": "MTCE-H/W-STD-002",
+         "DESCRIPTION": "Solace Standard Support Plan for Enterprise Hardware  One year in duration, renewable annually.",
+         "COST": "$22,500.00"
+      }
+   ],
+   "Sonnet": [
+      {
+         "MODEL": "RACK-MIN-2X",
+         "DESCRIPTION": "Sonnet Tech Rack mount for 2 mac mini (for remote access to site)",
+         "COST": "$180.35"
+      }
+   ],
+   "Startech": [
+      {
+         "MODEL": "ET91000SFP2C ",
+         "DESCRIPTION": "Gigabit Ethernet Fiber Media Converter Card Module with Open SFP Slot",
+         "COST": "$100.78"
+      },
+      {
+         "MODEL": "ETCHS2U",
+         "DESCRIPTION": "20-Slot 2U Rack Mount Media Converter Chassis for ET Series 2 Fiber Media Converter",
+         "COST": "$598.45"
+      },
+      {
+         "MODEL": "ETCHS2UPSU",
+         "DESCRIPTION": "Redundant 200W Media Converter Chassis Power Supply Module for ETCHS2U",
+         "COST": "$295.92"
+      },
+      {
+         "MODEL": "PXTC14C156",
+         "DESCRIPTION": "6 ft 14 AWG Computer Power Cord - IEC C14 to IEC C15",
+         "COST": "$14.00"
+      }
+   ],
+   "Sycomp": [
+      {
+         "MODEL": "China FATP Installation charges per room (rack/stack/cable)",
+         "DESCRIPTION": "China FATP Installation charges per room (rack/stack/cable)",
+         "COST": "$5,000.00"
+      },
+      {
+         "MODEL": "China Panda Installation charges per room (rack/stack/cable)",
+         "DESCRIPTION": "China Panda Installation charges per room (rack/stack/cable)",
+         "COST": "$5,000.00"
+      },
+      {
+         "MODEL": "Tool-kit",
+         "DESCRIPTION": "Deployment Tool Kit hardware",
+         "COST": "$500.00"
+      },
+      {
+         "MODEL": "Sycomp $5K",
+         "DESCRIPTION": "Installation $5K",
+         "COST": "$5,000.00"
+      }
+   ],
+   "Thales": [
+      {
+         "MODEL": "AC2050",
+         "DESCRIPTION": "New quick installation rail kit for nShield Connect",
+         "COST": "$-"
+      },
+      {
+         "MODEL": "AC2057",
+         "DESCRIPTION": "Replacement Fan Tray",
+         "COST": "$226.20"
+      },
+      {
+         "MODEL": "AC2064",
+         "DESCRIPTION": "Replacement Power Supply Unit",
+         "COST": "$226.20"
+      },
+      {
+         "MODEL": "AC3120L (EU+10)",
+         "DESCRIPTION": "CodeSafe (formerly SEE) Restricted Activation (Users only)",
+         "COST": "$-"
+      },
+      {
+         "MODEL": "FE1637L",
+         "DESCRIPTION": "Elliptic Curve ['ECC' ] Activation",
+         "COST": "$-"
+      },
+      {
+         "MODEL": "NH2068",
+         "DESCRIPTION": "nShield Connect 6000+ F3",
+         "COST": "$21,930.37"
+      },
+      {
+         "MODEL": "SW2068C-L64",
+         "DESCRIPTION": "Security World Software for Linux 64bit",
+         "COST": "$-"
+      },
+      {
+         "MODEL": "AC3120L (ROW)",
+         "DESCRIPTION": "CodeSafe (formerly SEE) Restricted Activation (Users only) ",
+         "COST": "$-"
+      }
+   ],
+   "Tripplite": [
+      {
+         "MODEL": "B093-004-2E4U",
+         "DESCRIPTION": "4-Port IP Serial Console/Terminal Server",
+         "COST": "$523.49"
+      }
+   ],
+   "TrippLite": [
+      {
+         "MODEL": "B095-004-1E",
+         "DESCRIPTION": "4-Port IP Serial Console/Terminal Server",
+         "COST": "$EOL, see comments"
+      },
+      {
+         "MODEL": "U222-007-R",
+         "DESCRIPTION": "U222-007-R TrippLite 7 Port USB Hub ",
+         "COST": "$26.00"
+      }
+   ],
+   "TSI Alnor": [
+      {
+         "MODEL": "IPM2.5-NA",
+         "DESCRIPTION": "AIRASSURE PM2.5 INDOOR AIR QUALITY MONITOR",
+         "COST": "$890.00"
+      }
+   ],
+   "Vertiv": [
+      {
+         "MODEL": "2110730",
+         "DESCRIPTION": "Knurr E series rack800mm x 1200mm 48U height",
+         "COST": "$1,298.00"
+      },
+      {
+         "MODEL": "2100153",
+         "DESCRIPTION": "Vertical Cable Organizer, 8 Cable Rings, Zero U (order 3 per rack)",
+         "COST": "$137.50"
+      },
+      {
+         "MODEL": "2100151",
+         "DESCRIPTION": "Horizontal Cable Manager, 2U x 6'' Deep, Single-Sided with Cover 2U width, 75mm depth",
+         "COST": "$26.40"
+      },
+      {
+         "MODEL": "2100150",
+         "DESCRIPTION": "Horizontal Cable Manager, 1U x 6'' Deep, Single-Sided with Cover 1U width, 75mm depth",
+         "COST": "$22.00"
+      },
+      {
+         "MODEL": "2100149",
+         "DESCRIPTION": "200 PK 1U Blanking Panel Kit 19IN BLK MOD",
+         "COST": "$660.00"
+      },
+      {
+         "MODEL": "2352244",
+         "DESCRIPTION": "UF-LTS16-1P 16A Single Phase Load Transfer Switch",
+         "COST": "$404.80"
+      },
+      {
+         "MODEL": "GS30001L - MGS3EGB0-24PK33- 2PS56B2A10-S-A",
+         "DESCRIPTION": "GEIST - Managed PDU, vertical w/ qty-21 C13 & qty-3 C19 receptacles",
+         "COST": "$1,204.50"
+      },
+      {
+         "MODEL": "1201747",
+         "DESCRIPTION": "1PH Input/1PH Output Rack / tower 6kVA UPS",
+         "COST": "$998.80"
+      },
+      {
+         "MODEL": "2010017",
+         "DESCRIPTION": " 1+1 Parallel POD",
+         "COST": "$814.00"
+      },
+      {
+         "MODEL": "2010024",
+         "DESCRIPTION": "One-layer 2U Battery Sub.(ITA2 5-20KAssembled 12V Batt. 16PCS/9Ah)",
+         "COST": "$710.60"
+      },
+      {
+         "MODEL": "Installation and Implementation per system",
+         "DESCRIPTION": "Installation and Implementation per system- Delivery and positioning of UPS and 2 Battery rack with supporting frame- Termination of UPS input power cable (cable are provided and install by others, terminated by Vertiv) - Installation of battery on battery rack include battery inter-link and insultation cover- Termination of UPS out power cable. (cables are provided and installed by others, terminated by Vertiv)- Equipment startup with function test- Project Management & Pre-Site Inspection",
+         "COST": "$13,200.00"
+      },
+      {
+         "MODEL": "3-Year Warranty",
+         "DESCRIPTION": "3-Year Warranty including 2 Preventive Maintenance Visits / Year and Essential Services including Remote Monitoring and Pro-Active On-Site Service",
+         "COST": "$13,200.00"
+      },
+      {
+         "MODEL": "GS30001L - MGS3EGB0-24PK33- 2PS56B2A10-S-A",
+         "DESCRIPTION": "GEIST - Managed PDU, vertical w/ qty-21 C13 & qty-3 C19 receptacles",
+         "COST": "$1,204.50"
+      },
+      {
+         "MODEL": "UPS",
+         "DESCRIPTION": "APM150 UPS 30kVA Main Power Subassembly for Rack-mounted UPS, capacity for 120kVA + 30kVA (N+1)",
+         "COST": "$7,920.00"
+      },
+      {
+         "MODEL": "Electric Cabinet",
+         "DESCRIPTION": "Electric Cabinet for Rack-mounted Standard High-Frequency Link 3PH I/O 150kVA Intelligent UPS (4+1 @ 30kVA Module).",
+         "COST": "$6,380.00"
+      },
+      {
+         "MODEL": "Network Card",
+         "DESCRIPTION": "SIC Network card",
+         "COST": "$363.00"
+      },
+      {
+         "MODEL": "Battery Cabinet",
+         "DESCRIPTION": "Battery Cabinet PM-32 with BCB (Two battery cabinet per UPS)",
+         "COST": "$2,750.00"
+      },
+      {
+         "MODEL": "Battery",
+         "DESCRIPTION": "\nBattery (2*32 battery per string)\nReference to 80kVA / 80KW capacity, 60 40 minutes",
+         "COST": "$165.00"
+      },
+      {
+         "MODEL": "Battery Monitoring System",
+         "DESCRIPTION": "Battery Monitoring System",
+         "COST": "$13,200.00"
+      },
+      {
+         "MODEL": "Installation and Implementation per system - FULL JMET",
+         "DESCRIPTION": "Installation and Implementation per system\n- Delivery and positioning of UPS and 2 Battery rack with supporting frame\n- Termination of UPS input power cable (cable are provided and install by others, terminated by Vertiv)\n- Installation of battery on battery rack include battery inter-link and insultation cover\n- Termination of UPS out power cable. (cables are provided and installed by others, terminated by Vertiv)\n- Equipment startup with function test\n- Project Management & Pre-Site Inspection",
+         "COST": "$15,400.00"
+      },
+      {
+         "MODEL": "3-Year Warranty - Full JMET",
+         "DESCRIPTION": "3-Year Warranty including 2 Preventive Maintenance Visits / Year and Essential Services including Remote Monitoring and Pro-Active On-Site Service",
+         "COST": "$33,000.00"
+      },
+      {
+         "MODEL": "ATRN102-102I82C20",
+         "DESCRIPTION": "Auto Transfer Switch 16A, 208V, 3.3kW, Horizontal, (8) IEC C13, (2) IEC C19, 10ft power cords with C20",
+         "COST": "$404.80"
+      },
+      {
+         "MODEL": "NS30017L",
+         "DESCRIPTION": "Switched, Unit Level Monitoring EC, Upgradeable, 30A, 120/208V WYE, 3 Phase, Vertical, (30)",
+         "COST": "$1,262.07"
+      }
+   ],
+   "Victor": [
+      {
+         "MODEL": "PSS02",
+         "DESCRIPTION": "Plastic foot on the high stool, 150kgs in Load Capacity. Size: D42cmxH39cm,material:PP. Weight: 3kgs",
+         "COST": "$43.50"
+      }
+   ],
+   "WayCom": [
+      {
+         "MODEL": "China FATP Installation charges per room (rack/stack/cable)",
+         "DESCRIPTION": "China FATP Installation charges per room (rack/stack/cable)",
+         "COST": "$22,000.00"
+      },
+      {
+         "MODEL": "China Panda Installation charges per room (rack/stack/cable)",
+         "DESCRIPTION": "China Panda Installation charges per room (rack/stack/cable)",
+         "COST": "$5,500.00"
+      }
+   ],
+   "Waycom": [
+      {
+         "MODEL": "Waycom1",
+         "DESCRIPTION": "Waycom Install Panda",
+         "COST": "$8,000.00"
+      },
+      {
+         "MODEL": "Waycom2",
+         "DESCRIPTION": "Waycom Install FATP Upgrade (sm)",
+         "COST": "$5,500.00"
+      },
+      {
+         "MODEL": "Waycom3",
+         "DESCRIPTION": "Waycom Install FATP",
+         "COST": "$22,000.00"
+      }
+   ],
+   "Well-Shin": [
+      {
+         "MODEL": "5287.072",
+         "DESCRIPTION": "6' 14/3 SJTW BLACK I C14 TO C19",
+         "COST": "$10.80"
+      }
+   ],
+   "Werner": [
+      {
+         "MODEL": "6206CN",
+         "DESCRIPTION": "6 ft. 250 lb. Load Capacity Fiberglass Stepladder,Reach Height 10.5FT",
+         "COST": "$424.26"
+      },
+      {
+         "MODEL": "AC50-JB-3 ",
+         "DESCRIPTION": "Lock-In Job Bucket ",
+         "COST": "$73.80"
+      },
+      {
+         "MODEL": "OBEL06",
+         "DESCRIPTION": "6FT Type IAA Fiberglass Electricians JobStation,Reach Height 10FT ",
+         "COST": "$139.00"
+      },
+      {
+         "MODEL": "OBEL04",
+         "DESCRIPTION": "4FT Type IAA Fiberglass Electricians JobStation,Reach Height 8FT",
+         "COST": "$424.26"
+      }
+   ],
+   "XL Deploy": [
+      {
+         "MODEL": "XL Deploy",
+         "DESCRIPTION": "SOFTWARE/ MISC Support & Maint for SDS",
+         "COST": "$262,150.00"
+      }
+   ],
+   "Xtend+Climb": [
+      {
+         "MODEL": "XCU1017",
+         "DESCRIPTION": "1-Step Plastic Portable Rolling Stable Step Stool with 300 lb. Load Capacity",
+         "COST": "$39.00"
+      }
+   ],
+   "YourKit Java Profiler License": [
+      {
+         "MODEL": "YourKit Java Profiler License",
+         "DESCRIPTION": "SOFTWARE/ MISC Support & Maint for SDS",
+         "COST": "$1,000.00"
+      }
+   ],
+   "Zenoss": [
+      {
+         "MODEL": "PRP-ZSD-OP-BSC",
+         "DESCRIPTION": "Basic-Support-Zenoss Service Dynamics - Perpetual",
+         "COST": "$10.00"
+      },
+      {
+         "MODEL": "SKU: SUB-RM-OP-BSC, Resource Manager Subscription @$49.26 each for 3,167 units",
+         "DESCRIPTION": "SKU: SUB-RM-OP-BSC, Resource Manager Subscription @$49.26 each for 3,167 units",
+         "COST": "$156,006.42"
+      },
+      {
+         "MODEL": "PRP-ZSD-OP",
+         "DESCRIPTION": "Service Dynamics - Perpetual",
+         "COST": "$50.00"
+      }
+   ],
+   "Zonit": [
+      {
+         "MODEL": "zLock-zC14-14- aC13-1.2M / Black ",
+         "DESCRIPTION": "zLock Power Cord, Locking C14 to locking C13, 14AWG x 1.2 Meter, Black ",
+         "COST": "$14.15"
+      },
+      {
+         "MODEL": "zLock-zC14-14- aC13-1.2M / Blue",
+         "DESCRIPTION": "zLock Power Cord, Locking C14 to locking C13, 14AWG x 1.2 Meter, Blue ",
+         "COST": "$15.03"
+      },
+      {
+         "MODEL": "zLock-zC14-14- aC13-1.5M / Black ",
+         "DESCRIPTION": "zLock Power Cord, Locking C14 to locking C13, 14AWG x 1.5 Meter, Black ",
+         "COST": "$15.31"
+      },
+      {
+         "MODEL": "zLock-zC14-14- aC13-1.5M / Blue",
+         "DESCRIPTION": "zLock Power Cord, Locking C14 to locking C13, 14AWG x 1.5 Meter, Blue",
+         "COST": "$16.24"
+      },
+      {
+         "MODEL": "zLock-zC14-14- aC13-1M / Black ",
+         "DESCRIPTION": "zLock Power Cord, Locking C14 to locking C13, 14AWG x 1 Meter, Black ",
+         "COST": "$13.12"
+      },
+      {
+         "MODEL": "zLock-zC14-14- aC13-1M / Blue",
+         "DESCRIPTION": "zLock Power Cord, Locking C14 to locking C13, 14AWG x 1 Meter, Blue",
+         "COST": "$14.04"
+      },
+      {
+         "MODEL": "zlock-zC14-C14- C15-1.5M / Black ",
+         "DESCRIPTION": "zLock-zC14-14-aC15-2m Dual Locking Power Cord, 14GA 1.5 Meter, Black ",
+         "COST": "$15.96"
+      },
+      {
+         "MODEL": "zlock-zC14-C14- C15-1.5M / Blue",
+         "DESCRIPTION": "zLock-zC14-14-aC15-2m Dual Locking Power Cord, 14GA 1.5 Meter, Blue",
+         "COST": "$16.90"
+      },
+      {
+         "MODEL": "zlock-zC20-C20- C19-1.5M / Black ",
+         "DESCRIPTION": "zLock-zC20-12-aC19-2m zLock Power Cord, Locking C20 to Locking C19, 12AWG x 1.5 Meter, Black ",
+         "COST": "$24.70"
+      },
+      {
+         "MODEL": "zlock-zC20-C20- C19-1.5M / Blue",
+         "DESCRIPTION": "zLock-zC20-12-aC19-2m zLock Power Cord, Locking C20 to Locking C19, 12AWG x 1.5 Meter, Blue",
+         "COST": "$22.61"
+      },
+      {
+         "MODEL": "zlock-zC20-C20- C19-1M / Black ",
+         "DESCRIPTION": "zLock-zC20-12-aC19-1m zLock Power Cord, Locking C20 to Locking C19, 12AWG x 1Meter, Black ",
+         "COST": "$17.40"
+      },
+      {
+         "MODEL": "zlock-zC20-C20- C19-1M / Blue",
+         "DESCRIPTION": "zLock-zC20-12-aC19-1m zLock Power Cord, Locking C20 to Locking C19, 12AWG x 1Meter, Blue",
+         "COST": "$18.33"
+      },
+      {
+         "MODEL": "zLock-zC14-14-aC13-.6m / Black",
+         "DESCRIPTION": "zLock-zC14-14-aC13-.6m zLock Power Cord, Locking C14 to locking C13, 14AWG x .6 Meter,Black",
+         "COST": "$13.80"
+      },
+      {
+         "MODEL": "zLock-zC14-14-aC13-.6m / Red",
+         "DESCRIPTION": "zLock-zC14-14-aC13-.6m zLock Power Cord, Locking C14 to locking C13, 14AWG x .6 Meter,Red",
+         "COST": "$14.85"
+      },
+      {
+         "MODEL": "zLock-zC14-14-aC13-1.2m / Red",
+         "DESCRIPTION": "zLock-zC14-14-aC13-1.2m zLock Power Cord, Locking C14 to locking C13, 14AWG x 1.2Meter,Red",
+         "COST": "$17.01"
+      },
+      {
+         "MODEL": "zLock-zC14-14-aC13-2m / Black",
+         "DESCRIPTION": "zLock-zC14-14-aC13-2m zLock Power Cord, Locking C14 to locking C13, 14AWG x 2 Meter, Black",
+         "COST": "$19.46"
+      },
+      {
+         "MODEL": "zLock-zC14-14-aC13-2m / Red",
+         "DESCRIPTION": "zLock-zC14-14-aC13-2m zLock Power Cord, Locking C14 to locking C13, 14AWG x 2 Meter, Red",
+         "COST": "$23.63"
+      }
+   ]
+}
